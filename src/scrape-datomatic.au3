@@ -13,35 +13,37 @@ FetchPage($oHTTP, '0841')
 FetchPage($oHTTP, '3656')
 
 Global $datomaticCsv = 'snes\datomatic.csv'
+Global $htmlDir = 'datomatic\html\'
+
 FileDelete($datomaticCsv)
 FileWriteLine($datomaticCsv, '"Description","Media Serial","Region","File","Size","MD5","CRC32"')
 Local $file
-$files = _FileListToArray("html\", "*", $FLTA_FILES)
+$files = _FileListToArray($htmlDir, '*', $FLTA_FILES)
 For $i = 1 To $files[0]
    ConsoleWrite('.')
    $file = $files[$i]
-   $html = FileRead("html\" & $file)
+   $html = FileRead($htmlDir & $file)
    _ParseHTML($html)
 Next
 
 Func InitHTTP()
    ;; Init HTTP session
-   $oHTTP = ObjCreate("winhttp.winhttprequest.5.1")
-   $oHTTP.Open("POST", "http://datomatic.no-intro.org/", False)
+   $oHTTP = ObjCreate('winhttp.winhttprequest.5.1')
+   $oHTTP.Open('POST', 'http://datomatic.no-intro.org/', False)
    $oHTTP.Send()
    $rh = $oHTTP.GetAllResponseHeaders()
-   $cookie = StringRegExpReplace($rh, '(?s).*PHPSESSID=([-,%a-zA-Z0-9]{1,128});.*', "$1")
+   $cookie = StringRegExpReplace($rh, '(?s).*PHPSESSID=([-,%a-zA-Z0-9]{1,128});.*', '$1')
 EndFunc
 
 Func FetchHTML($oHTTP)
    For $p = 0 To 17
-	  ConsoleWrite("Page " & $p & @CR)
+	  ConsoleWrite('Page ' & $p & @CR)
 	  ;; Do Search
-	  $sPD = "sel_s=Nintendo+-+Super+Nintendo+Entertainment+System&"
-	  $sPD &= "where=2&searchme=Search&pageSel=" & $p & "&element=Titles&sort=Name&order=Ascending"
-	  $oHTTP.Open("POST", "http://datomatic.no-intro.org/?page=search", False)
-	  $oHTTP.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded")
-	  $oHTTP.SetRequestHeader("Cookie", "PHPSESSID=" & $cookie)
+	  $sPD = 'sel_s=Nintendo+-+Super+Nintendo+Entertainment+System&'
+	  $sPD &= 'where=2&searchme=Search&pageSel=' & $p & '&element=Titles&sort=Name&order=Ascending'
+	  $oHTTP.Open('POST', 'http://datomatic.no-intro.org/?page=search', False)
+	  $oHTTP.SetRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+	  $oHTTP.SetRequestHeader('Cookie', 'PHPSESSID=' & $cookie)
 	  $oHTTP.Send($sPD)
 	  $oReceived = $oHTTP.ResponseText
 
@@ -54,10 +56,10 @@ Func FetchHTML($oHTTP)
 EndFunc
 
 Func FetchPage($oHTTP, $id)
-   DirCreate("html")
-   Local $htmlFile = "html\" & $id & ".html"
+   DirCreate('html')
+   Local $htmlFile = $htmlDir & $id & '.html'
    If Not FileExists($htmlFile) Then
-	  $oHTTP.Open("GET", "http://datomatic.no-intro.org/?page=show_record&s=49&n=" & $id, False)
+	  $oHTTP.Open('GET', 'http://datomatic.no-intro.org/?page=show_record&s=49&n=' & $id, False)
 	  $oHTTP.Send()
 	  $html = $oHTTP.ResponseText
 	  ConsoleWrite($htmlFile & @CR)
@@ -77,8 +79,8 @@ Func _ParseHTML($html)
    if not isobj($otrs) then return seterror(-2) EndIf
 
    Local $entryBlock = False
-   Local $prevBuffer = ""
-   Local $buffer = ""
+   Local $prevBuffer = ''
+   Local $buffer = ''
    Local $newArray[7]
    Local $array = $newArray
    Local $col = 0
@@ -89,23 +91,23 @@ Func _ParseHTML($html)
 	  if not isobj($otds) then return seterror(-3) EndIf
 	  $valueStart = False
 	  $trclass = StringStripWS($otr.classname, 3)
-	  If $trclass == "green" Or $trclass == "orange" Or $trclass == "red" Then
+	  If $trclass == 'green' Or $trclass == 'orange' Or $trclass == 'red' Then
 		 If StringLen($array[6]) > 0 Then
 			$array[0] = $description
 			For $s In $array
-			   $buffer &= """" & StringReplace($s, '"', '""') & ""","
+			   $buffer &= '"' & StringReplace($s, '"', '""') & '",'
 			Next
 			$buffer = StringTrimRight($buffer, 1)
-			If $buffer <> $prevBuffer Or $prevBuffer == "" Then
+			If $buffer <> $prevBuffer Or $prevBuffer == '' Then
 			   FileWriteLine($datomaticCsv, $buffer)
 			EndIf
 			$prevBuffer = $buffer
-			$buffer = ""
+			$buffer = ''
 			$array = $newArray
 		 EndIf
 	  EndIf
 
-	  If StringStripWS($otr.classname, 3) == "romname_section" Then
+	  If StringStripWS($otr.classname, 3) == 'romname_section' Then
 		 $nextIsDesc = True
 	  EndIf
 
@@ -137,26 +139,26 @@ Func _ParseHTML($html)
 		 EndIf
 
 		 Select
-		 Case $text == "Redumps"
+		 Case $text == 'Redumps'
 			$entryBlock = True
-		 Case $text == "Dump sources"
+		 Case $text == 'Dump sources'
 			$entryBlock = True
-		 Case $text == "Media Serial:"
+		 Case $text == 'Media Serial:'
 			$valueStart = True
 			$col = 1
-		 Case $text == "Region:"
+		 Case $text == 'Region:'
 			$valueStart = True
 			$col = 2
-		 Case $text == "File:"
+		 Case $text == 'File:'
 			$valueStart = True
 			$col = 3
-		 Case $text == "Size:"
+		 Case $text == 'Size:'
 			$valueStart = True
 			$col = 4
-		 Case $text == "MD5:"
+		 Case $text == 'MD5:'
 			$valueStart = True
 			$col = 5
-		 Case $text == "CRC32:"
+		 Case $text == 'CRC32:'
 			$valueStart = True
 			$col = 6
 		 EndSelect
@@ -167,7 +169,7 @@ Func _ParseHTML($html)
    If StringLen($array[6]) > 0 Then
 	  $array[0] = $description
 	  For $s In $array
-		 $buffer &= """" & StringReplace($s, '"', '""') & ""","
+		 $buffer &= '"' & StringReplace($s, '"', '""') & '",'
 	  Next
 	  $buffer = StringTrimRight($buffer, 1)
 	  If $buffer <> $prevBuffer Or $prevBuffer == "" Then
