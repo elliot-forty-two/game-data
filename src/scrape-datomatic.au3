@@ -4,16 +4,18 @@
 #include <Math.au3>
 #include <IE.au3>
 #include <File.au3>
-
-Global $oHTTP, $cookie
-InitHTTP()
-FetchHTML($oHTTP)
-FetchPage($oHTTP, '0441')
-FetchPage($oHTTP, '0841')
-FetchPage($oHTTP, '3656')
+#Include "lib/Json.au3"
+#Include "lib/Curl.au3"
+#Include "lib/Request.au3"
 
 Global $datomaticCsv = 'snes\datomatic.csv'
 Global $htmlDir = 'datomatic\html\'
+
+InitHTTP()
+FetchHTML()
+FetchPage('0441')
+FetchPage('0841')
+FetchPage('3656')
 
 FileDelete($datomaticCsv)
 FileWriteLine($datomaticCsv, '"Description","Media Serial","Region","File","Size","MD5","CRC32"')
@@ -27,41 +29,32 @@ For $i = 1 To $files[0]
 Next
 
 Func InitHTTP()
-   ;; Init HTTP session
-   $oHTTP = ObjCreate('winhttp.winhttprequest.5.1')
-   $oHTTP.Open('POST', 'http://datomatic.no-intro.org/', False)
-   $oHTTP.Send()
-   $rh = $oHTTP.GetAllResponseHeaders()
-   $cookie = StringRegExpReplace($rh, '(?s).*PHPSESSID=([-,%a-zA-Z0-9]{1,128});.*', '$1')
+   ;; Init HTTP session, do one request to get a PHPSESSID
+   Local $Backup = RequestDefault('{agent: "AutoIt/Request", cookiefile: "cookie.txt", cookiejar: "cookie.txt", }')
+   Local $Data = Request('http://datomatic.no-intro.org/')
 EndFunc
 
-Func FetchHTML($oHTTP)
+Func FetchHTML()
    For $p = 0 To 17
 	  ConsoleWrite('Page ' & $p & @CR)
 	  ;; Do Search
 	  $sPD = 'sel_s=Nintendo+-+Super+Nintendo+Entertainment+System&'
 	  $sPD &= 'where=2&searchme=Search&pageSel=' & $p & '&element=Titles&sort=Name&order=Ascending'
-	  $oHTTP.Open('POST', 'http://datomatic.no-intro.org/?page=search', False)
-	  $oHTTP.SetRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
-	  $oHTTP.SetRequestHeader('Cookie', 'PHPSESSID=' & $cookie)
-	  $oHTTP.Send($sPD)
-	  $oReceived = $oHTTP.ResponseText
+	  Local $oReceived = Request('http://datomatic.no-intro.org/?page=search', $sPD)
 
 	  ;; Get ID
 	  $ids = StringRegExp($oReceived, '"?page=show_record&s=49&n=([0-9]{1,8})"', 3)
 	  For $i = 0 To UBound($ids) - 1
-		 FetchPage($oHTTP, $ids[$i])
+		 FetchPage($ids[$i])
 	  Next ; IDs loop
    Next
 EndFunc
 
-Func FetchPage($oHTTP, $id)
-   DirCreate('html')
+Func FetchPage($id)
+   DirCreate($htmlDir)
    Local $htmlFile = $htmlDir & $id & '.html'
    If Not FileExists($htmlFile) Then
-	  $oHTTP.Open('GET', 'http://datomatic.no-intro.org/?page=show_record&s=49&n=' & $id, False)
-	  $oHTTP.Send()
-	  $html = $oHTTP.ResponseText
+	  Local $html = Request('http://datomatic.no-intro.org/?page=show_record&s=49&n=' & $id)
 	  ConsoleWrite($htmlFile & @CR)
 	  FileWrite($htmlFile, $html)
    EndIf
@@ -76,7 +69,9 @@ Func _ParseHTML($html)
    $o_htmlfile.close()
 
    Local $otrs = _IETagnameGetCollection($o_htmlfile, 'TR')
-   if not isobj($otrs) then return seterror(-2) EndIf
+   If Not isobj($otrs) Then
+	  Return SetError(-2)
+   EndIf
 
    Local $entryBlock = False
    Local $prevBuffer = ''
