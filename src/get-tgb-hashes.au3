@@ -11,7 +11,7 @@ ConsoleWrite('Requesting hash.csv...' & @CRLF)
 Local $data = Request('https://raw.githubusercontent.com/sselph/scraper/master/hash.csv')
 Local $csv = _CSVRead($data)
 FileDelete($hashesCsv)
-For $i=1 To UBound($csv) - 1
+For $i=0 To UBound($csv) - 1
    $sha1 =  $csv[$i][0]
    $gameId =  $csv[$i][1]
    $sysId =  $csv[$i][2]
