@@ -22,11 +22,13 @@ FileWriteLine($datomaticCsv, '"Description","Media Serial","Region","File","Size
 Local $file
 $files = _FileListToArray($htmlDir, '*', $FLTA_FILES)
 For $i = 1 To $files[0]
-   ConsoleWrite('.')
    $file = $files[$i]
    $html = FileRead($htmlDir & $file)
    _ParseHTML($html)
+   ConsoleWrite('Processed ' & $i & '/' & $files[0] & ' files' & @CR)
 Next
+
+FileDelete('cookie.txt')
 
 Func InitHTTP()
    ;; Init HTTP session, do one request to get a PHPSESSID
