@@ -6,7 +6,6 @@
 #Include "lib/Request.au3"
 #Include "lib/_XMLDomWrapper.au3"
 
-Global $datomaticCsv = 'snes\datomatic.csv'
 Global $htmlDir = 'datomatic\html\'
 Global $xmlFile = 'snes\datomatic.xml'
 
@@ -22,8 +21,6 @@ FetchPage('0441')
 FetchPage('0841')
 FetchPage('3656')
 
-FileDelete($datomaticCsv)
-FileWriteLine($datomaticCsv, '"Description","Media Serial","Region","File","Size","MD5","CRC32"')
 Local $file
 $files = _FileListToArray($htmlDir, '*', $FLTA_FILES)
 For $i = 1 To $files[0]
