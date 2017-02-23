@@ -1,15 +1,20 @@
 
-#include <Constants.au3>
-#include <String.au3>
-#include <Math.au3>
 #include <IE.au3>
 #include <File.au3>
 #Include "lib/Json.au3"
 #Include "lib/Curl.au3"
 #Include "lib/Request.au3"
+#Include "lib/_XMLDomWrapper.au3"
 
 Global $datomaticCsv = 'snes\datomatic.csv'
 Global $htmlDir = 'datomatic\html\'
+Global $xmlFile = 'snes\datomatic.xml'
+
+_SetDebug(False)
+_XMLCreateFile($xmlFile, 'datafile', True)
+_XMLFileOpen($xmlFile)
+
+_IEErrorNotify(False)
 
 InitHTTP()
 FetchHTML()
@@ -85,21 +90,13 @@ Func _ParseHTML($html)
    Local $description
    for $otr in $otrs
 	  Local $otds = _IETagnameGetCollection($otr, 'TD')
-	  if not isobj($otds) then return seterror(-3) EndIf
+	  if not isobj($otds) then return seterror(-3)
 	  $valueStart = False
 	  $trclass = StringStripWS($otr.classname, 3)
 	  If $trclass == 'green' Or $trclass == 'orange' Or $trclass == 'red' Then
 		 If StringLen($array[6]) > 0 Then
 			$array[0] = $description
-			For $s In $array
-			   $buffer &= '"' & StringReplace($s, '"', '""') & '",'
-			Next
-			$buffer = StringTrimRight($buffer, 1)
-			If $buffer <> $prevBuffer Or $prevBuffer == '' Then
-			   FileWriteLine($datomaticCsv, $buffer)
-			EndIf
-			$prevBuffer = $buffer
-			$buffer = ''
+			FlushBuffer($array)
 			$array = $newArray
 		 EndIf
 	  EndIf
@@ -122,10 +119,13 @@ Func _ParseHTML($html)
 				  $text = StringTrimLeft($text, 2)
 			   EndIf
 			   If StringRight($text, 2) == '-1' Then
-				  $text = StringTrimRight($text, 2)
+;~ 				  $text = StringTrimRight($text, 2)
 			   EndIf
 			   If StringRight($text, 2) == '-2' Then
-				  $text = StringTrimRight($text, 2)
+;~ 				  $text = StringTrimRight($text, 2)
+			   EndIf
+			   If StringLower($text) == 'none' Then
+				  $text = ''
 			   EndIf
 			   If StringLower($text) == 'unk' Then
 				  $text = ''
@@ -165,17 +165,18 @@ Func _ParseHTML($html)
 
    If StringLen($array[6]) > 0 Then
 	  $array[0] = $description
-	  For $s In $array
-		 $buffer &= '"' & StringReplace($s, '"', '""') & '",'
-	  Next
-	  $buffer = StringTrimRight($buffer, 1)
-	  If $buffer <> $prevBuffer Or $prevBuffer == "" Then
-		 FileWriteLine($datomaticCsv, $buffer)
-	  EndIf
-	  $prevBuffer = $buffer
-	  $buffer = ""
+	  FlushBuffer($array)
 	  $array = $newArray
    EndIf
 
 EndFunc
 
+Func FlushBuffer($array)
+   _XMLFileOpen($xmlFile)
+   _XMLGetPath('//rom[@crc="' & $array[6] & '" and @serial="' & $array[1] & '"]')
+   If @error == 1 And StringLen($array[1]) > 0 Then
+	  Local $attrNames = ['serial', 'region', 'file', 'md5', 'crc']
+	  Local $attrValues = [$array[1], $array[2], $array[3], $array[5], $array[6]]
+	  _XMLCreateRootNodeWAttr('rom', $attrNames, $attrValues)
+   EndIf
+EndFunc
