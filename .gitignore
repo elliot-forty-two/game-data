@@ -1,3 +1,4 @@
 build
 datomatic
 cookie.txt
+*.old

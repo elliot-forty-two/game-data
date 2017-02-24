@@ -1,10 +1,10 @@
 
 #include <IE.au3>
 #include <File.au3>
-#Include "lib/WinHttp.au3"
-#Include "lib/_XMLDomWrapper.au3"
+#Include 'lib/WinHttp.au3'
+#Include 'lib/_XMLDomWrapper.au3'
 
-Global $xmlFile = 'snes\byuu.xml'
+Global $xmlFile = 'Nintendo - Super Nintendo Entertainment System\byuu.xml'
 
 ;~ _SetDebug(False)
 _XMLCreateFile($xmlFile, 'datafile', True)

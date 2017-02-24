@@ -1,64 +1,92 @@
 
 #include <IE.au3>
 #include <File.au3>
-#Include "lib/Json.au3"
-#Include "lib/Curl.au3"
-#Include "lib/Request.au3"
-#Include "lib/_XMLDomWrapper.au3"
+#Include 'lib/Json.au3'
+#Include 'lib/Curl.au3'
+#Include 'lib/Request.au3'
+#Include 'lib/_XMLDomWrapper.au3'
 
-Global $htmlDir = 'datomatic\html\'
-Global $xmlFile = 'snes\datomatic.xml'
+;; name, id, pages, extras
+Global $systems[][4] = [ _
+	  ['Nintendo - Game Boy Advance', 23, 14, ''], _
+	  ['Nintendo - Nintendo Entertainment System', 45, 13, ''], _
+	  ['Nintendo - Game Boy', 46, 8, ''], _
+	  ['Nintendo - Game Boy Color', 47, 7, ''], _
+	  ['Nintendo - Super Nintendo Entertainment System', 49, 17, '0441,0841,3656'], _
+	  ['Nintendo - Pokemon Mini', 14, 0, ''] _
+   ]
 
 _SetDebug(False)
-_XMLCreateFile($xmlFile, 'datafile', True)
-_XMLFileOpen($xmlFile)
-
 _IEErrorNotify(False)
 
-InitHTTP()
-FetchHTML()
-FetchPage('0441')
-FetchPage('0841')
-FetchPage('3656')
+;; Init HTTP session, do one request to get a PHPSESSID
+Local $Backup = RequestDefault('{agent: "AutoIt/Request", cookiefile: "cookie.txt", cookiejar: "cookie.txt", }')
+Local $Data = Request('http://datomatic.no-intro.org/')
 
-Local $file
-$files = _FileListToArray($htmlDir, '*', $FLTA_FILES)
-For $i = 1 To $files[0]
-   $file = $files[$i]
-   $html = FileRead($htmlDir & $file)
-   _ParseHTML($html)
-   ConsoleWrite('Processed ' & $i & '/' & $files[0] & ' files' & @CR)
+For $s = 0 To UBound($systems) - 1
+   Local $sysName = $systems[$s][0]
+   Local $sysId = $systems[$s][1]
+   Local $sysPages = $systems[$s][2]
+   Local $sysExtras = StringSplit($systems[$s][2], ',', 2)
+
+   Local $htmlDir = $sysName & '\html\datomatic\'
+   Local $xmlFile = $sysName & '\datomatic.xml'
+
+   DirCreate($sysName)
+   DirCreate($htmlDir)
+
+   ClearLine()
+   ConsoleWrite($sysName & @CRLF)
+
+   _XMLCreateFile($xmlFile, 'datafile', True)
+   _XMLFileOpen($xmlFile)
+
+   ;; Fetch Pages
+   For $p = 0 To $sysPages
+	  ClearLine()
+	  ConsoleWrite('Page ' & $p & @CR)
+	  ;; Do Search
+	  $sPD = 'sel_s=' & StringReplace($sysName, ' ', '+')
+	  $sPD &= '&where=2&searchme=Search&pageSel=' & $p & '&element=Titles&sort=Name&order=Ascending'
+	  Local $oReceived = Request('http://datomatic.no-intro.org/?page=search', $sPD)
+	  ;; Get IDs
+	  $ids = StringRegExp($oReceived, '"?page=show_record&s=' & $sysId & '&n=([0-9]{1,8})"', 3)
+	  For $i = 0 To UBound($ids) - 1
+		 FetchPage($sysId, $ids[$i])
+	  Next ; IDs loop
+   Next
+
+   ;; Fetch extra pages
+   For $p = 0 To UBound($sysExtras) - 1
+	  FetchPage($sysId, $sysExtras[$p])
+   Next ; IDs loop
+
+   Local $file
+   $files = _FileListToArray($htmlDir, '*', $FLTA_FILES)
+   For $i = 1 To $files[0]
+	  $file = $files[$i]
+	  $html = FileRead($htmlDir & $file)
+	  _ParseHTML($html)
+	  ClearLine()
+	  ConsoleWrite('Processed ' & $i & '/' & $files[0] & ' files' & @CR)
+   Next
+
 Next
 
 FileDelete('cookie.txt')
 
-Func InitHTTP()
-   ;; Init HTTP session, do one request to get a PHPSESSID
-   Local $Backup = RequestDefault('{agent: "AutoIt/Request", cookiefile: "cookie.txt", cookiejar: "cookie.txt", }')
-   Local $Data = Request('http://datomatic.no-intro.org/')
+
+;; Functions
+
+Func ClearLine()
+   ConsoleWrite('                                                                                                 ' & @CR)
 EndFunc
 
-Func FetchHTML()
-   For $p = 0 To 17
-	  ConsoleWrite('Page ' & $p & @CR)
-	  ;; Do Search
-	  $sPD = 'sel_s=Nintendo+-+Super+Nintendo+Entertainment+System&'
-	  $sPD &= 'where=2&searchme=Search&pageSel=' & $p & '&element=Titles&sort=Name&order=Ascending'
-	  Local $oReceived = Request('http://datomatic.no-intro.org/?page=search', $sPD)
-
-	  ;; Get ID
-	  $ids = StringRegExp($oReceived, '"?page=show_record&s=49&n=([0-9]{1,8})"', 3)
-	  For $i = 0 To UBound($ids) - 1
-		 FetchPage($ids[$i])
-	  Next ; IDs loop
-   Next
-EndFunc
-
-Func FetchPage($id)
+Func FetchPage($sysId, $id)
    DirCreate($htmlDir)
    Local $htmlFile = $htmlDir & $id & '.html'
    If Not FileExists($htmlFile) Then
-	  Local $html = Request('http://datomatic.no-intro.org/?page=show_record&s=49&n=' & $id)
+	  Local $html = Request('http://datomatic.no-intro.org/?page=show_record&s=' & $sysId & '&n=' & $id)
 	  ConsoleWrite($htmlFile & @CR)
 	  FileWrite($htmlFile, $html)
    EndIf

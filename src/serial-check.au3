@@ -18,15 +18,15 @@
 
 _SetDebug(False)
 
-$xmlFile = 'snes/Nintendo - Super Nintendo Entertainment System Parent-Clone (20170205-061329).dat'
-_XMLFileOpen($xmlFile)
+$xmlFile = 'Nintendo - Super Nintendo Entertainment System/Nintendo - Super Nintendo Entertainment System Parent-Clone (20170205-061329).dat'
+_XMLFileOpen($xmlFile, '', -1, False)
 
 Local $missing = 0
 Local $missmatch = 0
 
-Local $lineFormat = '| %-8s | %-17s | %-13s | %-13s | %-13s |'
+Local $lineFormat = '| %-8s | %-17s | %-28s | %-13s | %-13s |'
 _LogMessage(StringFormat($lineFormat, 'CRC', 'Region', 'No-Intro', 'NSRT', 'Byuu'))
-_LogMessage(StringFormat($lineFormat, '--------', '-----------------', '-------------', '-------------', '-------------'))
+_LogMessage(StringFormat($lineFormat, '--------', '-----------------', '----------------------------', '-------------', '-------------'))
 
 Local $crcs = _XMLGetValue('//rom/@crc')
 If @error == 0 Then
@@ -43,27 +43,8 @@ If @error == 0 Then
 	  Local $serialB = ''
 	  Local $serialC = ''
 
-	  ;; START No-Intro
-	  $xmlFile = 'snes/datomatic.xml'
-	  _XMLFileOpen($xmlFile)
-	  Local $serials = _XMLGetValue('/datafile/rom[@crc="' & $crc & '"]/@serial')
-	  If @error == 0 Then
-		 If $serials[0] > 1 Then
-			If $serials[0] > 2 Or ( Not StringInStr($serials[1], $serials[2]) And Not StringInStr($serials[2], $serials[1]) ) Then
-			   Local $msg = 'Multiple serials: '
-			   For $j = 1 To $serials[0]
-				  $msg &= $serials[$j] & ', '
-			   Next
-			   $msg &= $crc
-			   _LogMessage($msg)
-			EndIf
-		 EndIf
-		 $serialA = $serials[1]
-	  EndIf
-	  ;; END No-Intro
-
 	  ;; START NSRT
-	  $xmlFile = 'snes/nsrtlog.xml'
+	  $xmlFile = 'Nintendo - Super Nintendo Entertainment System/nsrtlog.xml'
 	  _XMLFileOpen($xmlFile)
 	  ;; Get other hashes
 	  $nodes = _XMLGetValue('/NSRT/Entry[Section[@type="Hashes"]/CRC32/text()="' & $crc & '"]/Section[@type="Hashes"]/MD5/text()')
@@ -79,52 +60,45 @@ If @error == 0 Then
 		 $sha256 = $nodes[1]
 	  EndIf
 	  ;; Get code / serial
-	  Local $code = '', $country = ''
-	  Local $codes = _XMLGetValue('/NSRT/Entry[Section[@type="Hashes"]/CRC32/text()="' & $crc & '"]/Section[@type="Internal ROM Info"]/GameCode/text()')
+	  Local $code = '', $country = '', $video = ''
+	  Local $nodes = _XMLGetValue('/NSRT/Entry[Section[@type="Hashes"]/CRC32/text()="' & $crc & '"]/Section[@type="Internal ROM Info"]/GameCode/text()')
 	  If @error == 0 Then
-		 $code = StringStripWS($codes[1], 8)
+		 $code = StringStripWS($nodes[1], 8)
 	  EndIf
-	  Local $countries = _XMLGetValue('/NSRT/Entry[Section[@type="Hashes"]/CRC32/text()="' & $crc & '"]/Section[@type="Internal ROM Info"]/Country/text()')
+	  Local $nodes = _XMLGetValue('/NSRT/Entry[Section[@type="Hashes"]/CRC32/text()="' & $crc & '"]/Section[@type="Internal ROM Info"]/Country/text()')
 	  If @error == 0 Then
-		 $country = $countries[1]
+		 $country = $nodes[1]
+	  EndIf
+	  Local $nodes = _XMLGetValue('/NSRT/Entry[Section[@type="Hashes"]/CRC32/text()="' & $crc & '"]/Section[@type="Internal ROM Info"]/Video/text()')
+	  If @error == 0 Then
+		 $video = $nodes[1]
 	  EndIf
 	  If $code <> '' Then
-		 Switch $country
-		 Case "USA"
-			$serialB = 'SNS-' & $code & '-USA'
-		 Case "Japan"
-			$serialB = 'SHVC-' & $code
-;~ 			If StringLen($code) == 4 Then $serialB &= '-JPN'
-		 Case "Germ/Aust/Switz"
-			$serialB = 'SNSP-' & $code & '-FRG'
-		 Case "Euro/Asia/Oceania"
-			$serialB = 'SNSP-' & $code ;& '-EUR'
-		 Case "France"
-			$serialB = 'SNSP-' & $code & '-FAH' ;& '-FRA'
-		 Case "Italy"
-			$serialB = 'SNSP-' & $code & '-ITA'
-		 Case "Spain"
-			$serialB = 'SNSP-' & $code & '-ESP'
-		 Case "Sweden"
-		 Case "Finland"
-			$serialB = 'SNSP-' & $code & '-SCN'
-		 Case "The Netherlands"
-			$serialB = 'SNSP-' & $code & '-HOL'
-		 Case "South Korea"
-			$serialB = 'SNSP-' & $code & '-KOR'
-		 Case "Honk Kong/China"
-			$serialB = 'SNSP-' & $code & '-HKV'
-		 Case "Unknown"
-			$serialB = 'SNS-' & $code
-		 Case Else
-			_LogError('Unknown country ' & $country)
-		 EndSwitch
+		 $serialB = CreateSerialFromCode($code, $country, $video)
 	  EndIf
 	  ;; END NSRT
 
+	  ;; START No-Intro
+	  $xmlFile = 'Nintendo - Super Nintendo Entertainment System/datomatic.xml'
+	  _XMLFileOpen($xmlFile)
+	  Local $serials = _XMLGetValue('/datafile/rom[@crc="' & $crc & '"]/@serial')
+	  If @error == 0 Then
+		 If $serials[0] > 1 Then
+			If $serials[0] > 2 Or ( Not StringInStr($serials[1], $serials[2]) And Not StringInStr($serials[2], $serials[1]) ) Then
+			   Local $msg = ''
+			   For $j = 1 To $serials[0]
+				  $msg &= $serials[$j] & ', '
+			   Next
+			   $msg = StringTrimRight($msg, 2)
+			   _LogMessage(StringFormat($lineFormat, $crc, $country, $msg, $serialB, $serialC))
+			EndIf
+		 EndIf
+		 $serialA = $serials[1]
+	  EndIf
+	  ;; END No-Intro
 
 	  ;; START Byuu
-	  $xmlFile = 'snes/byuu.xml'
+	  $xmlFile = 'Nintendo - Super Nintendo Entertainment System/byuu.xml'
 	  _XMLFileOpen($xmlFile)
 	  Local $serials = _XMLGetValue('/datafile/rom[@sha256="' & StringLower($sha256) & '"]/@serial')
 	  If @error == 0 Then
@@ -152,6 +126,43 @@ EndIf
 _LogMessage('')
 _LogMessage('Missmatch: ' & $missmatch & ', Missing: ' & $missing & ', Total: ' & $crcs[0])
 
+
+Func CreateSerialFromCode($code, $country, $video)
+   Switch $country
+   Case "USA"
+	  Return 'SNS-' & $code & '-USA'
+   Case "Japan"
+	  Return 'SHVC-' & $code
+   Case "Germ/Aust/Switz"
+	  Return 'SNSP-' & $code & '-FRG'
+   Case "Euro/Asia/Oceania"
+	  Return 'SNSP-' & $code ;& '-EUR'
+   Case "France"
+	  Return 'SNSP-' & $code & '-FRA'
+   Case "Italy"
+	  Return 'SNSP-' & $code & '-ITA'
+   Case "Spain"
+	  Return 'SNSP-' & $code & '-ESP'
+   Case "Sweden"
+   Case "Finland"
+	  Return 'SNSP-' & $code & '-SCN'
+   Case "The Netherlands"
+	  Return 'SNSP-' & $code & '-HOL'
+   Case "South Korea"
+	  Return 'SNSP-' & $code & '-KOR'
+   Case "Honk Kong/China"
+	  Return 'SNSP-' & $code & '-HKV'
+   Case "Unknown"
+   Case Else
+	  Switch $video
+	  Case 'NTSC'
+		 Return 'SNS-' & $code
+	  Case 'PAL'
+		 Return 'SNSP-' & $code
+	  EndSwitch
+   EndSwitch
+   Return Null
+EndFunc
 
 Func _LogProgress($msg)
    ConsoleWrite('                                ')

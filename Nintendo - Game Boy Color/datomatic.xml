@@ -1,0 +1,767 @@
+<?xml version="1.0"?><datafile>
+<rom serial="CGB-BO7P-EUR" region="Asia" file="007 - The World Is Not Enough (USA, Europe).gbc" md5="1F1FB3CF8783F880BC796D667BE60231" crc="E038E666"/>
+<rom serial="CGB-AXPP-UKV" region="Europe" file="10-Pin Bowling (Europe).gbc" md5="85C0C028E6177CDA40401F14D16699F4" crc="5449CAC0"/>
+<rom serial="CGB-B99S-ESP" region="Spain" file="102 Dalmatas - Cachorros Al Rescate (Spain).gbc" md5="2A65D5C037463FE93127D45D4145A0A6" crc="F2128908"/>
+<rom serial="CGB-B99E-USA-1" region="USA" file="102 Dalmatians - Puppies to the Rescue (USA, Europe).gbc" md5="2B7E2442D503CE368FC93A9EBF0F70EF" crc="56B83539"/>
+<rom serial="CGB-B99P-UKV" region="Europe" file="102 Dalmatians - Puppies to the Rescue (USA, Europe).gbc" md5="2B7E2442D503CE368FC93A9EBF0F70EF" crc="56B83539"/>
+<rom serial="AQ4P" region="Europe" file="1942 (USA, Europe).gbc" md5="A31652B6D1E7FC647C4AF7B9DFE05FF5" crc="87431672"/>
+<rom serial="31B-001" region="Taiwan" file="31 in 1 (Taiwan) (31B-001, Sachen) (Unl).gbc" md5="F56A4DD7E30CA39CFE6DA0E6E6A28668" crc="0EB8DDFB"/>
+<rom serial="16B-002" region="World" file="4 in 1 + 8 in 1 (World) (4B-007, 4B-008, 8B-004, Sachen) (Unl).gbc" md5="AF8E059196FCDD29CC0FC417D3ABF9FF" crc="0A504426"/>
+<rom serial="4B-008" region="World" file="4 in 1 + 8 in 1 (World) (4B-007, 4B-008, 8B-004, Sachen) (Unl).gbc" md5="AF8E059196FCDD29CC0FC417D3ABF9FF" crc="0A504426"/>
+<rom serial="4B-007" region="World" file="4 in 1 + 8 in 1 (World) (4B-007, 4B-008, 8B-004, Sachen) (Unl).gbc" md5="AF8E059196FCDD29CC0FC417D3ABF9FF" crc="0A504426"/>
+<rom serial="16B-002" region="World" file="4 in 1 + 8 in 1 (World) (4B-005, 4B-006, 8B-003, Sachen) (Unl).gbc" md5="CB2F61EA9D959F7270EEC59A5EB51AFF" crc="B18465D2"/>
+<rom serial="4B-006" region="World" file="4 in 1 + 8 in 1 (World) (4B-005, 4B-006, 8B-003, Sachen) (Unl).gbc" md5="CB2F61EA9D959F7270EEC59A5EB51AFF" crc="B18465D2"/>
+<rom serial="4B-005" region="World" file="4 in 1 + 8 in 1 (World) (4B-005, 4B-006, 8B-003, Sachen) (Unl).gbc" md5="CB2F61EA9D959F7270EEC59A5EB51AFF" crc="B18465D2"/>
+<rom serial="4B-004" region="World" file="4 in 1 + 8 in 1 (World) (4B-002, 4B-004, 8B-002, Sachen) (Unl).gbc" md5="37F4AD4A7BAED1ED6EB62787734C00AE" crc="E7224F14"/>
+<rom serial="8B-002" region="World" file="4 in 1 + 8 in 1 (World) (4B-002, 4B-004, 8B-002, Sachen) (Unl).gbc" md5="37F4AD4A7BAED1ED6EB62787734C00AE" crc="E7224F14"/>
+<rom serial="4B-001" region="World" file="4 in 1 + 8 in 1 (World) (4B-001, 4B-009, 8B-001, Sachen) (Unl).gbc" md5="BA2F38D5C6B03AA44D892B56395A683B" crc="42A2FDF8"/>
+<rom serial="4B-009" region="World" file="4 in 1 + 8 in 1 (World) (4B-001, 4B-009, 8B-001, Sachen) (Unl).gbc" md5="BA2F38D5C6B03AA44D892B56395A683B" crc="42A2FDF8"/>
+<rom serial="8B-001" region="World" file="4 in 1 + 8 in 1 (World) (4B-001, 4B-009, 8B-001, Sachen) (Unl).gbc" md5="BA2F38D5C6B03AA44D892B56395A683B" crc="42A2FDF8"/>
+<rom serial="DMG-AQ3P-NOE" region="Europe" file="4x4 World Trophy (Europe) (En,Fr,De,Es,It).gbc" md5="5878A145E365FA1841B22E837C3226FF" crc="F62AD75E"/>
+<rom serial="DMG-AA7P-EUU" region="Europe" file="720 Degrees (USA, Europe).gbc" md5="221A0E464F5F0C3D38494939B1765A24" crc="E633841F"/>
+<rom serial="DMG-AA7E-USA" region="USA" file="720 Degrees (USA, Europe).gbc" md5="221A0E464F5F0C3D38494939B1765A24" crc="E633841F"/>
+<rom serial="DMG-AA7P-EUR" region="Asia" file="720 Degrees (USA, Europe).gbc" md5="221A0E464F5F0C3D38494939B1765A24" crc="E633841F"/>
+<rom serial="CGB-BAXP-EUR" region="" file="Action Man - Search for Base X (USA, Europe).gbc" md5="D9D85B81D1B0B4D3C86C95A6E1846F5A" crc="1226499E"/>
+<rom serial="DMG-AELP-EUR" region="Europe" file="Adventures of Elmo in Grouchland, The (Europe).gbc" md5="ADA59E7DAFE1A6B70ADD7020959C1B23" crc="41228EE7"/>
+<rom serial="CGB-BSFP-NOE" region="Europe" file="Adventures of the Smurfs, The (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="29DEFF80E9E8D734F77D8590AC5CDCE9" crc="D0D3DFED"/>
+<rom serial="CGB-BADE-USA" region="Asia" file="Aladdin (USA).gbc" md5="644C2C3CF2DC2E3FCE741844E497A18F" crc="A91EC059"/>
+<rom serial="CGB-BAEP-EUR" region="Asia" file="Aliens - Thanatos Encounter (USA, Europe).gbc" md5="73A78663A6388BF4D1C56E05BBF790D4" crc="BEC3C24B"/>
+<rom serial="DMG-AZTP-EUR" region="Europe" file="All Star Tennis 2000 (Europe).gbc" md5="C5E3BB77000C5D3755E816F6C0EED489" crc="952B94E5"/>
+<rom serial="CGB-AATP-EUR" region="" file="All-Star Baseball 2000 (USA, Europe).gbc" md5="0B23D35E7BF1F136DF8A7C8F24103DFC" crc="E17F59A5"/>
+<rom serial="CGB-BIDP-UKV" region="Europe" file="Alone in the Dark - The New Nightmare (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="30EC849758F703D7071E2AC28E048101" crc="7FF2042F"/>
+<rom serial="DMG-AA3J-JPN" region="Japan" file="Animal Breeder 3 (Japan) (SGB Enhanced).gbc" md5="3F0F1CC327FF1BE267B226B85B7A11C6" crc="C62A4C30"/>
+<rom serial="CGB-A4AJ-JPN" region="Japan" file="Animal Breeder 4 (Japan).gbc" md5="22D11B8D9670FB9B4CA84368F0F50CEE" crc="83D838C3"/>
+<rom serial="CGB-BNMJ-JPN" region="Japan" file="Animastar GB (Japan).gbc" md5="26C14F848115AF6246B8F514FBEB6DAB" crc="B14920F0"/>
+<rom serial="CGB-BFBD-NOE" region="Germany" file="Anpfiff - Der RTL Fussball-Manager (Germany).gbc" md5="D55433C70617D18BB078426E8CD99708" crc="B54D264A"/>
+<rom serial="DMG-ANXE-USA" region="USA" file="Antz (USA) (En,Fr,Es).gbc" md5="A4B695325AC28BE2E388F5B9186987BA" crc="DC0BE439"/>
+<rom serial="CGB-BAZP-UKV" region="Europe" file="Antz Racing (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="CB9C9001A0DF32E6F89216E291684836" crc="F625A959"/>
+<rom serial="CGB-BAZE-USA" region="USA" file="Antz Racing (USA) (En,Fr,De,Es,It,Nl).gbc" md5="87397DB3151F3DD5B53CDFBB24A98588" crc="DFDF90C0"/>
+<rom serial="AADP" region="Europe" file="Arcade Hits - Joust &amp; Defender (USA, Europe).gbc" md5="341249F65F19579B9D335C807982B6FA" crc="4C1ECECB"/>
+<rom serial="ADUP" region="Europe" file="Arcade Hits - Moon Patrol &amp; Spy Hunter (USA, Europe).gbc" md5="8FFCF9DA76AA9BA1C5B1789A92F47D21" crc="F40199C9"/>
+<rom serial="CGB-AOXP-EUR" region="Europe" file="Armorines - Project S.W.A.R.M. (USA, Europe) (En,De).gbc" md5="0B2AB6C8EE77D7DC6856EBFFCFEB9C43" crc="EA3B9C73"/>
+<rom serial="CGB-AOXE-USA" region="" file="Armorines - Project S.W.A.R.M. (USA, Europe) (En,De).gbc" md5="0B2AB6C8EE77D7DC6856EBFFCFEB9C43" crc="EA3B9C73"/>
+<rom serial="CGB-AVCP-NOE" region="Europe" file="Army Men (USA, Europe) (En,Fr,De).gbc" md5="C75BF50B9FEC4E89CED9A2BDFBEB4245" crc="34411753"/>
+<rom serial="CGB-AVCP-UKV" region="" file="Army Men (USA, Europe) (En,Fr,De).gbc" md5="C75BF50B9FEC4E89CED9A2BDFBEB4245" crc="34411753"/>
+<rom serial="CGB-BATP-EUR" region="Europe" file="Army Men - Air Combat (USA, Europe) (En,Fr,De).gbc" md5="C48DE261BB5111681BD77CA5F0D68A1B" crc="B0D1DE8C"/>
+<rom serial="CGB-BSHP-EUR" region="Europe" file="Army Men - Sarge's Heroes 2 (USA, Europe) (En,Fr,De).gbc" md5="3DC508D4DA71F2E89CA63B42899741A4" crc="71B857EA"/>
+<rom serial="CGB-BA2P-EUR" region="Europe" file="Army Men 2 (USA, Europe) (En,Fr,De).gbc" md5="66A744231189D65DB54AA4D670975C5A" crc="2272BACA"/>
+<rom serial="DMG-BAOP-NOE" region="Europe" file="Asterix &amp; Obelix vs Caesar (Europe) (En,Fr,De,Es,Nl).gbc" md5="B7D6335B8D3A34B15CE0B631BB9731A2" crc="71043D76"/>
+<rom serial="CGB-AA6P-ESP" region="Europe" file="Asterix - Search for Dogmatix (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="1FAA6E2A7EC92B95CE32FA2682038B9B" crc="408DC5C6"/>
+<rom serial="DMG-AARP-UKV" region="" file="Asteroids (USA, Europe).gbc" md5="CFAC8209D5119235F678303DFB3CC0F2" crc="89D5D936"/>
+<rom serial="CGB-BABX-EUR" region="Europe" file="Atlantis - The Lost Empire (Europe) (En,Es,It).gbc" md5="E24141ED6FC94B149BBF43B4BD9658E8" crc="28F7D5E3"/>
+<rom serial="CGB-BABY-EUU" region="Asia" file="Atlantis - The Lost Empire (Europe) (Fr,De,Nl).gbc" md5="C046F62BB3BAF1F8398F5E3FB93DD82A" crc="4E052510"/>
+<rom serial="CGB-BABP-UKV" region="" file="Atlantis - The Lost Empire (USA, Europe).gbc" md5="5AAB47CF957C82C969BBC0A93232F883" crc="D594D24B"/>
+<rom serial="CGB-BPUJ-JPN" region="Japan" file="Atsumete Asobu Kuma no Pooh-san - Mori no Takaramono (Japan).gbc" md5="C74C728CE3177A3A9ABC5870B6762885" crc="476EDE93"/>
+<rom serial="RG-201AT" region="Europe" file="ATV Racing (Europe) (Unl).gbc" md5="3426BFE0C82DA4C6705F996891579A24" crc="7987D5CD"/>
+<rom serial="CGB-BEAX-EUU" region="Europe" file="Austin Powers - Welcome to my Underground Lair! (Europe) (En,Fr,De,Es,It).gbc" md5="93226CE541766D8B8B7D1F70866AD530" crc="693F50DA"/>
+<rom serial="CGB-BOAJ-JPN" region="Japan" file="Azarashi Sentai Inazuma - Dokidoki Daisakusen! (Japan).gbc" md5="E5D8AEA67AEF0EE94ACF1ED35900EA74" crc="98F63BD4"/>
+<rom serial="DMG-AAYP-EUR" region="Europe" file="Azure Dreams (Europe) (En,Fr,De) (SGB Enhanced).gbc" md5="F6B6DDFAAF03392DC469F4EED49EC15D" crc="F9CCAB09"/>
+<rom serial="DMG-AAZE-USA" region="USA" file="Azure Dreams (USA) (SGB Enhanced).gbc" md5="464ACBE3C82887DB897C39CDBA877237" crc="71D52876"/>
+<rom serial="DMG-AVAP-FAH" region="Europe" file="Babe and Friends (Europe) (En,Fr,De,Es,It).gbc" md5="146BC8912C207C200535B84C5ACFB06A" crc="B3681854"/>
+<rom serial="CGB-BBRJ-JPN" region="Japan" file="Bad Badtz-Maru Robo Battle (Japan).gbc" md5="21C2DD91AE2D46C006C00CACA96D2B6B" crc="4DD29B09"/>
+<rom serial="DMG-A4RJ-JPN" region="" file="Bakukyuu Renpatsu!! Super B-Daman - Gekitan! Rising Valkyrie!! (Japan) (SGB Enhanced).gbc" md5="60DF8A170849C5F5A6F94B1531A29A34" crc="5C95D5A2"/>
+<rom serial="CGB-BDBJ-JPN" region="Japan" file="Bakusou Dekotora Densetsu GB Special - Otoko Dokyou no Tenka Touitsu (Japan).gbc" md5="4D6CE58AC78078D47A807CB326C3919A" crc="92C8B9B5"/>
+<rom serial="DMG-AUEJ-JPN" region="Japan" file="Bakusou Senki Metal Walker GB - Koutetsu no Yuujou (Japan).gbc" md5="CEB1A6C3CE3D2921C0FB65F420F811FA" crc="D514C9A0"/>
+<rom serial="DMG-ADYS-ESP" region="Spain" file="Barbie - Aventura Submarina (Spain).gbc" md5="28DD8318BD521B42243AF4546062ECAB" crc="0CF2B7F2"/>
+<rom serial="DMG-ADYI-ITA" region="Italy" file="Barbie - Avventure nell'Oceano (Italy).gbc" md5="8565F7B388A1741FE41A8C972D95869E" crc="59645A18"/>
+<rom serial="DMG-ADYH-HOL" region="Netherlands" file="Barbie - Diepzee Avontuur (Netherlands).gbc" md5="CC130E8228A37ECC3D38F7F34AAFEDAA" crc="39C6B8DF"/>
+<rom serial="DMG-BFPP-EUR" region="Europe" file="Barbie - Fashion Pack Games (USA, Europe).gbc" md5="45EEADE46BD85F80AF13AF9DCE572B9C" crc="09EE93A8"/>
+<rom serial="DMG-ADYD-NOE" region="Germany" file="Barbie - Meeres Abenteuer (Germany).gbc" md5="CE1B3EFD190F51E089BEC904E92A5F01" crc="5E46D64A"/>
+<rom serial="CGB-BPEP-EUR" region="Europe" file="Barbie - Pet Rescue (Europe) (En,Fr,De,Es,It).gbc" md5="DCCB2ADEC6B97AC35614414A427ABDBB" crc="48E638CE"/>
+<rom serial="CGB-BKIP-EUR" region="" file="Barbie - Shelly Club (Europe) (En,Fr,De,Es,It).gbc" md5="0FC64C4AEE8AA7A11ED80C4E93F63F47" crc="767CAA42"/>
+<rom serial="DMG-ABEJ-JPN" region="Japan" file="Barcode Taisen Bardigun (Japan) (SGB Enhanced).gbc" md5="00CA1749B004D4C38CDFC884BD547F72" crc="DDFCF4B7"/>
+<rom serial="DMG-AQMP-EUR" region="Europe" file="Bass Masters Classic (USA, Europe).gbc" md5="3BFA6ECA3E26C8B4EE8E31AC7064085A" crc="B70028E4"/>
+<rom serial="CGB-BTKJ-JPN" region="Japan" file="Batman Beyond - Return of the Joker (Japan) (NP).gbc" md5="CDF275A96518EFD2236F0BBB5321C0E3" crc="B8B1F8F8"/>
+<rom serial="DMG-AIPP-EUR" region="Europe" file="Battleship (USA, Europe).gbc" md5="FD1F17AA8C4B5C2963DB8B0444673A3D" crc="8E6F8037"/>
+<rom serial="CGB-AVNP-UKV" region="Europe" file="BattleTanx (Europe) (En,Fr,De).gbc" md5="4B146CE804A9B9C90467742508A67B5F" crc="2FCECB70"/>
+<rom serial="CGB-BVBP-EUR" region="Europe" file="Beach'n Ball (Europe) (En,Fr,De,Es,It).gbc" md5="576E3A9D7DA60439C8FB28C81B56FE5A" crc="82D1A721"/>
+<rom serial="CGB-BBNP-EUR" region="Europe" file="Bear in the Big Blue House (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="82880772EBD67B839C497DFE4308A0A0" crc="48C99939"/>
+<rom serial="CGB-BB7E-USA" region="USA" file="Bear in the Big Blue House (USA) (En,Fr,De,Es,It,Nl).gbc" md5="AFE51A74C6967711DDD263E3998B7AFD" crc="851C8710"/>
+<rom serial="1B-001" region="Taiwan" file="Beast Fighter (Taiwan) (En) (1B-001, Sachen) (Unl).gbc" md5="A1D7687A557DD2A3948C9F498703F4A3" crc="0BC7A3C6"/>
+<rom serial="DMG-AOOJ-JPN" region="Japan" file="Beatmania GB (Japan) (SGB Enhanced).gbc" md5="E7C022031CB882912E81970EB63D4F61" crc="0D9CB195"/>
+<rom serial="DMG-A2GJ-JPN" region="Japan" file="Beatmania GB2 - Gotcha Mix (Japan) (SGB Enhanced).gbc" md5="25F20CDC0F6F70D0BC5430A9B0D48742" crc="59BEB372"/>
+<rom serial="DMG-AVUP-EUR" region="Europe" file="Beauty and the Beast - A Board Game Adventure (Europe) (En,Fr,De,Es,It) (SGB Enhanced).gbc" md5="6D51DCD9012C1140F73D7FD753698ABF" crc="E4C410F0"/>
+<rom serial="CGB-BB5D-NOE" region="Germany" file="Benjamin Bluemchen - Ein verrueckter Tag im Zoo (Germany).gbc" md5="39E9649316E36BAD957E98A2170DF6D0" crc="51972995"/>
+<rom serial="CGB-BIBD-NOE" region="Germany" file="Bibi Blocksberg - Im Bann der Hexenkugel (Germany).gbc" md5="237662AB7A441DE5042F347342C6080B" crc="4D39FBFE"/>
+<rom serial="CGB-BFED-NOE-1" region="Germany" file="Bibi und Tina - Fohlen Felix in Gefahr (Germany).gbc" md5="E91752013F0FB62CF0E52873C412CEEB" crc="8874ACD4"/>
+<rom serial="CGB-AHZP-EUR" region="Asia" file="Billy Bob's Huntin' 'n' Fishin' (USA, Europe).gbc" md5="70739BD1B6EB0ECB06FE5954F94D74FC" crc="FA1E6853"/>
+<rom serial="AV4P" region="Australia" file="Bionic Commando - Elite Forces (USA, Australia).gbc" md5="B3347B3219A7183697E83655F4628827" crc="A663CF31"/>
+<rom serial="DMG-ALFP-EUR" region="Europe" file="Black Bass - Lure Fishing (USA, Europe).gbc" md5="A30B8E40344BCFBEB08110C79DE4AF14" crc="E44977DC"/>
+<rom serial="CGB-BLEP-EUR" region="Europe" file="Blade (USA, Europe).gbc" md5="6B3CEB7BB280C0C0CB7543FE33925CB7" crc="2DD5907F"/>
+<rom serial="DMG-AEHP-EUR" region="Europe" file="Blaster Master - Enemy Below (USA, Europe) (SGB Enhanced).gbc" md5="756664AA0C9418B200946AA4E1DDDF53" crc="2F91E17C"/>
+<rom serial="CGB-BOBY-EUR" region="Europe" file="Bob the Builder - Fix it Fun! (Europe) (En,Fr,It).gbc" md5="D7B8309532D3316447A9202CB2F19018" crc="A8EBD88B"/>
+<rom serial="CGB-BOBX-SCN" region="Europe" file="Bob the Builder - Fix it Fun! (Europe) (En,Sv,No,Da,Fi).gbc" md5="65DDB5E5DB1B3F932D44A28C802E63CC" crc="F319E823"/>
+<rom serial="DMG-A37J-JPN" region="Japan" file="Bokujou Monogatari GB2 (Japan).gbc" md5="245C759EFFDA3CF83E2CAF274C93C8AA" crc="EE993302"/>
+<rom serial="CGB-BWAJ-JPN" region="Japan" file="Bokujou Monogatari GB3 - Boy Meets Girl (Japan).gbc" md5="CF364669FE4197209FDE5D0C32713D53" crc="3A18B41F"/>
+<rom serial="DMG-AB5J-JPN" region="Japan" file="Bomber Man Quest (Japan) (SGB Enhanced).gbc" md5="632793107D6A279A2F38236955353906" crc="55210934"/>
+<rom serial="CGB-A8BE-USA" region="USA" file="Bomberman Max - Blue Champion (USA).gbc" md5="C987F711DFB9CBA8DC1174219877360F" crc="5CCB66CF"/>
+<rom serial="CGB-A7BE-USA" region="USA" file="Bomberman Max - Red Challenger (USA).gbc" md5="1757723CF346BE2CEA58D0FC4ED4CFA9" crc="4853F586"/>
+<rom serial="DMG-AOVP-EUR" region="" file="Bomberman Quest (Europe) (En,Fr,De) (SGB Enhanced).gbc" md5="E6F36322946499F2F55B724C3DB916CD" crc="5A9B9AE6"/>
+<rom serial="CGB-B2CK-KOR" region="Korea" file="Bomberman Selection (Korea).gbc" md5="D0C6FFC3602D91C0B2B1B0461553DE33" crc="AF2B426E"/>
+<rom serial="CGB-BVSP-EUR-1" region="USA, Europe" file="Buffy the Vampire Slayer (USA, Europe).gbc" md5="49561C4082206A7E5D5CA2032BE81EED" crc="5692E262"/>
+<rom serial="CGB-BVSP-EUR" region="Europe" file="Buffy the Vampire Slayer (USA, Europe).gbc" md5="49561C4082206A7E5D5CA2032BE81EED" crc="5692E262"/>
+<rom serial="DMG-APXP-EUU" region="" file="Bug's Life, A (Europe) (SGB Enhanced).gbc" md5="549B54077FD122943E076F4C2350BE05" crc="DB93E0F6"/>
+<rom serial="DMG-ABLP-FRA" region="" file="Bugs Bunny &amp; Lola Bunny - Operation Carrots (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="D5A558F3F63771AC1E40D53976E090EF" crc="F0CC407F"/>
+<rom serial="DMG-AB6P-AUS" region="USA, Europe" file="Bugs Bunny - Crazy Castle 3 (USA, Europe).gbc" md5="2EBF6F830013D8702EEBF93955DB52D5" crc="7A2801FB"/>
+<rom serial="DMG-AB6P-EUR" region="Europe" file="Bugs Bunny - Crazy Castle 3 (USA, Europe).gbc" md5="2EBF6F830013D8702EEBF93955DB52D5" crc="7A2801FB"/>
+<rom serial="CGB-AO4F-FRA" region="France" file="Bugs Bunny et le Chateau des Catastrophes (France).gbc" md5="7FBBFA00A51547639750E69FF802FA76" crc="6DA8E6EB"/>
+<rom serial="CGB-AO4P-EUU-1" region="Europe" file="Bugs Bunny in Crazy Castle 4 (Europe).gbc" md5="C8FAFCBB7A673765ADE44B404B734A92" crc="53155E60"/>
+<rom serial="CGB-BSJD-NOE" region="Germany" file="Bundesliga Stars 2001 (Germany).gbc" md5="1CFA8223F124F56CCA9C8BC2C661A21D" crc="5622B551"/>
+<rom serial="AA4P" region="Europe" file="Bust-A-Move 4 (USA, Europe).gbc" md5="DC835FA5664AA83FF90DC2FF6CC83F24" crc="8E818E6F"/>
+<rom serial="CGB-BANP-EUR" region="" file="Bust-A-Move Millennium (USA, Europe).gbc" md5="E98124B30408C00786068387353E39E5" crc="F8DA0C4A"/>
+<rom serial="CGB-BUZP-UKV" region="Europe" file="Buzz Lightyear of Star Command (USA, Europe).gbc" md5="560E27A4D80B88280D8AD7358467C301" crc="84E29B87"/>
+<rom serial="CGB-AI2P-EUR" region="Europe" file="Caesars Palace II (USA, Europe).gbc" md5="64396458BB3A82F26F522E85291B5FC5" crc="351BA5EA"/>
+<rom serial="CGB-BCFE-USA" region="USA" file="Cannon Fodder (USA) (En,Fr,De,Es,It).gbc" md5="762D6C94874D8AC894AD100C0A4B50AB" crc="26F8E1A0"/>
+<rom serial="CGB-BUZD-NOE" region="Germany" file="Captain Buzz Lightyear - Star Command (Germany).gbc" md5="542543461273C69E6966D2599F382ECA" crc="F06D296C"/>
+<rom serial="DMG-AM7J-JPN" region="Japan" file="Cardcaptor Sakura - Itsumo Sakura-chan to Issho (Japan) (Rev B).gbc" md5="60F6FBDD07D01AD1835269FDEAEBB83D" crc="7243E258"/>
+<rom serial="CGB-BCLP-EUR" region="Europe" file="Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="67F1A15025B979833F4C5AA0EF561954" crc="15430979"/>
+<rom serial="CGB-AKWD-NOE" region="Germany" file="Carmageddon - Carpocalypse Now (Germany).gbc" md5="4A58B26EF9624192AFE5542F790CDB01" crc="B447BC06"/>
+<rom serial="CGB-AKWE-USA" region="USA" file="Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It).gbc" md5="F73C5CC4935EDE64F5B2D62754C90262" crc="BB482ED7"/>
+<rom serial="CGB-AKWP-EUR" region="" file="Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It).gbc" md5="F73C5CC4935EDE64F5B2D62754C90262" crc="BB482ED7"/>
+<rom serial="CGB-AF9X-EUU" region="Europe" file="Casper (Europe) (En,Es,It).gbc" md5="BA199806FD4F5AF5F76FD9C1515B299D" crc="DAEFE53C"/>
+<rom serial="AR4P" region="Europe" file="Caterpillar Construction Zone (USA, Europe).gbc" md5="046AF13647ED4777510AA86FCB753BF9" crc="D20DC670"/>
+<rom serial="DMG-AC5P-EUR" region="Europe" file="Centipede (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="54F81E8D2232AF2503E0E03EEEEB39CE" crc="255DB8BE"/>
+<rom serial="CGB-BCMP-EUR" region="Europe" file="Championship Motocross 2001 featuring Ricky Carmichael (USA, Europe).gbc" md5="63942B9B7FF673988FDBFBE8E1FDFC78" crc="CBB336ED"/>
+<rom serial="CGB-VCAJ-JPN" region="Japan" file="Chee-Chai Alien (Japan) (Rumble Version).gbc" md5="94F4306CB0C27686661E37A96EEF730B" crc="9E988FFE"/>
+<rom serial="DMG-AC9P-EUR" region="" file="Chessmaster (USA, Europe).gbc" md5="F0AE420D6CE590BAAC5B2CA03F4B2BA6" crc="1C13DBB0"/>
+<rom serial="CGB-BCKP-EUR" region="Europe" file="Chicken Run (USA, Europe) (En,Fr,De,Es,It).gbc" md5="BDA8C4E5E18070924261823E5FCA655C" crc="F8BD2A01"/>
+<rom serial="CGB-AW9J-JPN" region="Japan" file="Chiki Chiki Machine Mou Race (Japan).gbc" md5="EFA5853DDAE4AB47301B2CA0416583A9" crc="36C04BE0"/>
+<rom serial="DMG-ACQJ-JPN" region="Japan" file="Choro Q - Hyper Customable GB (Japan) (SGB Enhanced).gbc" md5="3611927BE3C7835C594120C4BFDD8D31" crc="65610CA4"/>
+<rom serial="CGB-KCEJ-JPN" region="Japan" file="Command Master (Japan).gbc" md5="4D3E8BF64B69EB56C5F1786CEF422C59" crc="D10B5645"/>
+<rom serial="CGB-BCBE-USA" region="USA" file="Commander Keen (USA, Europe).gbc" md5="94D2AA3FBDA301F9C0D0C16E00743183" crc="4AF4CC9C"/>
+<rom serial="CGB-BCBP-EUR-1" region="Europe" file="Commander Keen (USA, Europe).gbc" md5="94D2AA3FBDA301F9C0D0C16E00743183" crc="4AF4CC9C"/>
+<rom serial="CGB-BCBP-EUR" region="Europe" file="Commander Keen (USA, Europe).gbc" md5="94D2AA3FBDA301F9C0D0C16E00743183" crc="4AF4CC9C"/>
+<rom serial="DMG-ACRE-USA" region="USA" file="Conker's Pocket Tales (USA, Europe) (En,Fr,De) (SGB Enhanced).gbc" md5="FEE6336F969C9E72E9B78BE53D512C1E" crc="A50BE9A8"/>
+<rom serial="DMG-ACRP-EUR" region="Europe" file="Conker's Pocket Tales (USA, Europe) (En,Fr,De) (SGB Enhanced).gbc" md5="FEE6336F969C9E72E9B78BE53D512C1E" crc="A50BE9A8"/>
+<rom serial="CGB-BRCP-EUR" region="Europe" file="Croc (USA, Europe).gbc" md5="0552078F981C2EF3977F2DFEEE19510A" crc="4664A167"/>
+<rom serial="CGB-BK2P-EUR" region="Europe" file="Croc 2 (USA, Europe).gbc" md5="03A8BCAB4B2975FA2D850D18C728EA9C" crc="C1D60129"/>
+<rom serial="CGB-BCTP-UKV" region="Europe" file="CyberTiger (USA, Europe).gbc" md5="7A36423EC39604D7043336AF71145010" crc="E470CAFA"/>
+<rom serial="CGB-BSKJ-JPN" region="Japan" file="Cyborg Kuro-chan - Devil Fukkatsu (Japan).gbc" md5="2082A3C919F07C076AA7DE6363544536" crc="392D630F"/>
+<rom serial="CGB-BSBJ-JPN" region="Japan" file="Cyborg Kuro-chan 2 - White Woods no Gyakushuu (Japan).gbc" md5="3C6C0BF27C82EEA13DFC9697E0CACF57" crc="E86BF12E"/>
+<rom serial="AD7P" region="Europe" file="Daffy Duck - Fowl Play (USA, Europe).gbc" md5="882A7B4D2CADEDD7ED2E21D22CA8F93D" crc="45EBF09C"/>
+<rom serial="DMG-ADZJ-JPN" region="Japan" file="Daikaijuu Monogatari - Poyon no Dungeon Room (Japan) (SGB Enhanced).gbc" md5="57A7D3D3E7D67EC7D72DE5701D9227D8" crc="2F368DA6"/>
+<rom serial="CGB-BP2J-JPN" region="Japan" file="Daikaijuu Monogatari - Poyon no Dungeon Room 2 (Japan).gbc" md5="78959C37152E546C5C7C271AE418A453" crc="5E312730"/>
+<rom serial="DMG-AM6J-JPN" region="Japan" file="Daikaijuu Monogatari - The Miracle of the Zone II (Japan) (SGB Enhanced).gbc" md5="FF0001C209FC894C26B339A1519F38A6" crc="692D6794"/>
+<rom serial="CGB-BMXP-EUR" region="" file="Dave Mirra Freestyle BMX (USA, Europe).gbc" md5="1E062837D15D5E4E43BB2253207115AE" crc="2DF6E230"/>
+<rom serial="CGB-BMXE-USA" region="" file="Dave Mirra Freestyle BMX (USA, Europe).gbc" md5="1E062837D15D5E4E43BB2253207115AE" crc="2DF6E230"/>
+<rom serial="CGB-BDLP-EUR" region="Europe" file="Deadly Skies (Europe) (En,Fr,De).gbc" md5="8E7298D92BD4EAEC572A7F1BCB223200" crc="402DE378"/>
+<rom serial="DMG-BSAJ-JPN" region="Japan" file="Dear Daniel no Sweet Adventure - Kitty-chan o Sagashite (Japan) (SGB Enhanced).gbc" md5="793C57F58D4E9C92088C333B129D1C7E" crc="0FD34427"/>
+<rom serial="CGB-BD9P-EUR" region="" file="Denki Blocks! (Europe) (En,Fr,De,Es,It).gbc" md5="E4594F3D22FCE6B71642A9F3049A6054" crc="38F00974"/>
+<rom serial="CGB-B82J-JPN" region="Japan" file="Densha de Go! 2 (Japan).gbc" md5="AB58102005B510A2D905ED7DE9D6267A" crc="B72603FC"/>
+<rom serial="CGB-BROP-EUR" region="Europe" file="Dexter's Laboratory - Robot Rampage (USA, Europe).gbc" md5="2A147B2D7731AC26A999390C3F5FF2AC" crc="D24D6601"/>
+<rom serial="DMG-A3DJ-JPN" region="Japan" file="Dino Breeder 3 - Gaia Fukkatsu (Japan) (SGB Enhanced).gbc" md5="ACB10288F383C6B475E11E936AA56C70" crc="D9F071BB"/>
+<rom serial="DMG-A4DJ-JPN" region="Japan" file="Dino Breeder 4 (Japan) (SGB Enhanced).gbc" md5="4563D42DB3B0C9F2E14C1CAD7725BB34" crc="B0106777"/>
+<rom serial="CGB-BDNP-EUR" region="" file="Dinosaur (Europe) (En,Fr,De,Es,It).gbc" md5="6D0D0D7DE2730B9F9FDEEB4E202D5115" crc="0AA8D0CC"/>
+<rom serial="CGB-BD8P-EUR" region="Europe" file="Diva Starz (Europe).gbc" md5="3ED4D88927E2EA0D4F75826F1B60D4A1" crc="4476E79F"/>
+<rom serial="CGB-BD8F-FRA" region="France" file="Diva Starz (France).gbc" md5="6BD1DEA9AF1ED4356C23043CB8AF91AE" crc="FC1B36D1"/>
+<rom serial="CGB-BD8D-NOE" region="Germany" file="Diva Starz (Germany).gbc" md5="F012B129CEBD445C8B63F4DDC475BB26" crc="56095F86"/>
+<rom serial="DMG-BDKJ-JPN" region="Japan" file="Dokapon! - Millennium Quest (Japan) (SGB Enhanced).gbc" md5="E7775EFDDF4D0A5E6A9E8534F5EFC2EF" crc="4FE9E966"/>
+<rom serial="CGB-BP6J-JPN" region="Japan" file="Doki x Doki Sasete!! (Japan).gbc" md5="1D535AAC30B714E3AD5ECCF17025ECE2" crc="19A73F60"/>
+<rom serial="CGB-B96-JPN" region="Japan" file="Dokidoki Densetsu - Mahoujin Guruguru (Japan).gbc" md5="E6A3D906BC47516138CA14578601AF02" crc="83E47A1A"/>
+<rom serial="CGB-BQAP-EUR" region="Europe" file="Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It).gbc" md5="5315C21EAFFDE4A641A02D89F18E2A95" crc="07A13B5B"/>
+<rom serial="CGB-BDDJ-JPN" region="Japan" file="Donkey Kong 2001 (Japan).gbc" md5="EF2A181785CC591AC53E960C68E14216" crc="CB065EBA"/>
+<rom serial="CGB-BDDP-EUR" region="Europe" file="Donkey Kong Country (USA, Europe) (En,Fr,De,Es,It).gbc" md5="DC94079146EE90D7DD7D72280A3FAAD5" crc="B1743477"/>
+<rom serial="CGB-BDDP-AUS" region="Europe" file="Donkey Kong Country (USA, Europe) (En,Fr,De,Es,It).gbc" md5="DC94079146EE90D7DD7D72280A3FAAD5" crc="B1743477"/>
+<rom serial="CGB-AD3J-JPN" region="Japan" file="Donkey Kong GB - Dinky Kong &amp; Dixie Kong (Japan).gbc" md5="22AFE691095C65F34AEABA3C283B2A9C" crc="28D7E8D3"/>
+<rom serial="DMG-BDMJ-JPN" region="Japan" file="Doraemon Memories - Nobita no Omoide Daibouken (Japan).gbc" md5="1F0E9DA07447DE982BC0FBC0EB3A5D24" crc="D187CEC4"/>
+<rom serial="CGB-BQBJ-JPN" region="Japan" file="Doraemon no Quiz Boy (Japan) (Rev A).gbc" md5="7F6C3F5388D3BCC0D02E8A2EA0D5E988" crc="915356E3"/>
+<rom serial="CGB-BQ7J-JPN" region="Japan" file="Doraemon no Quiz Boy 2 (Japan).gbc" md5="15BEDC4919965732CBFB301F11E5B36A" crc="9E80199A"/>
+<rom serial="CGB-BGKJ-JPN" region="Japan" file="Doraemon no Study Boy - Gakushuu Kanji Game (Japan).gbc" md5="D10D56951B817115477D72A855D7C025" crc="67413F65"/>
+<rom serial="CGB-BKYJ-JPN" region="Japan" file="Doraemon no Study Boy - Kanji Yomikaki Master (Japan).gbc" md5="E599E5AAB2CFE2FC95D340A5C910D87E" crc="70156DA7"/>
+<rom serial="CGB-BDUD-NOE" region="Germany" file="Doug's Big Game (Germany).gbc" md5="535AC79C69B22ED21CC9AF0D4C10BEA8" crc="5DC254D1"/>
+<rom serial="CGB-BDUP-EUR" region="Europe" file="Doug's Big Game (Europe).gbc" md5="8D4B4907E207A824A065B0012B22C62C" crc="B6FFBCCA"/>
+<rom serial="CGB-BDFJ-JPN" region="" file="Dr. Rin ni Kiitemite! - Koi no Rin Fuusui (Japan).gbc" md5="448AF6D54CE1886456C98209F53ABDC7" crc="EC168A61"/>
+<rom serial="CGB-BUAP-EUR" region="Europe" file="Dracula - Crazy Vampire (Europe) (En,Fr,De,Es,It).gbc" md5="192AEC8DCA7656463BE56991F497CFF3" crc="2F7AEF51"/>
+<rom serial="CGB-BBZJ-JPN" region="Japan" file="Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan).gbc" md5="A94A1C6268555926CA1A3B439A2FB65C" crc="7D28689A"/>
+<rom serial="CGB-BBZI-ITA" region="" file="Dragon Ball Z - I Leggendari Super Guerrieri (Italy).gbc" md5="4CDE8DAC14B8ACE83F8A4716CCB2DBF0" crc="A888A049"/>
+<rom serial="CGB-BBZD-NOE" region="Germany" file="Dragon Ball Z - Legendaere Superkaempfer (Germany).gbc" md5="B587D5AE7C464408526489B67DFCA07D" crc="EC7DFDC1"/>
+<rom serial="CGB-BBZE-USA" region="USA" file="Dragon Ball Z - Legendary Super Warriors (USA).gbc" md5="AC46BC779E1E844674DE1D4C13D06F96" crc="025AA88A"/>
+<rom serial="CGB-BD3J-JPN" region="Japan" file="Dragon Quest III - Soshite Densetsu e... (Japan).gbc" md5="729934DDB7AA39779A456523A81B4A45" crc="21078C16"/>
+<rom serial="DMG-AWQD-NOE" region="Germany" file="Dragon Quest Monsters (Germany) (SGB Enhanced).gbc" md5="08BCA718C62E3C2870A2DF107FC0A562" crc="2A82B63B"/>
+<rom serial="DMG-ADQJ-JPN" region="Japan" file="Dragon Quest Monsters - Terry no Wonderland (Japan) (SGB Enhanced).gbc" md5="5254EA1935C43057358D2EFBA26C60C8" crc="4702C4F1"/>
+<rom serial="DMG-ADQJ-JPN" region="Japan" file="Dragon Quest Monsters - Terry no Wonderland (Japan) (Rev A) (SGB Enhanced).gbc" md5="B28C999D1B43E8E39998827FF39965CC" crc="D263D88D"/>
+<rom serial="DMG-BQIJ-JPN" region="Japan" file="Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Iru no Bouken (Japan) (SGB Enhanced).gbc" md5="F47EDC51D53AE8F416898B80BD3022A1" crc="68BA18D7"/>
+<rom serial="DMG-BQLJ-JPN" region="" file="Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Ruka no Tabidachi (Japan) (SGB Enhanced).gbc" md5="979EB4FD473C344CB2CFC6EA4211CA5A" crc="2C428A87"/>
+<rom serial="CGB-BDWE-USA" region="USA" file="Dragon Tales - Dragon Adventures (USA).gbc" md5="27791FF8BB7993EBBA8C8F2CF353A6B3" crc="DE390609"/>
+<rom serial="DMG-AEDE-USA" region="USA" file="Dragon Warrior I &amp; II (USA) (SGB Enhanced).gbc" md5="C3987A4D734C37B7D8324F654A45DE70" crc="71D693DA"/>
+<rom serial="CGB-BD3E-USA" region="USA" file="Dragon Warrior III (USA).gbc" md5="B74B6132326BAFCD75E415DDCD9A2932" crc="0FD9C59C"/>
+<rom serial="DMG-AWQE-USA" region="USA" file="Dragon Warrior Monsters (USA, Europe) (SGB Enhanced).gbc" md5="1CA6579359F21D8E27B446F865BF6B83" crc="E56C35B1"/>
+<rom serial="DMG-AWQP-UKV" region="Europe" file="Dragon Warrior Monsters (USA, Europe) (SGB Enhanced).gbc" md5="1CA6579359F21D8E27B446F865BF6B83" crc="E56C35B1"/>
+<rom serial="CGB-BDXP-EUR" region="Europe" file="Dragon's Lair (USA, Europe) (En,Ja,Fr,De,Es,Zh).gbc" md5="947F96CFD5BAB7A03EC2F3FC0AE9238D" crc="BF076CA5"/>
+<rom serial="CGB-BDRP-EUR" region="Europe" file="Driver (Europe) (En,Fr,De,Es,It).gbc" md5="FAAB6966E9ED5E80FF724CAFDE1E903D" crc="E9E67403"/>
+<rom serial="DMG-AD4P-EUR" region="Europe" file="Dropzone (Europe).gbc" md5="B3142AAE557BC4E04E2F0F740FAE9577" crc="1E71B67E"/>
+<rom serial="CGB-ADIP-EUR" region="Europe" file="Duke Nukem (Europe) (En,Fr,De,Es,It).gbc" md5="B25025224EB338963FC9C0FEE91F2C39" crc="FC3D1BB7"/>
+<rom serial="CGB-BDCP-EUR" region="Europe" file="Dukes of Hazzard, The - Racing for Home (Europe) (En,Fr,De).gbc" md5="DC131A70357D28BC43649C4AD6CD4397" crc="21826ADC"/>
+<rom serial="CGB-BZGJ-JPN" region="Japan" file="DX Jinsei Game (Japan).gbc" md5="E5CF736F37CBBBBE6957E172DE5626FC" crc="7E15B3DD"/>
+<rom serial="CGB-BERP-EUR" region="Europe" file="E.T. - The Extra-Terrestrial - Escape from Planet Earth (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="A4A756BE0D12C2BA7CA5A6420BB2198E" crc="B25F3DB5"/>
+<rom serial="CGB-BEOP-EUR" region="Europe" file="E.T. - The Extra-Terrestrial and the Cosmic Garden (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="46B9A55A3049A1113BC5430EDAAF9401" crc="8321A1B9"/>
+<rom serial="CGB-BEOE-USA" region="USA" file="E.T. - The Extra-Terrestrial and the Cosmic Garden (USA).gbc" md5="F1B1776986BBADFA4E6771395FBC6214" crc="32C87958"/>
+<rom serial="DMG-AEBP-EUR" region="Europe" file="Earthworm Jim - Menace 2 the Galaxy (USA, Europe).gbc" md5="002D0D5FD2F668798DA1991B5FD5B4D8" crc="2E65DAAF"/>
+<rom serial="CGB-BECP-EUR" region="Europe" file="ECW Hardcore Revolution (USA, Europe).gbc" md5="45AFA73780709DB49CE92EEA952B0BAF" crc="484EBA10"/>
+<rom serial="CGB-BEXP-EUR" region="Europe" file="Elevator Action EX (Europe) (En,Fr,De,Es,It).gbc" md5="F88959B615F284CC120CD17F5263D018" crc="2154763C"/>
+<rom serial="DMG-A8EJ-JPN" region="Japan" file="Elie no Atelier GB (Japan) (SGB Enhanced).gbc" md5="473E78B1D576A052492E1B4B80F4D3B3" crc="7967320E"/>
+<rom serial="AE3P" region="Europe" file="Elmo's 123s (Europe).gbc" md5="023B5DBE9C3DCB3BC11AB388E8A40FE3" crc="3BF7FCD4"/>
+<rom serial="DMG-AEAP-EUR" region="Europe" file="Elmo's ABCs (Europe).gbc" md5="5DA357EF79ACB5AB8852D145888DD5CB" crc="20158FBC"/>
+<rom serial="DMG-AEVE-USA" region="USA" file="Evel Knievel (USA).gbc" md5="F9C554DFCE8383F16E554B61083F0922" crc="51E951B5"/>
+<rom serial="CGB-BESP-EUR-1" region="USA, Europe" file="Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It).gbc" md5="E20F2057C2143993C0F844097D0086D5" crc="5C0E7B44"/>
+<rom serial="CGB-BESP-EUR; CGB-BESE-USA" region="USA, Europe" file="Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It).gbc" md5="E20F2057C2143993C0F844097D0086D5" crc="5C0E7B44"/>
+<rom serial="CGB-BESP-EUR" region="Europe" file="Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It).gbc" md5="E20F2057C2143993C0F844097D0086D5" crc="5C0E7B44"/>
+<rom serial="CGB-AFIP-EUR" region="Europe" file="F-1 World Grand Prix (Europe) (En,Fr,De,Es).gbc" md5="CFB6A98BEF18C56E466D27B885E20F8F" crc="8D9A9182"/>
+<rom serial="CGB-B18P-NOE" region="Europe" file="F-18 Thunder Strike (USA, Europe).gbc" md5="58670204EC7B8791576E3C88BA7C1DDF" crc="410FA858"/>
+<rom serial="CGB-BF2E-USA" region="USA" file="F1 World Grand Prix II for Game Boy Color (USA) (En,Fr,De,Es).gbc" md5="69A6EBC942C7D0ECEF2E514989DEBDE6" crc="482E10C5"/>
+<rom serial="DMG-AFUJ-JPN" region="Japan" file="Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (SGB Enhanced).gbc" md5="0591D5637B4C9F304340D941B2AE9E7A" crc="B59A51C4"/>
+<rom serial="DMG-AFUJ-JPN" region="Japan" file="Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (Rev A) (SGB Enhanced).gbc" md5="392E73A2ACD4310487E3BFABDD70293D" crc="C4D3628F"/>
+<rom serial="DMG-AFOP-UKV" region="Europe" file="FIFA 2000 (USA, Europe) (SGB Enhanced).gbc" md5="128DC75244ECC2F74D1E50551D888127" crc="E6BC2E8C"/>
+<rom serial="CGB-BFSP-EUR" region="Europe" file="Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It).gbc" md5="99825E86250AB53B5EA8AC702930919D" crc="A5B09726"/>
+<rom serial="CGB-BYDP-EUR" region="Europe" file="Fort Boyard (Europe) (En,Fr,De,Es,It,Nl,Pt).gbc" md5="21AE960E6C5A42B498B00FA6F635B1E1" crc="06C8E50A"/>
+<rom serial="CGB-BRZP-EUR" region="Europe" file="Freestyle Scooter (Europe).gbc" md5="0155BB1D60A477EEEB148033210EECF3" crc="EE79117D"/>
+<rom serial="DMG-AFRP-EUR" region="Europe" file="Frogger (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="D5EBDBEDA4156B34E3C0F01D55A4221C" crc="B6BF0672"/>
+<rom serial="DMG-AFRE-USA-2" region="USA" file="Frogger (USA) (Rev A).gbc" md5="547C0D3FDB1C6EF7ABC7DFF06C457A35" crc="BA907064"/>
+<rom serial="DMG-AFRE-USA-3" region="USA" file="Frogger (USA) (Rev B).gbc" md5="7F1830171EEC29AC72AE976D4DFDFC65" crc="D9A22E5D"/>
+<rom serial="DMG-BZOJ-JPN" region="Japan" file="From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (SGB Enhanced).gbc" md5="B883323E9AE3C85548169BABE3F9B4F0" crc="A7317BB8"/>
+<rom serial="DMG-BLUJ-JPN" region="Japan" file="From TV Animation One Piece - Yume no Luffy Kaizokudan Tanjou! (Japan) (SGB Enhanced).gbc" md5="DA5586315CA857071D557A8FDE26C108" crc="C693AA37"/>
+<rom serial="DMG-BLUJ-JPN" region="Japan" file="From TV Animation One Piece - Yume no Luffy Kaizokudan Tanjou! (Japan) (Rev A) (SGB Enhanced).gbc" md5="5F43DC79250321F235A1DDC422A2D58D" crc="A4DDE805"/>
+<rom serial="RG201-PK2" region="Europe" file="Full Time Soccer &amp; Hang Time Basketball (Europe) (Unl).gbc" md5="EC1C9035BE5C529795048546B1F35CA5" crc="0634C196"/>
+<rom serial="CGB-AFMJ-JPN" region="Japan" file="Fushigi no Dungeon - Fuurai no Shiren GB2 - Sabaku no Majou (Japan).gbc" md5="9E3D4FF0BA3D6DEEC5080F6DBED4FEF8" crc="2C97E90F"/>
+<rom serial="DMG-AYMJ-JPN" region="Japan" file="Gakkyuu Ou Yamazaki (Japan) (Rev A).gbc" md5="52A9D2992A270EE3184553CAF4FDBA2B" crc="EF2CFD99"/>
+<rom serial="DMG-AGLP-EUR" region="Europe" file="Game &amp; Watch Gallery 2 (USA, Europe) (SGB Enhanced).gbc" md5="CBF4A5B2FF566554B014118E3D0E3E9A" crc="969C8961"/>
+<rom serial="DMG-AGLE-USA" region="USA" file="Game &amp; Watch Gallery 2 (USA, Europe) (SGB Enhanced).gbc" md5="CBF4A5B2FF566554B014118E3D0E3E9A" crc="969C8961"/>
+<rom serial="DMG-AGQP-EUR" region="" file="Game &amp; Watch Gallery 3 (USA, Europe) (SGB Enhanced).gbc" md5="F1BB0127347994B46258ADBDA0DC0B16" crc="1AC625DA"/>
+<rom serial="DIS-CGB-ADME-USA" region="USA" file="Game Boy Color (USA) (Promo).gbc" md5="0B4F167D39212F40F793FE1EC19421D7" crc="F5E9AA8C"/>
+<rom serial="DMG-AGLU-AUS" region="Australia" file="Game Boy Gallery 3 (Australia) (SGB Enhanced).gbc" md5="809EC52E50279A174A4908E3EA46DCF6" crc="6935FEA1"/>
+<rom serial="DMG-AGQJ-JPN" region="Japan" file="Game Boy Gallery 3 (Japan) (SGB Enhanced).gbc" md5="1C7355ED58DAF1EBCCEEA71BA5CBB694" crc="149F807E"/>
+<rom serial="DMG-AGQU-AUS" region="Australia" file="Game Boy Gallery 4 (Australia) (SGB Enhanced).gbc" md5="FCA034C2494A20C8A75DD1FF0BCC7545" crc="2549FDDE"/>
+<rom serial="DMG-AWOJ-JPN" region="Japan" file="Game Boy Wars 2 (Japan) (SGB Enhanced).gbc" md5="3833C21CBB63605FC365B5E3AA005994" crc="559EDB5E"/>
+<rom serial="CGB-BWWJ-JPN" region="Japan" file="Game Boy Wars 3 (Japan).gbc" md5="748FA9419B35C0E8E43509457AAA1EFA" crc="30C26262"/>
+<rom serial="DMG-AEFJ-JPN" region="Japan" file="Ganbare Goemon - Mononoke Douchuu Tobidase Nabebugyou! (Japan) (SGB Enhanced).gbc" md5="7C700360A46F54796802CA7C7BF499C5" crc="73311CFA"/>
+<rom serial="DMG-AGUJ-JPN" region="Japan" file="Ganbare Goemon - Tengutou no Gyakushuu (Japan).gbc" md5="18B2C4989209373C0CBA9BC58075B2FD" crc="D829EB2F"/>
+<rom serial="CGB-B3HJ-JPN" region="" file="Ganbare! Nippon! Olympic 2000 (Japan).gbc" md5="8707AD4AD9645D2DCFB33821697173A6" crc="FFD919A7"/>
+<rom serial="CGB-BHRJ-JPN" region="Japan" file="GB Harobots (Japan).gbc" md5="07DE70BD0E839DD1D4BE2670B2E1D33F" crc="1C0368FA"/>
+<rom serial="CGB-BHOD-NOE" region="Germany" file="Geheimnis der Happy Hippo-Insel, Das (Germany).gbc" md5="3BC2DB27BAFF012307501C31D49922AC" crc="25B480C3"/>
+<rom serial="CGB-BDJJ-JPN" region="Japan" file="Gekisou Dangun Racer - Onsoku Buster Dangun Dan (Japan).gbc" md5="19DFB14A0D31742F02BFA101D5054169" crc="06FCCEFC"/>
+<rom serial="DMG-VRKJ-JPN" region="Japan" file="Get Chuu Club - Minna no Konchuu Daizukan (Japan) (Rumble Version) (SGB Enhanced).gbc" md5="84973A134E9E4245D8138AC11807CA3F" crc="9EBDB6C6"/>
+<rom serial="DMG-AEXP-EUR" region="" file="Gex - Enter the Gecko (USA, Europe).gbc" md5="F0462EBA75D879C40668E20D1DBDB612" crc="DCCC7514"/>
+<rom serial="DMG-AG9P-EUR" region="Europe" file="Ghosts'n Goblins (USA, Europe).gbc" md5="9B846E9A4EB6B80CDBC8E6C82F2B9E9E" crc="AE024C23"/>
+<rom serial="CGB-BGFP-EUR" region="Europe" file="Gift (Europe).gbc" md5="75B4FAFFD8E9C0277B911D1D0E6ECE6A" crc="1B0034E8"/>
+<rom serial="CGB-BGFD-NOE" region="Germany" file="Gifty (Germany) (En).gbc" md5="D1B2C36DEF4B361645EAE44F6A0C53EA" crc="B97A8CB8"/>
+<rom serial="DMG-AZIP-EUR" region="Europe" file="Godzilla - The Series (Europe) (En,Fr,De).gbc" md5="149073AFD1CF8AE83783143A166592F7" crc="2A073369"/>
+<rom serial="CGB-BGDP-EUR" region="Europe" file="Godzilla - The Series - Monster Wars (Europe) (En,Fr,De).gbc" md5="6F67B154450BD3D88924C179F8165721" crc="A6007CE1"/>
+<rom serial="DMG-AAFX-EUR" region="Europe" file="Golden Goal (Europe) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="51F21F61592F05E712B36A0BF10A34A6" crc="BB9B597D"/>
+<rom serial="DMG-AAFD-NOE" region="Germany" file="Golden Goal (Germany) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="781AFD1E98B3743C835FCC16DF624895" crc="14D1ADBE"/>
+<rom serial="CGB-B54J-JPN" region="Japan" file="Gonta no Okiraku Daibouken (Japan).gbc" md5="52E260E54D59FD16CD5CC588123D3E48" crc="E45E99D2"/>
+<rom serial="CGB-BGTP-UKV" region="" file="Grand Theft Auto 2 (Europe) (En,Fr,De,Es,It).gbc" md5="7DE54692E7B42E945B318D20079A5EFD" crc="AD563BD9"/>
+<rom serial="CGB-BGEJ-JPN" region="Japan" file="Grandia - Parallel Trippers (Japan).gbc" md5="5679DE3C41C63C6B9DC9432C7ED1105A" crc="23223670"/>
+<rom serial="CGB-ADVJ-JPN" region="Japan" file="Granduel - Shinki Dungeon no Hihou (Japan).gbc" md5="E69DA049D745B89FD28C79FE20A2B861" crc="D589C501"/>
+<rom serial="CGB-BUGJ-JPN" region="Japan" file="Grinch (Japan).gbc" md5="83F1F765EFDD8D41CDD4F63EDCE42AFF" crc="432DC371"/>
+<rom serial="CGB-BGHP-EUR" region="Europe" file="Grinch, The (Europe) (En,Fr,De).gbc" md5="B50EF76B1E81615CF079C373B50C0AB9" crc="9ED6059A"/>
+<rom serial="CGB-BHJJ-JPN" region="Japan" file="Guruguru Town Hanamaru-kun (Japan).gbc" md5="7752B2476871760A8C00B06DF93A89B7" crc="03FBFC9E"/>
+<rom serial="DMG-BGQD-NOE" region="Germany" file="Gute Zeiten Schlechte Zeiten Quiz (Germany).gbc" md5="A9CC81BFFB2D1D3A9CAA38F04E6F6C1D" crc="5F13A2D4"/>
+<rom serial="CGB-BB6J-JPN" region="Japan" file="Gyouten Ningen Batseelor - Doctor Guy no Yabou (Japan).gbc" md5="3309FE5963175FA0AE6CC6ABE34DBC53" crc="B17DC263"/>
+<rom serial="DMG-AJNJ-JPN" region="" file="Hamster Club (Japan).gbc" md5="08261D984F5E0D103191D7BBAE8FBA50" crc="8A4D86A0"/>
+<rom serial="CGB-B8MJ-JPN" region="Japan" file="Hamster Monogatari GB + Magi Ham no Mahou Shoujo (Japan).gbc" md5="9C6A9C38B987E50001153AD12EB5FCC8" crc="ABD59939"/>
+<rom serial="DMG-AHMJ-JPN" region="Japan" file="Hamster Paradise (Japan) (SGB Enhanced).gbc" md5="81F4CBFFBED0638F59A16203C07E364B" crc="F520CB19"/>
+<rom serial="CGB-BHMJ-JPN" region="Japan" file="Hamster Paradise 2 (Japan) (Rev A).gbc" md5="DEEF0140C464BFF3435061B90E01B70D" crc="B9E1F3B0"/>
+<rom serial="CGB-BUMJ-JPN" region="" file="Hamunaptra - Ushinawareta Sabaku no Miyako (Japan).gbc" md5="8E7D7B91C08169D779FDA0A49C4DD3B7" crc="FF454711"/>
+<rom serial="DMG-AHTJ-JPN" region="Japan" file="Hanasaka Tenshi Tenten-kun no Beat Breaker (Japan) (SGB Enhanced).gbc" md5="500C3AD63568B78FE3DF71782BDF8592" crc="6E988C07"/>
+<rom serial="CGB-BWCP-EUR" region="Europe" file="Hands of Time (USA, Europe) (En,Fr,De,Es,It,Nl).gbc" md5="CECC79084E6515E9C59CE8D63D49EACE" crc="F519F4C3"/>
+<rom serial="CGB-BH6P-EUR" region="Europe" file="Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Da).gbc" md5="BC60280596BCE42D050B764B647DC39B" crc="136E9D0C"/>
+<rom serial="CGB-BHVP-EUR" region="" file="Harry Potter and the Sorcerer's Stone (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).gbc" md5="BA85A2AE8AA5829C440EEF2D5549506C" crc="4FD8B7C5"/>
+<rom serial="CGB-BHVJ-JPN" region="Japan" file="Harry Potter to Kenja no Ishi (Japan).gbc" md5="34D61C282C372F97B55F8DAE1EF94FB7" crc="2DA2686A"/>
+<rom serial="DMG-AYXD-NOE" region="Germany" file="Harvest Moon GB (Germany) (SGB Enhanced).gbc" md5="1C9F1847AE4832BDD53F39968750D505" crc="D3896652"/>
+<rom serial="DMG-AHKJ-JPN" region="Japan" file="Hello Kitty no Magical Museum (Japan) (SGB Enhanced).gbc" md5="B868FA9F3CECFA2D39DF43A5D1B13B60" crc="F6768930"/>
+<rom serial="CGB-AUHP-EUR" region="Europe" file="Heroes of Might and Magic (Europe) (En,Fr,De).gbc" md5="2AE0C6E8F9831D6E8F1ABAC86B01E7D6" crc="E0B9FD3B"/>
+<rom serial="DMG-AICP-EUR" region="Europe" file="Hexcite - The Shapes of Victory (USA, Europe) (SGB Enhanced).gbc" md5="4B068708FB29FDABBEE834114FE4A09D" crc="84084E5F"/>
+<rom serial="DMG-AQTP-EUR" region="Europe" file="Holy Magic Century (Europe) (En,Fr,De) (SGB Enhanced).gbc" md5="D7F3A39D4FDE196FBE2DDBB2A6E575A3" crc="ABD8CEAE"/>
+<rom serial="AHEP" region="Europe" file="Hot Wheels - Stunt Track Driver (USA, Europe) (SGB Enhanced).gbc" md5="9A908FD85216B1B3A994EC75D2CF9318" crc="72A5E820"/>
+<rom serial="CGB-BHUP-EUR" region="Europe" file="Hugo - Black Diamond Fever (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).gbc" md5="0762FC989C52652B2660F26BE0830F20" crc="685CAFCC"/>
+<rom serial="CGB-BHXP-EUR" region="Europe" file="Hugo - The Evil Mirror (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).gbc" md5="18C5DDDE4BCFFD1DDCBA490EB529F0D7" crc="24B76CD0"/>
+<rom serial="DMG-AHOP-NOE" region="Germany" file="Hugo 2 1-2 (Germany).gbc" md5="F1A64423CC8CC50338AB69FEEE3199F6" crc="FAB64B18"/>
+<rom serial="CGB-A3HJ-JPN" region="Japan" file="Hyper Olympic - Winter 2000 (Japan).gbc" md5="167E663A1CE00E6A510DD8257FA36A48" crc="A9B8F072"/>
+<rom serial="DMG-AHDJ-JPN" region="Japan" file="Hyper Olympic Series - Track &amp; Field GB (Japan) (SGB Enhanced).gbc" md5="1E67314232E073B75F092F058078074D" crc="77F76EBC"/>
+<rom serial="CGB-BIJP-EUR" region="Europe" file="Indiana Jones and the Infernal Machine (USA, Europe) (En,Fr,De).gbc" md5="4ADC91B001CF02DC42D2C0339535B8F9" crc="7FFF1142"/>
+<rom serial="DMG-ARLE-USA" region="USA" file="International Rally (USA) (SGB Enhanced).gbc" md5="8E1C9863CF7AD15C824F2AF6ACF130C4" crc="B85FD752"/>
+<rom serial="CGB-BWSE-MSA" region="USA" file="International Superstar Soccer 2000 (USA).gbc" md5="344B42A5BF2F591C0EC86CAE24238D6D" crc="E8FA7203"/>
+<rom serial="DWG-AWZP-EUR" region="Europe" file="International Superstar Soccer 99 (Europe) (SGB Enhanced).gbc" md5="DD1505A3F4D7289B37107C6A98931EB4" crc="1B76D115"/>
+<rom serial="DMG-AWZE-USA" region="USA" file="International Superstar Soccer 99 (USA) (SGB Enhanced).gbc" md5="36DF5EBE75980AC4409DEAD125247BCE" crc="9D0290A7"/>
+<rom serial="DMG-AHDP-EUR" region="" file="International Track &amp; Field (Europe) (En,Fr,De,It) (SGB Enhanced).gbc" md5="C48AB40A864707E54688B9CF8DB15FAA" crc="327EC81F"/>
+<rom serial="CGB-B3HP-EUR" region="" file="International Track &amp; Field - Summer Games (Europe).gbc" md5="B9795B5D6397D36C1666C3A0BADA059F" crc="D826C75F"/>
+<rom serial="DMG-B39J-JPN" region="Japan" file="Jagainu-kun (Japan).gbc" md5="2C8F92EA472FB0DBA87B45E9E580A84A" crc="AEB634C5"/>
+<rom serial="CGB-AJOD-NOE" region="Germany" file="Janosch - Das grosse Panama-Spiel (Germany).gbc" md5="AF584EEA2B34AFDBB6193348ECB58F11" crc="32C8EE13"/>
+<rom serial="CGB-BJYD-NOE" region="Germany" file="Jay und die Spielzeugdiebe (Germany).gbc" md5="29F2B4C6D1F163F728E79F9C7400E016" crc="73F4F6DA"/>
+<rom serial="CGB-AJUP-EUR" region="Europe" file="Jeremy McGrath Supercross 2000 (USA, Europe).gbc" md5="0143DBB62B1A88E7CCE65F9779CE9D4B" crc="F0F9ABE6"/>
+<rom serial="CGB-BJWP-EUR" region="Europe" file="Jimmy White's Cueball (Europe).gbc" md5="8E23226758BE3AE7A83803F9147ADA5E" crc="27632F4F"/>
+<rom serial="DMG-ACJJ-JPN" region="Japan" file="Jinsei Game - Tomodachi Takusan Tsukurou yo! (Japan) (SGB Enhanced).gbc" md5="3C2A7051B554CF70183CFA5D99AD021F" crc="C8D46E99"/>
+<rom serial="CGB-BJTJ-JPN" region="Japan" file="Jissen ni Yakudatsu Tsumego (Japan) (Rev A).gbc" md5="D315DC5767C97E99D3D2AEC84D6EA226" crc="55EFA05E"/>
+<rom serial="1B-003" region="World" file="Jurassic Boy II + Thunder Blast Man (World) (1B-002, 1B-003, Sachen) (Unl).gbc" md5="0834C2990995CBD2C76DB538FF93C5BA" crc="497BE52B"/>
+<rom serial="1B-002" region="World" file="Jurassic Boy II + Thunder Blast Man (World) (1B-002, 1B-003, Sachen) (Unl).gbc" md5="0834C2990995CBD2C76DB538FF93C5BA" crc="497BE52B"/>
+<rom serial="DMG-AZXJ-JPN" region="" file="Juukou Senki Bullet Battlers (Japan) (SGB Enhanced).gbc" md5="5BD9F0923DC29BD9E566933C3C3E7902" crc="4039C187"/>
+<rom serial="CGB-BVRD-NOE" region="Germany" file="Kaept'n Blaubaer - Die verrueckte Schatzsuche (Germany).gbc" md5="433D5DF048561D0A276A56B210E25D9B" crc="77E13DBE"/>
+<rom serial="CGB-BMFJ-JPN" region="" file="Kakurenbo Battle Monster Tactics (Japan).gbc" md5="EA3CFB50763DF7977B3E45B280066742" crc="9CFA76C3"/>
+<rom serial="DMG-AWRJ-JPN" region="" file="Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Japan) (SGB Enhanced).gbc" md5="F418CDE12A87673DA824D354A92F93E5" crc="459A126B"/>
+<rom serial="CGB-BK3J-JPN" region="Japan" file="Kanji Boy 3 (Japan).gbc" md5="51C8578D742AE2306B863776738F6772" crc="2D4D8597"/>
+<rom serial="DMG-VUTJ-JPN" region="Japan" file="Kawa no Nushi Tsuri 4 (Japan) (Rumble Version) (SGB Enhanced).gbc" md5="8CE641B1EFBF76CC5F2A841942345A0F" crc="F0B09DDB"/>
+<rom serial="DMG-AEIJ-JPN" region="Japan" file="Kawaii Pet Shop Monogatari (Japan) (SGB Enhanced).gbc" md5="C8FF99C216603FF09733BB4F80E2BC61" crc="44767443"/>
+<rom serial="BMNJ" region="Japan" file="Kawaii Pet Shop Monogatari 2 (Japan) (Rev 1).gbc" md5="6F4B114B010C05ED286E4470D165ABE2" crc="6FCE1AD0"/>
+<rom serial="DMG-BMNJ-JPN" region="Japan" file="Kawaii Pet Shop Monogatari 2 (Japan) (Rev 1).gbc" md5="6F4B114B010C05ED286E4470D165ABE2" crc="6FCE1AD0"/>
+<rom serial="CGB-BKNP-EUR" region="Europe" file="Keep the Balance (Europe) (En,Fr,De,Es,It).gbc" md5="D5161ED7380AF488B22302691C9A33CD" crc="B868E846"/>
+<rom serial="(PA)DMG-BTXJ-JPN" region="Japan" file="Keitai Denjuu Telefang - Power Version (Japan).gbc" md5="04F7EA139FEF2BC2E3F70B2C23933D2E" crc="8B61CFCC"/>
+<rom serial="DMG-BTZJ-JPN" region="Japan" file="Keitai Denjuu Telefang - Speed Version (Japan).gbc" md5="EBFE05828463CC004898E6A95EE57FEA" crc="FB528F66"/>
+<rom serial="CGB-AQNJ-JPN" region="Japan" file="Kidou Senkan Nadesico - Ruri Ruri Mahjong (Japan).gbc" md5="3F26686ACCD8714584B966D277973873" crc="6427CD7A"/>
+<rom serial="DMG-A5KJ-JPN" region="Japan" file="Kinniku Banzuke GB - Chousensha wa Kimida! (Japan) (SGB Enhanced).gbc" md5="D4876D692DCB6CA68786E1DF3AF361A6" crc="E2E4328B"/>
+<rom serial="DMG-B6KJ-JPN" region="Japan" file="Kinniku Banzuke GB2 - Mezase! Muscle Champion (Japan) (SGB Enhanced).gbc" md5="20102ABB2A331FF4CC101D3513C891CD" crc="42DE9092"/>
+<rom serial="CGB-KTNE-USA" region="USA" file="Kirby - Tilt 'n' Tumble (USA).gbc" md5="F2E24776D93082362C9B435ABC167D89" crc="E541ACF1"/>
+<rom serial="CGB-B23J-JPN" region="Japan" file="Kisekae Series 2 - Oshare Nikki (Japan) (Rev A).gbc" md5="6B63533C97A27DEDC48AAE58D4E47C1F" crc="E915337C"/>
+<rom serial="CGB-BKHJ-JPN" region="Japan" file="Kisekae Series 3 - Kisekae Hamster (Japan).gbc" md5="6736E0DC64FA3584ED48B1A9D845ABCB" crc="A29D862F"/>
+<rom serial="CGB-ALXP-EUR" region="Europe" file="Klax (USA, Europe).gbc" md5="3BD0DAD0C695A534B9E89264E09E2B11" crc="7181CBD0"/>
+<rom serial="DMG-AKUP-EUR" region="Europe" file="Klustar (Europe) (En,Fr,De,Es,It).gbc" md5="ACB6B136FA26888D42B5F95871A75EAA" crc="577E1521"/>
+<rom serial="CGB-AXKP-EUR" region="Europe" file="Knockout Kings (USA, Europe).gbc" md5="64FA89B64514A71651C1B8DC629BA8F3" crc="A0D64934"/>
+<rom serial="CGB-BLKD-NOE" region="Germany" file="Koenig der Loewen, Der - Simbas grosses Abenteuer (Germany).gbc" md5="BB8E268F1413ADBBBF8654DAA5C645B4" crc="EA11E39C"/>
+<rom serial="DMG-AF6P-EUR" region="Europe" file="Konami GB Collection Vol.2 (Europe).gbc" md5="ED679655B3721327EA36C857C554427A" crc="A6499792"/>
+<rom serial="DMG-AF7P-EUR" region="Europe" file="Konami GB Collection Vol.3 (Europe).gbc" md5="98F7778539E22307D074CF0ABB37D05C" crc="D4D6243D"/>
+<rom serial="DMG-AF8P-EUR" region="Europe" file="Konami GB Collection Vol.4 (Europe).gbc" md5="F3414D53473E2CC43347774CC5F40495" crc="8800F1C9"/>
+<rom serial="DMG-A2KJ-JPN" region="" file="Konchuu Hakase 2 (Japan) (SGB Enhanced).gbc" md5="0DB5276E6A52112BCB71DD20F4F39782" crc="B6381744"/>
+<rom serial="CGB-KKKJ-JPN" region="Japan" file="Korokoro Kirby (Japan).gbc" md5="6AE02BF9FC6765129B06734AC13E4DA4" crc="C0FACE3D"/>
+<rom serial="CGB-BLBP-EUR" region="Europe" file="Land Before Time, The (Europe) (En,Fr,De,Es,It).gbc" md5="634C5B73113B589530BC70CFB5CE3598" crc="F253E082"/>
+<rom serial="DMG-ACWE-USA" region="" file="Las Vegas Cool Hand (USA).gbc" md5="BA205296796AD7CDC8CA180B280714D1" crc="BEF1CDE4"/>
+<rom serial="CGB-BPXE-USA" region="USA" file="Laura (USA).gbc" md5="637B90B33AEB3688187C6AC73DB3488E" crc="E2BFF286"/>
+<rom serial="DMG-AZLF-FRA" region="France" file="Legend of Zelda, The - Link's Awakening DX (France) (SGB Enhanced).gbc" md5="1043FD167D0ED9C4094E3C9D8E757F1E" crc="F48824FE"/>
+<rom serial="DMG-AZLF-FRA" region="France" file="Legend of Zelda, The - Link's Awakening DX (France) (Rev A) (SGB Enhanced).gbc" md5="68242187B65166B5F8225B20E2021659" crc="4E2B75E7"/>
+<rom serial="DMG-AZLD-NOE" region="Germany" file="Legend of Zelda, The - Link's Awakening DX (Germany) (Rev A) (SGB Enhanced).gbc" md5="B0080C2F1919A4BB0EA73B788F4A6786" crc="EFB76777"/>
+<rom serial="DMG-AZLE-USA" region="USA" file="Legend of Zelda, The - Link's Awakening DX (USA, Europe) (SGB Enhanced).gbc" md5="07C211479386825042EFB4AD31BB525F" crc="97822948"/>
+<rom serial="DMG-AZLP-AUS" region="Europe" file="Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev B) (SGB Enhanced).gbc" md5="7351DAA3C0A91D8F6FE2FBCCA6182478" crc="06887A34"/>
+<rom serial="DMG-AZLP-EUR" region="" file="Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev B) (SGB Enhanced).gbc" md5="7351DAA3C0A91D8F6FE2FBCCA6182478" crc="06887A34"/>
+<rom serial="CGB-AZ8P-EUR" region="Europe" file="Legend of Zelda, The - Oracle of Ages (Europe) (En,Fr,De,Es,It).gbc" md5="825DE040EA4DFF66661693F8712B1BDB" crc="5933E3FA"/>
+<rom serial="CGB-AZ8E-USA" region="USA" file="Legend of Zelda, The - Oracle of Ages (USA).gbc" md5="C4639CC61C049E5A085526BB6CAC03BB" crc="3800A387"/>
+<rom serial="CGB-AZ8U-AUS" region="" file="Legend of Zelda, The - Oracle of Ages (USA).gbc" md5="C4639CC61C049E5A085526BB6CAC03BB" crc="3800A387"/>
+<rom serial="CGB-AZ7P-EUR" region="Europe" file="Legend of Zelda, The - Oracle of Seasons (Europe) (En,Fr,De,Es,It).gbc" md5="4CA44CBDD4E05C9B3C22DA96D3DE6338" crc="DBAC1357"/>
+<rom serial="CGB-AZ7E-USA" region="USA" file="Legend of Zelda, The - Oracle of Seasons (USA).gbc" md5="F2DC6C4E093E4F8C6CBEA80E8DBD62CB" crc="D7E9F5D7"/>
+<rom serial="CGB-AZ7U-AUS" region="" file="Legend of Zelda, The - Oracle of Seasons (USA).gbc" md5="F2DC6C4E093E4F8C6CBEA80E8DBD62CB" crc="D7E9F5D7"/>
+<rom serial="CGB-BLRP-EUU" region="" file="LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da).gbc" md5="0E13C1506562050AB39BC7D0FCD41ECF" crc="0A109F13"/>
+<rom serial="CGB-BLRE-USA" region="USA" file="LEGO Racers (USA) (En,Fr,Es).gbc" md5="A2D07E7DA188092C88EF6D9FD2E5EAA4" crc="F6865B09"/>
+<rom serial="CGB-BLKP-UKV" region="Europe" file="Lion King, The - Simba's Mighty Adventure (USA, Europe).gbc" md5="67117CC76E2B270E65C2778C734F905F" crc="D5B4B7BB"/>
+<rom serial="CGB-BY2P-EUR" region="" file="Little Mermaid II, The - Pinball Frenzy (Europe) (En,Fr,De,Es,It).gbc" md5="F19153C5BC422A2B1B13A4B9FF5D7BD9" crc="9FEC297E"/>
+<rom serial="CGB-VM2E-USA" region="USA" file="Little Mermaid II, The - Pinball Frenzy (USA) (En,Fr,De,Es,It) (Rumble Version).gbc" md5="7F8C472F3C7BD1EEC56A3BAD10A2E94C" crc="364F9CCD"/>
+<rom serial="CGB-AOGP-NOE" region="Europe" file="Logical (Europe).gbc" md5="49B48529D5291796A96659468C41CC54" crc="5EEE76C4"/>
+<rom serial="DMG-ALTP-UKV" region="" file="Looney Tunes (Europe).gbc" md5="A539A0AE1B1ED8034FC3A4733B4298C3" crc="76CF3E3A"/>
+<rom serial="DMG-ALTP-EUR" region="Europe" file="Looney Tunes (Europe).gbc" md5="A539A0AE1B1ED8034FC3A4733B4298C3" crc="76CF3E3A"/>
+<rom serial="DMG-ALTE-USA" region="USA" file="Looney Tunes (USA).gbc" md5="F687B51A0FAB72E03766356B62261A49" crc="4EF3DDD7"/>
+<rom serial="CGB-ALMP-NOE" region="Europe" file="Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="9562A0AAD16857F2F1A8E4169163C18A" crc="5D85DFAD"/>
+<rom serial="CGB-ALMP-ESP" region="Europe" file="Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="9562A0AAD16857F2F1A8E4169163C18A" crc="5D85DFAD"/>
+<rom serial="CGB-ALMJ-JPN" region="Japan" file="Looney Tunes Collector - Martian Quest! (Japan).gbc" md5="74F0CA3425914DF4AF3210541FF619C8" crc="BC46A2D2"/>
+<rom serial="CGB-BLQP-EUR" region="Europe" file="Looney Tunes Racing (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="8B8064A09B8FC56182AB423EBAD9381B" crc="7EFDCA8A"/>
+<rom serial="CGB-ALQE-USA" region="USA" file="Lucky Luke (USA) (En,Fr,De,Es).gbc" md5="7CF3670A8F345344E4789E41503D7DA6" crc="A5E29F34"/>
+<rom serial="CGB-BLFP-EUR" region="Europe" file="Lufia - The Legend Returns (Europe) (En,De).gbc" md5="1FF9B71A347A7DEED87BCEDEB7C5EA70" crc="470DCB1D"/>
+<rom serial="CGB-BLCE-USA" region="USA" file="Lufia - The Legend Returns (USA).gbc" md5="A00012533E76649F4E7E1B7AA5A9EE07" crc="5BAE3C04"/>
+<rom serial="CGB-BMIP-UKV" region="Europe" file="M&amp;M's Minis Madness (Europe).gbc" md5="0BFAC235A5BD9CD57D7B3E7E83993458" crc="60683BC4"/>
+<rom serial="CGB-BMID-NOE" region="Germany" file="M&amp;M's Minis Madness (Germany).gbc" md5="0650CBE5E04F8968D5C09740AF7AA152" crc="A666F54D"/>
+<rom serial="DMG-AEMP-EUR" region="Europe" file="Madden NFL 2000 (USA, Europe) (SGB Enhanced).gbc" md5="071AD15A9890F73890C4E0DEDD07793E" crc="482944AA"/>
+<rom serial="CGB-AXJP-EUR" region="" file="Magical Drop (Europe) (En,Fr,De).gbc" md5="618946A1D8D7154C200FE278EF030140" crc="EA9EE203"/>
+<rom serial="CGB-AXCP-EUR" region="" file="Magical Tetris Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="7FD49763F6A8ACEB6AEA4CFE601A8B10" crc="0A421839"/>
+<rom serial="DMG-A23J-JPN-1" region="Japan" file="Majokko Mari-chan no Kisekae Monogatari (Japan) (Rev A) (SGB Enhanced).gbc" md5="C9A5171978E3587475BD6FFB17300B75" crc="0D16A545"/>
+<rom serial="CGB-ANNP-EUR" region="Europe" file="Marble Madness (USA, Europe).gbc" md5="D2711FF066F40C4E6C471B79DA0F08B7" crc="4EC78785"/>
+<rom serial="DMG-A8MJ-JPN" region="Japan" file="Marie no Atelier GB (Japan) (SGB Enhanced).gbc" md5="FE97E6BB194BD38E5BAEB889B4C8E251" crc="6144FC66"/>
+<rom serial="CGB-BJMJ-JPN" region="Japan" file="Mario Family (Japan).gbc" md5="4CF10B2C7AE81E62E82DA32DE3A9D48E" crc="AB3F3CEF"/>
+<rom serial="CGB-AWXP-EUR" region="Europe" file="Mario Golf (Europe).gbc" md5="71156F1794556ACD255AE256D8195E32" crc="A132417D"/>
+<rom serial="CGB-AWXJ-JPN" region="Japan" file="Mario Golf GB (Japan).gbc" md5="C43CE6E1C66E6FCFC259762A9244A63D" crc="4CA2191A"/>
+<rom serial="CGB-BM8P-EUR" region="Europe" file="Mario Tennis (Europe).gbc" md5="A320F9DE83767BB1BC1BBBC6FBD96011" crc="0510D601"/>
+<rom serial="CGB-BM8E-USA" region="" file="Mario Tennis (USA).gbc" md5="50AF67F7321D84BD052F0E793EE0613C" crc="A781C63C"/>
+<rom serial="CGB-BM8J-JPN" region="Japan" file="Mario Tennis GB (Japan).gbc" md5="D7F63BBB351A95D73D085A58C8E9F449" crc="19070962"/>
+<rom serial="DMG-BXFP-EUR" region="Europe" file="Mary-Kate &amp; Ashley - Get a Clue! (USA, Europe).gbc" md5="CC7639A2269210338B52E626096A99D9" crc="46FAA730"/>
+<rom serial="CGB-BCVP-UKV" region="Europe" file="Mary-Kate and Ashley - Crush Course (USA, Europe).gbc" md5="D219A65AA70FD9E1E75C65BDF97913DA" crc="69DB3CD8"/>
+<rom serial="DMG-BMAP-EUR" region="Europe" file="Mary-Kate and Ashley - Pocket Planner (USA, Europe).gbc" md5="9D80032F7D8DDDB30AABF19455E9C6E3" crc="84A880B9"/>
+<rom serial="DMG-BMAE-USA" region="USA" file="Mary-Kate and Ashley - Pocket Planner (USA, Europe).gbc" md5="9D80032F7D8DDDB30AABF19455E9C6E3" crc="84A880B9"/>
+<rom serial="CGB-BHFP-EUR" region="Europe" file="Mary-Kate and Ashley - Winners Circle (USA, Europe).gbc" md5="9DE083FF607F9A8022FDE52D598160E8" crc="35D6DDCC"/>
+<rom serial="CGB-AZRP-EUR" region="" file="Mask of Zorro, The (Europe).gbc" md5="A119452D83B0A2E72BFC0AC706325667" crc="909C870F"/>
+<rom serial="CGB-BM5E-USA" region="USA" file="Mat Hoffman's Pro BMX (USA, Europe).gbc" md5="8BF8F9A1E0080D257820EC5506A3FC8F" crc="515C1459"/>
+<rom serial="CGB-BM5P-EUR" region="Europe" file="Mat Hoffman's Pro BMX (USA, Europe).gbc" md5="8BF8F9A1E0080D257820EC5506A3FC8F" crc="515C1459"/>
+<rom serial="CGB-BEPP-EUR" region="Europe" file="Matchbox Emergency Patrol (USA, Europe).gbc" md5="B717E9A48B44A5D367E8BCB4A5E68535" crc="A3F23D7E"/>
+<rom serial="CGB-ADXP-NOE" region="Europe" file="Maus, Die (Europe) (En,Fr,De,Es).gbc" md5="F9BE99D213760BA2E9525ABEA1DE3CB6" crc="E7BD4A49"/>
+<rom serial="CGB-BVOD-NOE" region="Germany" file="Maus, Die - Verrueckte Olympiade (Germany).gbc" md5="0CD10ACB3C569FAECD01B9CED51021B2" crc="FD11138E"/>
+<rom serial="CGB-BI9J-JPN" region="Japan" file="McDonald's Monogatari - Honobono Tenchou Ikusei Game (Japan).gbc" md5="E6009A3556E22FA2F42134999759D366" crc="66328695"/>
+<rom serial="DMG-A2MJ-JPN" region="Japan" file="Medarot 2 - Kabuto Version (Japan) (SGB Enhanced).gbc" md5="C0FD19D90D3D876CC321074239C7334E" crc="BF6BD446"/>
+<rom serial="DMG-A2NJ-JPN" region="Japan" file="Medarot 2 - Kuwagata Version (Japan) (SGB Enhanced).gbc" md5="44090E5F80E30ABDDF264B170C236A9E" crc="5B8FFD37"/>
+<rom serial="DMG-A7CJ-JPN" region="Japan" file="Medarot 2 - Parts Collection (Japan) (SGB Enhanced).gbc" md5="5F797C8C175237B9EF0D9A6888A4A239" crc="159673DB"/>
+<rom serial="CGB-B32J-JPN" region="Japan" file="Medarot 3 - Kabuto Version (Japan).gbc" md5="CBC55F3BB98F8C0443917AE477E56E51" crc="E655632C"/>
+<rom serial="CGB-B3PJ-JPN" region="Japan" file="Medarot 3 - Kuwagata Version (Japan).gbc" md5="DABFBDC9ABA5F2EDC21F884C52881E0D" crc="BC617834"/>
+<rom serial="CGB-B33J-JPN" region="Japan" file="Medarot 3 - Parts Collection - Z kara no Chousenjou (Japan).gbc" md5="3B789F606B4B249F1557F55CF102D45E" crc="EE2D977F"/>
+<rom serial="CGB-B4NJ-JPN" region="Japan" file="Medarot 4 - Kuwagata Version (Japan).gbc" md5="7E9F03DCBF376FB935553684D6C7D8F5" crc="6A29B9D8"/>
+<rom serial="CGB-B5MJ-JPN" region="Japan" file="Medarot 5 - Susutake Mura no Tenkousei - Kabuto (Japan).gbc" md5="6CC1CFBD1FC01B948E03F507C530260D" crc="A3C1756E"/>
+<rom serial="CGB-B5NJ-JPN" region="Japan" file="Medarot 5 - Susutake Mura no Tenkousei - Kuwagata (Japan).gbc" md5="11893F422BCFE26E22889A0FCDF61547" crc="014083A8"/>
+<rom serial="DMG-A8CJ-JPN" region="Japan" file="Medarot Cardrobottle - Kabuto Version (Japan) (SGB Enhanced).gbc" md5="B1DBA18C324554A433893073599777A7" crc="4F03D80A"/>
+<rom serial="DMG-A9CJ-JPN" region="" file="Medarot Cardrobottle - Kuwagata Version (Japan) (SGB Enhanced).gbc" md5="6EAB24805E2DEA9C991D679FD00A5D87" crc="A3735F81"/>
+<rom serial="BM6P" region="Europe" file="Mega Man Xtreme (USA, Europe).gbc" md5="4681F5B931A2E60CA163FACD1ADF56ED" crc="3A4D94D5"/>
+<rom serial="CGB-B2XP-EUR" region="Europe" file="Mega Man Xtreme 2 (USA, Europe).gbc" md5="1F64989765F605D05CBD013E7FFCC352" crc="8FEDB6D8"/>
+<rom serial="DMG-A4BJ-JPN" region="Japan" file="Meitantei Conan - Karakuri Jiin Satsujin Jiken (Japan) (SGB Enhanced).gbc" md5="3A3E92C106A8674642E0EE3C0C793A9F" crc="3B5F24FC"/>
+<rom serial="DMG-A5BJ-JPN" region="Japan" file="Meitantei Conan - Kigantou Hihou Densetsu (Japan) (SGB Enhanced).gbc" md5="F5325EAF1ECBF7CD6E1E561A3B5D77F7" crc="E620FAE2"/>
+<rom serial="DMG-AMNP-EUR" region="Europe" file="Men in Black - The Series (USA, Europe) (SGB Enhanced).gbc" md5="42FF80B90350D30AAFE41EA2C71A79BF" crc="65B8B343"/>
+<rom serial="CGB-BMSP-EUR" region="Europe" file="Metal Gear Solid (Europe) (En,Fr,De,Es,It).gbc" md5="7971C95AD9745FE20DF52E03CD52F636" crc="16796957"/>
+<rom serial="CGB-BMGE-USA" region="USA" file="Metal Gear Solid (USA).gbc" md5="F6DD1B1E5747412B9E5F25376C972D5A" crc="04B0C5D6"/>
+<rom serial="DMG-BM4E-USA" region="USA" file="Metal Walker (USA).gbc" md5="82D17BEB1AEFD1B93621D6FA61DFA1CB" crc="3BE68391"/>
+<rom serial="CGB-BTMJ-JPN" region="Japan" file="Metamode (Japan).gbc" md5="017CDE0DB5D27525AF84123F1CE81EDF" crc="A76EED5B"/>
+<rom serial="CGB-ARNP-EUR" region="Europe" file="Mickey's Racing Adventure (USA, Europe) (En,Fr,De,Es,It).gbc" md5="221D3B96DF7D86291B553A7CB4702DEC" crc="D5E845F4"/>
+<rom serial="ARNP" region="Europe" file="Mickey's Racing Adventure (USA, Europe) (En,Fr,De,Es,It).gbc" md5="221D3B96DF7D86291B553A7CB4702DEC" crc="D5E845F4"/>
+<rom serial="CGB-BSNP-EUR" region="Europe" file="Mickey's Speedway USA (USA, Europe) (En,Fr,De,Es).gbc" md5="FF9B78E1F399FC2BD665B8A08BA27456" crc="11763934"/>
+<rom serial="CGB-AT8P-EUR" region="Europe" file="Micro Machines 1 and 2 - Twin Turbo (USA, Europe).gbc" md5="A721520DF37C636ED924DBC268CDD753" crc="5DD337EB"/>
+<rom serial="CGB-BM3P-EUR" region="Europe" file="Micro Machines V3 (USA, Europe).gbc" md5="B6EA71372C0ACB3CDC8CC64A4B2ADD2E" crc="B8064453"/>
+<rom serial="CGB-AZWE-USA" region="USA" file="Microsoft - The 6 in 1 Puzzle Collection Entertainment Pack (USA).gbc" md5="45A4CEFCA0B17CA193869BF6D6134D7C" crc="0777B8D7"/>
+<rom serial="CGB-BMZP-EUR" region="Europe" file="Microsoft - The Best of Entertainment Pack (Europe).gbc" md5="C576F119CB3AD8AD7B5F18E6755232F3" crc="0F02D708"/>
+<rom serial="CGB-BMQE-USA" region="USA" file="Microsoft Pinball Arcade (USA).gbc" md5="31F7A606B52E8D10FC010B4EFE9FB514" crc="504F55C5"/>
+<rom serial="CGB-BMQP-EUR" region="Europe" file="Microsoft Pinball Arcade (Europe).gbc" md5="49BC624C902FCB2E4892E5C823C987D0" crc="4EB7DB14"/>
+<rom serial="DMG-A7YJ-JPN" region="Japan" file="Minna no Shougi - Shokyuu Hen (Japan).gbc" md5="8D2A6B487AADE7CA05696548C2EFB181" crc="5CB4FC8A"/>
+<rom serial="CGB-BYKJ-JPN" region="Japan" file="Minnie &amp; Friends - Yume no Kuni o Sagashite (Japan).gbc" md5="5323967B4E46C4A76EA3576675BE42AC" crc="D47AE577"/>
+<rom serial="CGB-ALCP-EUR" region="Europe" file="Missile Command (Europe).gbc" md5="708F4C9E41D17B8F4FB11CC227FE9989" crc="18216E26"/>
+<rom serial="CGB-BGOJ-JPN" region="Japan" file="Mobile Golf (Japan).gbc" md5="FBF1FFE76883DFFCCA299228C81F171F" crc="35FC5B32"/>
+<rom serial="CGB-B9AJ-JPN" region="Japan" file="Mobile Trainer (Japan).gbc" md5="AEF9B41FBC898A58FD2AAAEABC2787E9" crc="7226EAD0"/>
+<rom serial="CGB-BI2J-JPN" region="Japan" file="Momotarou Densetsu 1-2 (Japan).gbc" md5="88938327F7A5A8D11470D14D17F412B3" crc="DA7FB08F"/>
+<rom serial="DMG-AHAJ-JPN" region="Japan" file="Monopoly (Japan) (SGB Enhanced).gbc" md5="92E01E78A83C86C22EE1DCBBF4C7C2F4" crc="0503E567"/>
+<rom serial="DMG-A6TJ-JPN" region="Japan" file="Monster Farm Battle Card GB (Japan) (SGB Enhanced).gbc" md5="D455F4AE266279DAA36F3F3E54569239" crc="69B88F1E"/>
+<rom serial="DMG-AMWJ-JPN" region="Japan" file="Monster Race 2 (Japan) (SGB Enhanced).gbc" md5="C9A1DAB66E0B13D5835C392437B16A5A" crc="B985F0D8"/>
+<rom serial="DMG-A6TE-USA" region="" file="Monster Rancher Battle Card GB (USA) (SGB Enhanced).gbc" md5="31FC2F3DF8AA15F627574029C3CF03DA" crc="50DDF120"/>
+<rom serial="CGB-BFVJ-JPN" region="Japan" file="Monster Traveler (Japan) (Rev A).gbc" md5="9D1067C75DCBCE5AACABACABB06B95C4" crc="F60A376E"/>
+<rom serial="CGB-B4QX-EUR" region="Europe" file="Monsters, Inc. (Europe) (En,Es,Nl).gbc" md5="F3DAA6CE7708668405674C735BEA9745" crc="63E3BBB4"/>
+<rom serial="CGB-B4QY-EUU" region="Europe" file="Monsters, Inc. (Europe) (En,Fr,It).gbc" md5="D62E0C703BC1A84E0FCE512F4B9C46E7" crc="712D40A5"/>
+<rom serial="CGB-B4QP-UKV" region="Europe" file="Monsters, Inc. (USA, Europe).gbc" md5="5776965258EE78832E7EABC0DB66FF4B" crc="183DBB31"/>
+<rom serial="CGB-B4QE-USA-1" region="USA" file="Monsters, Inc. (USA, Europe).gbc" md5="5776965258EE78832E7EABC0DB66FF4B" crc="183DBB31"/>
+<rom serial="CGB-B4QP-UKV" region="Europe" file="Monsters, Inc. (Europe) (Rev A).gbc" md5="4B684B00ECC0CF15536DC5AB58BDD470" crc="3726858A"/>
+<rom serial="DMG-AZMP-EUR" region="Europe" file="Montezuma's Return! (Europe) (En,Fr,De,Es,It).gbc" md5="EE44254C96FA9318A26A1A5B0A9B48FE" crc="659693DE"/>
+<rom serial="CGB-BU4P-NOE" region="Europe" file="Moorhen 3 - The Chicken Chase! (Europe) (En,Fr,De,Es,It).gbc" md5="7E8280463D7AC79662D8BE587BB6B766" crc="B7C1025B"/>
+<rom serial="CGB-BDED-NOE" region="Germany" file="Moorhuhn 2 - Die Jagd geht weiter (Germany).gbc" md5="B5FE88BBDE541C28625E32B83239E6F0" crc="ED52CEAF"/>
+<rom serial="DMG-A4KD-NOE" region="Germany" file="Mortal Kombat 4 (Germany) (SGB Enhanced).gbc" md5="7311F937A542BAADF113E9115158CDE3" crc="87588725"/>
+<rom serial="DMG-A4KP-EUR" region="Europe" file="Mortal Kombat 4 (USA, Europe) (SGB Enhanced).gbc" md5="168AE412B379786F7DF07BD8231BAF44" crc="4EB71448"/>
+<rom serial="CGB-ANUE-USA" region="USA" file="Mr Nutz (USA) (En,Fr,Es).gbc" md5="9BA7B607EC310589C5CCFB1A8149DF59" crc="59F67529"/>
+<rom serial="CGB-BMDE-USA" region="USA" file="Mr. Driller (USA).gbc" md5="76FA4014BFBB0EE2B63267AF7AC373F2" crc="492C0EBF"/>
+<rom serial="CGB-BMDP-EUR" region="Europe" file="Mr. Driller (Europe).gbc" md5="8EE55A0AD476A0497A483A30C0B28316" crc="BDF9B05C"/>
+<rom serial="CGB-BPVP-EUR" region="Europe" file="MTV Sports - Pure Ride (USA, Europe).gbc" md5="94E1575453F54CBE157D13EAE6E78D92" crc="B7B2354B"/>
+<rom serial="CGB-BMTP-EUR" region="Europe" file="MTV Sports - Skateboarding featuring Andy MacDonald (USA, Europe).gbc" md5="54165D2BF7A040AA31D6D0956408D10D" crc="744561F3"/>
+<rom serial="CGB-BTVP-EUR" region="Europe" file="MTV Sports - T.J. Lavin's Ultimate BMX (USA, Europe).gbc" md5="495C72CDAC3CD684B5D56581CCC183E1" crc="904663AF"/>
+<rom serial="CGB-B2RP-EUR" region="Europe" file="Mummy Returns, The (Europe) (En,Fr,De,Es,It).gbc" md5="EE4FC61AFD79C8A20E57FA04F49AD1B3" crc="64052B9B"/>
+<rom serial="CGB-AX9P-EUR" region="Europe" file="Muppets, The (Europe) (En,Fr,De,Es,It,Nl,Sv) (AX9P).gbc" md5="3D24F9E876DF8C50573C00119D395B73" crc="0FAFA3F2"/>
+<rom serial="DMG-AP9P-EUR" region="Europe" file="Muppets, The (Europe) (En,Fr,De,Es,It,Nl,Sv) (AP9P).gbc" md5="9DCF58CE7C379A01C3288975E90624F3" crc="3204B92C"/>
+<rom serial="CGB-B3DJ-JPN" region="Japan" file="Nakayoshi Cooking Series 4 - Tanoshii Dessert (Japan).gbc" md5="995CEBD28AAA5D94B8A230E9F22606B3" crc="7E5C8542"/>
+<rom serial="CGB-B3CJ-JPN" region="Japan" file="Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan).gbc" md5="A03E3CD1A2C78BE11E3A52FE995CEC71" crc="C04539F8"/>
+<rom serial="CGB-B2HJ-JPN" region="Japan" file="Nakayoshi Pet Series 5 - Kawaii Hamster 2 (Japan).gbc" md5="8D222A58636551F679177E37C83EB134" crc="E5EC7BE5"/>
+<rom serial="BN2P" region="Europe" file="NASCAR 2000 (USA, Europe).gbc" md5="42E66DD2C0470D98487EF364E7DAF710" crc="54D90A4C"/>
+<rom serial="CGB-AJ7P-EUR" region="Europe" file="NBA In the Zone 2000 (Europe).gbc" md5="E3C757E5F4261E962CACC8A999EC0F87" crc="E6AF6D07"/>
+<rom serial="DMG-AJMP-EUR" region="Europe" file="NBA Jam '99 (USA, Europe).gbc" md5="1B543C5D0263730A3B862A02BB46F9A1" crc="84BE0EED"/>
+<rom serial="CGB-BJAP-EUR" region="Europe" file="NBA Jam 2001 (USA, Europe).gbc" md5="14BFCE85AF0AE19AFFBDCEF23A9D6BAF" crc="3AA75F1C"/>
+<rom serial="DMG-ANZP-EUR" region="Europe" file="NBA Pro '99 (Europe) (SGB Enhanced).gbc" md5="C6CC317C220B2DE231CE6DB9AF40BD83" crc="748564AE"/>
+<rom serial="CGB-BAUJ-JP" region="Japan" file="Network Boukenki Bugsite - Alpha Version (Japan).gbc" md5="7F9DBAFD6D16957E9687F89E33765F0B" crc="D65C8BA1"/>
+<rom serial="CGB-BAUJ-JPN" region="" file="Network Boukenki Bugsite - Alpha Version (Japan).gbc" md5="7F9DBAFD6D16957E9687F89E33765F0B" crc="D65C8BA1"/>
+<rom serial="DMG-AXFP-EUR" region="Europe" file="New Adventures of Mary-Kate &amp; Ashley, The (USA, Europe).gbc" md5="314CF4F2802B6972AA37C7964F5F0159" crc="DCA4474E"/>
+<rom serial="CGB-BBBP-EUR" region="" file="New Batman Adventures, The - Chaos in Gotham (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="4B64F2A44700D5BF9DC0A25A64A9EBB0" crc="E025067B"/>
+<rom serial="DMG-ABZP-EUU" region="Europe" file="NFL Blitz (USA, Europe) (Rev A).gbc" md5="331CD9F6AFA7EAB03157A35897AF846E" crc="107D734B"/>
+<rom serial="ANRP" region="Europe" file="NHL 2000 (USA, Europe) (SGB Enhanced).gbc" md5="2565FDADFB12B92B60B535CEC6492041" crc="BB625129"/>
+<rom serial="BNAJ" region="Japan" file="Nintama Rantarou - Ninjutsu Gakuen ni Nyuugaku Shiyou no Dan (Japan).gbc" md5="2CA1D1DD8B0DCCFB129D31987ED81E5F" crc="4631D8BF"/>
+<rom serial="DMG-AGYJ-JPN" region="Japan" file="Nobunaga no Yabou - Game Boy Ban 2 (Japan) (SGB Enhanced).gbc" md5="F8A6836A0F3448FAE3F2E79BA1D32769" crc="233862D0"/>
+<rom serial="CGB-AZEP-UKV" region="Europe" file="Noddy and the Birthday Party (Europe) (En,Fr,De,Es).gbc" md5="A67CB573673F041098F23F868A153019" crc="845B4E44"/>
+<rom serial="DMG-AOWP-EUU" region="Europe" file="Oddworld Adventures II (Europe) (En,Fr,De,Es,It).gbc" md5="68715E0A2805E3FC019FEC35A9CFF0D4" crc="4B83B14F"/>
+<rom serial="CGB-BD5J-JPN" region="Japan" file="Ohasuta Dance Dance Revolution GB (Japan).gbc" md5="521F0E017A4266355F3F4DC015F1DD46" crc="E338C118"/>
+<rom serial="DMG-AOSJ-JPN" region="Japan" file="Ohasuta Yama-chan &amp; Raymond (Japan) (SGB Enhanced).gbc" md5="C50667BAEE3E2ABDB1588394CC5D4534" crc="840EF32F"/>
+<rom serial="CGB-BLSJ-JPN" region="Japan" file="Oide Rascal (Japan).gbc" md5="8F43BC56783F98E97FE7F51603C1A025" crc="9E0799F4"/>
+<rom serial="DMG-BOJJ-JPN" region="Japan" file="Ojarumaru - Mangan Jinja no Ennichi de Ojaru! (Japan).gbc" md5="A4DF533C6B9B3423F71385E68BD5C421" crc="D86507C9"/>
+<rom serial="DMG-BORJ-JPN" region="Japan" file="Ojarumaru - Tsukiyo ga Ike no Takaramono (Japan).gbc" md5="5C3A09F365CFA467A11F14075B0D5517" crc="ED7461D2"/>
+<rom serial="CGB-BOMD-NOE" region="Germany" file="Original Moorhuhn Jagd, Die (Germany).gbc" md5="2382EDC04A323A227EA793E33C749C79" crc="714EC204"/>
+<rom serial="DMG-AAZJ-JPN" region="Japan" file="Other Life - Azure Dreams GB (Japan) (SGB Enhanced).gbc" md5="BBF9B39219ECEC88BEA41B98C8352634" crc="C6F1ABD4"/>
+<rom serial="CGB-AYPP-EUR" region="Europe" file="Paperboy (USA, Europe).gbc" md5="EE133AB2F9EA5B18E9A19CE9B599A883" crc="C0A98305"/>
+<rom serial="CGB-VPDE-USA" region="USA" file="Perfect Dark (USA, Europe) (En,Fr,De,Es,It) (Rumble Version).gbc" md5="840E1DDB2696ECAE487FD264A3C34581" crc="0601BEF6"/>
+<rom serial="CGB-VPDP-EUR" region="Europe" file="Perfect Dark (USA, Europe) (En,Fr,De,Es,It) (Rumble Version).gbc" md5="840E1DDB2696ECAE487FD264A3C34581" crc="0601BEF6"/>
+<rom serial="DMG-BKZJ-JPN" region="Japan" file="Phantom Zona (Japan) (SGB Enhanced).gbc" md5="A20D6884A7D6BC5610EF4078A72CE460" crc="3E43F25F"/>
+<rom serial="DMG-AFLP-EUR" region="Europe" file="Pitfall - Beyond the Jungle (USA, Europe).gbc" md5="D6DCE5C8DC02CE77D58F8852653E42E4" crc="F911BB5D"/>
+<rom serial="CGB-BYNE-USA" region="USA" file="Planet of the Apes (USA) (En,Fr,De,Es,It,Nl).gbc" md5="A55B8D588BBAA4EBCB4D53DBB534329F" crc="91D7CCCA"/>
+<rom serial="CGB-A9BJ-JPN" region="" file="Pocket Billiards - Funk the 9 Ball (Japan).gbc" md5="5B5F4BBEC087ABC00CE1F834A86BDAE3" crc="3B46E7C9"/>
+<rom serial="DMG-AKQE-USA" region="USA" file="Pocket Bomberman (USA, Europe) (SGB Enhanced).gbc" md5="2F6B6379F8C7CE5D66A198162F345EAA" crc="FA2A66E9"/>
+<rom serial="DMG-AKQP-EUR" region="Europe" file="Pocket Bomberman (USA, Europe) (SGB Enhanced).gbc" md5="2F6B6379F8C7CE5D66A198162F345EAA" crc="FA2A66E9"/>
+<rom serial="CGB-APJJ-JPN" region="Japan" file="Pocket Cooking (Japan).gbc" md5="ED002E5B29F7082A6A37191BF5AF1D08" crc="F5AB554D"/>
+<rom serial="CGB-HF2J-JPN" region="Japan" file="Pocket Family GB2 (Japan).gbc" md5="C9799917BF3C583453B3DA3CD5547398" crc="2A273244"/>
+<rom serial="CGB-A7GJ-JPN" region="Japan" file="Pocket GT (Japan).gbc" md5="0EE28078D6270DF663647E8A3E3FEAF6" crc="2AC77C5A"/>
+<rom serial="DMG-AV5J-JPN" region="Japan" file="Pocket King (Japan) (SGB Enhanced).gbc" md5="D9FFED48998C978D6BAD4A23AE2567B9" crc="DEE71D44"/>
+<rom serial="CGB-BXTJ-JPN" region="Japan" file="Pocket Monsters - Crystal Version (Japan).gbc" md5="9C3AE66BFFB28EA8ED2896822DA02992" crc="270C4ECC"/>
+<rom serial="CGB-AAXK-KOR" region="Korea" file="Pocket Monsters Eun (Korea).gbc" md5="F5E14B069EADDEE42735572BD23F7EF8" crc="9CC1F90F"/>
+<rom serial="CGB-AAUK-KOR" region="Korea" file="Pocket Monsters Geum (Korea).gbc" md5="82BD1D9171E60F147D9EEEA13EF07A12" crc="249A7A66"/>
+<rom serial="DMG-AAXJ-JPN" region="Japan" file="Pocket Monsters Gin (Japan) (SGB Enhanced).gbc" md5="1ABB25D01DBEB20F104E44364F56FE03" crc="BE1B928A"/>
+<rom serial="DMG-AAXJ-JPN" region="Japan" file="Pocket Monsters Gin (Japan) (Rev A) (SGB Enhanced).gbc" md5="75519C8B57CEA3AC91133B3DEC7658DE" crc="0AEA5383"/>
+<rom serial="DMG-AAUJ-JPN" region="Japan" file="Pocket Monsters Kin (Japan) (SGB Enhanced).gbc" md5="85BE569FE89F58C40F60480313314C67" crc="524478D4"/>
+<rom serial="DMG-AYSJ-JPN" region="Japan" file="Pocket Puyo Puyo Sun (Japan) (SGB Enhanced).gbc" md5="DE204AD9AE3E29CF2C06CEB372EC9CD2" crc="45661EC3"/>
+<rom serial="RG201-PK1" region="Europe" file="Pocket Smash Out &amp; Race Time (Europe) (Unl).gbc" md5="8F3A309320BCEFFBEE2B430E5BB5DE4F" crc="0AD5B775"/>
+<rom serial="CGB-BYTS-ESP" region="" file="Pokemon - Edicion Cristal (Spain).gbc" md5="8A626340F6B16BA45C1D4E07F2134875" crc="FF0A6F8A"/>
+<rom serial="DMG-AAUS-ESP" region="" file="Pokemon - Edicion Oro (Spain) (SGB Enhanced).gbc" md5="9462BC81907E38C59ACCCD739690E6F9" crc="3434A92B"/>
+<rom serial="DMG-AAXS-ESP" region="" file="Pokemon - Edicion Plata (Spain) (SGB Enhanced).gbc" md5="2D83FB454DD5687A802425C501854DC2" crc="1D9FAAC5"/>
+<rom serial="DMG-AAUE-USA" region="USA, Europe" file="Pokemon - Gold Version (USA, Europe) (SGB Enhanced).gbc" md5="A6924CE1F9AD2228E1C6580779B23878" crc="6BDE3C3E"/>
+<rom serial="DMG-AAUP-EUR-1" region="" file="Pokemon - Gold Version (USA, Europe) (SGB Enhanced).gbc" md5="A6924CE1F9AD2228E1C6580779B23878" crc="6BDE3C3E"/>
+<rom serial="DMG-AAUP-EUR" region="" file="Pokemon - Gold Version (USA, Europe) (SGB Enhanced).gbc" md5="A6924CE1F9AD2228E1C6580779B23878" crc="6BDE3C3E"/>
+<rom serial="DMG-AAUD-NOE" region="Germany" file="Pokemon - Goldene Edition (Germany) (SGB Enhanced).gbc" md5="7542EC9B695D4FE38ADFDAAA57364D83" crc="4889DFAA"/>
+<rom serial="DMG-AAXD-NOE" region="Germany" file="Pokemon - Silberne Edition (Germany) (SGB Enhanced).gbc" md5="F1F013CD591BC4EA77305BBC9F8CBB3C" crc="96C9DB95"/>
+<rom serial="DMG-AAXP-AUS" region="Europe" file="Pokemon - Silver Version (USA, Europe) (SGB Enhanced).gbc" md5="2AC166169354E84D0E2D7CF4CB40B312" crc="8AD48636"/>
+<rom serial="DMG-AAXP-EUR" region="" file="Pokemon - Silver Version (USA, Europe) (SGB Enhanced).gbc" md5="2AC166169354E84D0E2D7CF4CB40B312" crc="8AD48636"/>
+<rom serial="CGB-BYTI-ITA" region="Italy" file="Pokemon - Versione Cristallo (Italy).gbc" md5="7C513823F65B92A75E29067745839CC8" crc="D45AC039"/>
+<rom serial="CGB-AAUI-ITA" region="Italy" file="Pokemon - Versione Oro (Italy) (SGB Enhanced).gbc" md5="89BB59DC49B59B0CD30B7384D9860BB8" crc="4C184CE3"/>
+<rom serial="DMG-ACXJ-JPN" region="Japan" file="Pokemon Card GB (Japan) (SGB Enhanced).gbc" md5="1633BEC4CABEC857C0EC67C99D2F982B" crc="1926F570"/>
+<rom serial="CGB-BPNJ-JPN" region="" file="Pokemon de Panepon (Japan).gbc" md5="510EB8C9DF5D3F71E01F5A7898A0A1F1" crc="6BF7E4A6"/>
+<rom serial="DMG-VPHP-EUR" region="Europe" file="Pokemon Pinball (Europe) (En,Fr,De,Es,It) (Rumble Version) (SGB Enhanced).gbc" md5="3757C89C36BEC5E2093741A3E51D22DF" crc="39C432A4"/>
+<rom serial="DMG-VPHJ-JPN" region="Japan" file="Pokemon Pinball (Japan) (Rumble Version) (SGB Enhanced).gbc" md5="852D68F167A5957F5E73954763F36ADA" crc="13C70DE9"/>
+<rom serial="DMG-VPHU-AUS" region="" file="Pokemon Pinball (USA) (Rumble Version) (SGB Enhanced).gbc" md5="FBE20570C2E52C937A9395024069BA3C" crc="03CE8D9A"/>
+<rom serial="DMG-AXQP-NOE" region="Europe" file="Pokemon Trading Card Game (Europe) (En,Fr,De) (SGB Enhanced).gbc" md5="4572F09B61A36E94762FF60CBE182834" crc="4523376E"/>
+<rom serial="DMG-AXQU-AUS" region="" file="Pokemon Trading Card Game (USA) (SGB Enhanced).gbc" md5="219B2CC64E5A052003015D4BD4C622CD" crc="81069D53"/>
+<rom serial="CGB-AOVE-USA" region="USA" file="Pong - The Next Level (USA, Europe).gbc" md5="0A3DA06446D9A2C7E1EA8149C9026434" crc="476BD39D"/>
+<rom serial="CGB-AOVP-EUR" region="" file="Pong - The Next Level (USA, Europe).gbc" md5="0A3DA06446D9A2C7E1EA8149C9026434" crc="476BD39D"/>
+<rom serial="CGB-BP8P-EUR" region="Europe" file="Pooh and Tigger's Hunny Safari (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="7A58B84E406BD4DF6B3C3B8807493AA8" crc="8505D139"/>
+<rom serial="DMG-AVVJ-JPN" region="Japan" file="Power Pro Kun Pocket (Japan) (SGB Enhanced).gbc" md5="5AB6B2A6F4C48AA8A1E77E31370CDCB3" crc="145540D8"/>
+<rom serial="DMG-AVVJ-JPN" region="Japan" file="Power Pro Kun Pocket (Japan) (Rev A) (SGB Enhanced).gbc" md5="38D51BE26C98E1A89CACE0D4F0684F72" crc="894D88F2"/>
+<rom serial="DMG-BPWJ-JPN" region="Japan" file="Power Pro Kun Pocket 2 (Japan) (SGB Enhanced).gbc" md5="2C03CC138BE009ED83F036F919FF8F0A" crc="C2A4A3EB"/>
+<rom serial="DMG-APQP-EUU" region="Europe" file="Power Quest (Europe) (En,Fr,De,Es,It) (SGB Enhanced).gbc" md5="3286D6B332EDFB46D8504BCEBA7E55D7" crc="30E1E567"/>
+<rom serial="DMG-APQP-EUR" region="" file="Power Quest (Europe) (En,Fr,De,Es,It) (SGB Enhanced).gbc" md5="3286D6B332EDFB46D8504BCEBA7E55D7" crc="30E1E567"/>
+<rom serial="DMG-APQE-USA" region="USA" file="Power Quest (USA) (En,Fr,De,Es,It) (SGB Enhanced).gbc" md5="AC1F4AD52996882C60CE83CAC01E9CCF" crc="DAD6F6B4"/>
+<rom serial="CGB-BRSP-EUR" region="Europe" file="Power Rangers - Lightspeed Rescue (USA, Europe).gbc" md5="C3C4B88E40538C1C99B85313BC88DF6D" crc="99869172"/>
+<rom serial="CGB-B4TP-EUR" region="Europe" file="Power Rangers - Time Force (USA, Europe).gbc" md5="7510FE2592ACCFA6CCD4745612E64F88" crc="17E51443"/>
+<rom serial="CGB-BJJE-USA-1" region="USA" file="Powerpuff Girls, The - Bad Mojo Jojo (USA) (Rev A).gbc" md5="4B9D82D91A575CF96657383A26505EFF" crc="548A287A"/>
+<rom serial="CGB-BJJE-USA-2" region="USA" file="Powerpuff Girls, The - Bad Mojo Jojo (USA) (Rev B).gbc" md5="C73B80F668E138C6828C9BCCA13A13BA" crc="A111704F"/>
+<rom serial="CGB-BJJP-UKV" region="Europe" file="Powerpuff Girls, The - Bad Mojo Jojo (Europe).gbc" md5="FE510196E7FD81B5D9AB9CCA091435D7" crc="75D1063A"/>
+<rom serial="CGB-BBHE-USA-1" region="USA" file="Powerpuff Girls, The - Battle Him (USA) (Rev A).gbc" md5="57BCDE64A3005D4AAD8DF640F2B5F07C" crc="E3D6964C"/>
+<rom serial="CGB-BBHP-EUR" region="" file="Powerpuff Girls, The - Battle Him (Europe).gbc" md5="86D769E211C85C1AC956C4556E77F8F3" crc="788859AE"/>
+<rom serial="CGB-BBHF-FRA" region="France" file="Powerpuff Girls, The - Bulle Contre Lui (France).gbc" md5="FD5D1AD9FA778895FA24D1FE1ECA52B7" crc="7085270C"/>
+<rom serial="CGB-BJJF-FRA" region="France" file="Powerpuff Girls, The - L'Affreux Mojo Jojo (France).gbc" md5="663EED7079113B1D1E1D7D40E9871CC3" crc="256D166F"/>
+<rom serial="CGB-BPTE-USA-1" region="USA" file="Powerpuff Girls, The - Paint the Townsville Green (USA) (Rev A).gbc" md5="C8F68E280F379FF7CC10C8EC4ED89142" crc="295B3646"/>
+<rom serial="CGB-BPTP-EUR" region="Europe" file="Powerpuff Girls, The - Paint the Townsville Green (Europe).gbc" md5="B3E8E32A3F8C3366CB12B4EA7B0A9169" crc="98E4B0C4"/>
+<rom serial="CGB-BPTP-UKV" region="Europe" file="Powerpuff Girls, The - Paint the Townsville Green (Europe).gbc" md5="B3E8E32A3F8C3366CB12B4EA7B0A9169" crc="98E4B0C4"/>
+<rom serial="CGB-BPTF-FRA" region="France" file="Powerpuff Girls, The - Panique A Townsville (France).gbc" md5="69EBFA592721CD1D9C835D1B810B7266" crc="79A417DB"/>
+<rom serial="DMG-ARIP-EUR" region="Europe" file="Prince of Persia (USA, Europe) (En,Fr,De,Es,It).gbc" md5="AFEEC69D5BA3AFA3CE2279FCDA944576" crc="E6BEC6D1"/>
+<rom serial="DMG-ARIE-USA" region="USA" file="Prince of Persia (USA, Europe) (En,Fr,De,Es,It).gbc" md5="AFEEC69D5BA3AFA3CE2279FCDA944576" crc="E6BEC6D1"/>
+<rom serial="DMG-AAFF-FRA" region="France" file="Pro Foot (France) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="71608F971986DD740C8E94F61F9CD020" crc="A9905932"/>
+<rom serial="DMG-AQDJ-JPN" region="Japan" file="Pro Mahjong Tsuwamono GB2 (Japan).gbc" md5="9D238ED036BB656ACF9765589119F68C" crc="F03016F5"/>
+<rom serial="CGB-BPLP-EUU" region="Europe" file="Pro Pool (Europe) (En,Fr,De).gbc" md5="87B211FE7E0B8080961DDD26245CA1A5" crc="21A4DA64"/>
+<rom serial="CGB-AVED-NOE" region="Germany" file="Pumuckls Abenteuer bei den Piraten (Germany).gbc" md5="FC327CDB1F787046DAE8A17305F10261" crc="F55CDB79"/>
+<rom serial="CGB-BPCD-NOE" region="Germany" file="Pumuckls Abenteuer im Geisterschloss (Germany).gbc" md5="96D2795FD83F03986C5142EC288D384E" crc="87FCEC24"/>
+<rom serial="DMG-ACNP-EUR" region="" file="Quest for Camelot (Europe) (En,Fr,De,Es,It,Nl) (SGB Enhanced).gbc" md5="81DD8A336E1B1B705235A7B20A536BC0" crc="CE55A4DE"/>
+<rom serial="DMG-AQUJ-JPN" region="Japan" file="Qui Qui (Japan).gbc" md5="F18339F4C836530BEA39086969D28964" crc="56D76BA2"/>
+<rom serial="DMG-AWHP-AUS" region="Europe" file="R-Type DX (USA, Europe).gbc" md5="DAE7B7625D41D8A06266B09924154BB2" crc="FC1D4089"/>
+<rom serial="DMG-AWHP-EUR" region="Europe" file="R-Type DX (USA, Europe).gbc" md5="DAE7B7625D41D8A06266B09924154BB2" crc="FC1D4089"/>
+<rom serial="CGB-BELJ-JPN" region="Japan" file="Raku x Raku - Cut Shuu (Japan).gbc" md5="62443F663965BA2F3A4181CD694D88A3" crc="430CFCF3"/>
+<rom serial="DMG-BRAJ-JPN" region="Japan" file="Raku x Raku - Mishin (Japan).gbc" md5="24CF64CD73A98125FE476B8488054361" crc="0BA0711B"/>
+<rom serial="CGB-BEMJ-JPN" region="Japan" file="Raku x Raku - Moji (Japan).gbc" md5="B39C09E1A033F08D8160BF5DFA4082BC" crc="ABE58A8B"/>
+<rom serial="DMG-ARPP-EUR" region="" file="Rampage - World Tour (USA, Europe).gbc" md5="F0BFBDED7125DD312EAF36D16C1556A1" crc="B029017F"/>
+<rom serial="CGB-AUTP-EUR" region="Europe" file="Rampage 2 - Universal Tour (USA, Europe).gbc" md5="617DCFAC99F28045B8F4C46B9D75B58E" crc="20B86F1E"/>
+<rom serial="CGB-AYQP-EUR" region="" file="Rayman (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="EA9F362F629124C9423A8D9BA933ECED" crc="C430A89A"/>
+<rom serial="CGB-BRYE-USA" region="USA" file="Rayman 2 - The Great Escape (USA) (En,Fr,De,Es,It).gbc" md5="FEB32471EA029A55D7BDEA7E0BDC6961" crc="6F5C315D"/>
+<rom serial="CGB-BRPF-FRA" region="France" file="Razmoket a Paris, Les - Le Film (France).gbc" md5="C569CDA6FF220773EC5FCE7EA38EF777" crc="094494E9"/>
+<rom serial="CGB-AQOP-EUU" region="Europe" file="Ready 2 Rumble Boxing (Europe).gbc" md5="219538ABD16CECADEE98AB57C7069376" crc="BEA36BF9"/>
+<rom serial="CGB-AQOP-EUR" region="Europe" file="Ready 2 Rumble Boxing (Europe).gbc" md5="219538ABD16CECADEE98AB57C7069376" crc="BEA36BF9"/>
+<rom serial="CGB-VRRE-USA" region="USA" file="Ready 2 Rumble Boxing (USA) (Rumble Version).gbc" md5="D5961426B8EA089E2F74A91A747ACFDB" crc="345E20A4"/>
+<rom serial="DMG-AEPJ-JPN" region="" file="Real Pro Yakyuu! - Pacific League Hen (Japan) (SGB Enhanced).gbc" md5="CBB8140E3F755DBFF588E60DFF4A2D57" crc="16B81C36"/>
+<rom serial="DMG-AVTP-EUR" region="" file="Reservoir Rat (Europe) (En,Fr,De,Es,It).gbc" md5="15B3CBE9A6FFD5B7C5047764798EA911" crc="22621803"/>
+<rom serial="CGB-BIOP-EUR" region="" file="Resident Evil Gaiden (Europe) (En,Fr,De,Es,It).gbc" md5="8A7F483857E251D56A16594CA84D1A7E" crc="F85C3F2C"/>
+<rom serial="CGB-BNJP-EUR" region="" file="Return of the Ninja (Europe).gbc" md5="9C1CB86CCCB4FA2BBC6137A81D92A3B1" crc="8E04849A"/>
+<rom serial="DMG-ALBE-USA" region="USA" file="Revelations - The Demon Slayer (USA) (SGB Enhanced).gbc" md5="86ED74283FE0071F8D3F05923051EFAB" crc="D1A65D74"/>
+<rom serial="CGB-BRNP-EUR" region="Europe" file="Rhino Rumble (USA, Europe).gbc" md5="CED299D2952AE83C7BBFBB64767E4634" crc="73160E05"/>
+<rom serial="DMG-AXYP-EUR" region="Europe" file="Rip-Tide Racer (Europe) (En,Fr,De,Es,It).gbc" md5="5CFEB93B86FBFE59D7C59E904DE3BB88" crc="AB8C3A31"/>
+<rom serial="CGB-BXSP-EUR" region="Europe" file="Road Champs - BXS Stunt Biking (USA, Europe).gbc" md5="618BE0636A482B1C5E5898E7CB5F1BB3" crc="98C59706"/>
+<rom serial="CGB-BRRP-EUR" region="Europe" file="Road Rash (USA, Europe).gbc" md5="F5767F97F44365B703EAE78AFB7562E6" crc="11025EEB"/>
+<rom serial="DMG-HREE-USA" region="USA" file="Robopon - Sun Version (USA) (SGB Enhanced).gbc" md5="398F7B60EA114B90B24503178F47E8D8" crc="32CAEF11"/>
+<rom serial="DMG-H5UJ-JPN" region="Japan" file="Robot Poncots - Comic Bom Bom Special Version (Japan) (SGB Enhanced).gbc" md5="52C823C2C7FDDCFD77768DAF42082980" crc="4AA209CD"/>
+<rom serial="DMG-H3UJ-JPN" region="Japan" file="Robot Poncots - Moon Version (Japan) (SGB Enhanced).gbc" md5="BA0DEBF5E0CDA9ADFA409DAB91ABB6A9" crc="87A29030"/>
+<rom serial="DMG-HRCJ-JPN" region="Japan" file="Robot Poncots - Star Version (Japan) (SGB Enhanced).gbc" md5="9BDC654FC8ACB425FE4B68269928FBFB" crc="B28F32AC"/>
+<rom serial="DMG-HREJ-JPN" region="Japan" file="Robot Poncots - Sun Version (Japan) (SGB Enhanced).gbc" md5="88EE129F5F61078D8649E2134B2E78A3" crc="CB0B8003"/>
+<rom serial="CGB-BRWP-UKV" region="Europe" file="Robot Wars - Metal Mayhem (Europe) (En,Fr,De,It,Nl,Sv).gbc" md5="AF4565BF1EA33C785FC9E05BE2A9BAD0" crc="E99BDEE6"/>
+<rom serial="CGB-BRUP-EUR-1" region="Europe" file="Rocket Power - Gettin' Air (USA, Europe).gbc" md5="B3BD4ADC4613FF8F4B9CF8C80FF0A6EF" crc="7025EB63"/>
+<rom serial="DMG-BRXJ-JPN" region="Japan" file="Rockman X - Cyber Mission (Japan).gbc" md5="EBB19FE17FD6D13D9D52239E8DA9711A" crc="919077AB"/>
+<rom serial="Rocman X" region="Taiwan" file="Rocman X Gold + 4 in 1 (Taiwan) (1B-002, 4B-003, Sachen) (Unl).gbc" md5="358B42454A4ACB2755834052FE85FC27" crc="7E1351CF"/>
+<rom serial="CGB-BRGP-EUR" region="Europe" file="Roland Garros French Open (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="70E3AB7EF2061E7075D81AEDE74EA95C" crc="10DBDE7C"/>
+<rom serial="DMG-AORP-EUR" region="Europe" file="Ronaldo V-Football (Europe) (En,Fr,De,Es,It,Nl,Pt).gbc" md5="0EB0F4252FF90CB26EDA0BE680C998BC" crc="A856C066"/>
+<rom serial="CGB-BCPP-EUR" region="" file="Roswell Conspiracies - Aliens, Myths &amp; Legends (Europe) (En,Fr,De).gbc" md5="79D382D378D49695E9867EDE063EFF17" crc="49101556"/>
+<rom serial="DMG-ARXP-EUR" region="Asia" file="Rox (USA, Europe).gbc" md5="C4CD1E337BB76AD0F7307F5CFA1EF6BC" crc="2E944775"/>
+<rom serial="CGB-A2QJ-JPN" region="Japan" file="RPG Tsukuru GB (Japan).gbc" md5="AC3DFC02635524FBB01DCACD2DB3D066" crc="0B614307"/>
+<rom serial="DMG-AVMP-EUR" region="USA, Europe" file="Rugrats - Time Travelers (USA, Europe).gbc" md5="069B01643E876EC91A5555450068F4AC" crc="9C743F03"/>
+<rom serial="CGB-BAGP-EUR" region="Europe" file="Rugrats - Totally Angelica (USA, Europe).gbc" md5="80CF4B05B2A0388A804E54F433CDD126" crc="FC6195EF"/>
+<rom serial="CGB-BAGD-NOE" region="Germany" file="Rugrats - Typisch Angelica (Germany).gbc" md5="B7D7A761D1666D4CF9832435C49EB14A" crc="026C4794"/>
+<rom serial="CGB-BRPX-ESP" region="Spain" file="Rugrats in Paris - The Movie (Europe) (En,Es).gbc" md5="54DD12EF93FAD931DF26CDF67AD4677A" crc="35323432"/>
+<rom serial="CGB-BRPP-EUR" region="Europe" file="Rugrats in Paris - The Movie (USA, Europe).gbc" md5="C1DEE0A8036D61D1483A793126DA3B45" crc="8B195237"/>
+<rom serial="DMG-ARZP-NOE" region="USA, Europe" file="Rugrats Movie, The (Europe) (SGB Enhanced).gbc" md5="BF5C2F39B42212B8AF8776B12F31D466" crc="B4091600"/>
+<rom serial="DMG-ARZP-UKV" region="Europe" file="Rugrats Movie, The (Europe) (SGB Enhanced).gbc" md5="BF5C2F39B42212B8AF8776B12F31D466" crc="B4091600"/>
+<rom serial="DMG-ARQE-USA" region="USA" file="Rugrats Movie, The (USA) (SGB Enhanced).gbc" md5="1383DA42B08BF94B6FAD381CADA66FAD" crc="FEBE2606"/>
+<rom serial="CGB-B4PP-UKV" region="Europe" file="Sabrina - The Animated Series - Spooked! (USA, Europe).gbc" md5="3073432455A395835DE6147399B36CFC" crc="2CF48188"/>
+<rom serial="CGB-BSGX-EUU" region="" file="Sabrina - The Animated Series - Zapped! (Europe) (En,Fr,De).gbc" md5="CB689DC8D4E95FE9D190F6F5AD1D0ED4" crc="818F3AF6"/>
+<rom serial="CGB-BSGP-EUR" region="Europe" file="Sabrina - The Animated Series - Zapped! (USA, Europe).gbc" md5="EC39462E39E3CBCABE03667FABF12D5A" crc="5D39A9B0"/>
+<rom serial="DMG-AREJ-JPN" region="Japan" file="Sakata Gorou Kudan no Renju Kyoushitsu (Japan) (SGB Enhanced).gbc" md5="EEB8A7311A959035E8A3C3822329EA48" crc="B5412C6F"/>
+<rom serial="CGB-BRJJ-JPN" region="Japan" file="Sakura Taisen GB - Geki Hana Gumi Nyuutai! (Japan).gbc" md5="70883B45A97984CB033C2B95028BEF65" crc="EF503D50"/>
+<rom serial="CGB-BS5J-JPN" region="Japan" file="Samurai Kid (Japan).gbc" md5="7EE095116F1733DC6BA2B2DE3F28F5EF" crc="44A9DDFB"/>
+<rom serial="CGB-ASXP-EUU" region="Europe" file="San Francisco Rush 2049 (USA, Europe).gbc" md5="19601E4FC1F7084076128DCA0182F5A7" crc="EF368F16"/>
+<rom serial="DMG-ATPJ-JPN" region="Japan" file="Sanrio Timenet - Kako Hen (Japan) (SGB Enhanced).gbc" md5="0146768D48B8317E0C8A2C7DD8D31860" crc="458B579D"/>
+<rom serial="DMG-ATFJ-JPN" region="Japan" file="Sanrio Timenet - Mirai Hen (Japan) (SGB Enhanced).gbc" md5="388A603E8B6D0FCF7C553FB00A7C5171" crc="EFE51E17"/>
+<rom serial="CGB-B3JP-EUR" region="Europe" file="Santa Claus Junior (Europe).gbc" md5="5DF6D1EC0E9241E1ED8A8EE7FF318631" crc="A744DF64"/>
+<rom serial="CGB-BCCP-EUR-1" region="Europe" file="Scooby-Doo! - Classic Creep Capers (USA, Europe).gbc" md5="117A9BABAE15960DC4DE04AC44066ED2" crc="E3704755"/>
+<rom serial="BSQP" region="Europe" file="Sesame Street Sports (Europe).gbc" md5="821F70DB4753F0B59A798B9DE91CECFC" crc="55BE1A6E"/>
+<rom serial="DMG-ASWP-AUS" region="Europe" file="Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv).gbc" md5="9D79034C9B026F448F84F9898C6CCFD6" crc="F6A876A5"/>
+<rom serial="DMG-ASWE-USA" region="USA" file="Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv).gbc" md5="9D79034C9B026F448F84F9898C6CCFD6" crc="F6A876A5"/>
+<rom serial="DMG-ASWP-EUR" region="USA, Europe" file="Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv) (Rev A).gbc" md5="90280833C156E2CA8E4EAA29ADF369B2" crc="D337F450"/>
+<rom serial="DMG-ASWJ-JPN" region="Japan" file="Shadowgate Return (Japan).gbc" md5="4C18B5D470B105344EC55D195A05D2DE" crc="1BCD7D70"/>
+<rom serial="CGB-BQUJ-JPN" region="Japan" file="Shaman King Card Game - Chou Senjiryakketsu - Funbari Hen (Japan).gbc" md5="43F61059772E7CEF92E32F05DD89205B" crc="EF10272E"/>
+<rom serial="CGB-BQVJ-JPN" region="Japan" file="Shaman King Card Game - Chou Senjiryakketsu - Meramera Hen (Japan).gbc" md5="B3550A7C733B9392477F5B2E4502D7A8" crc="5730393D"/>
+<rom serial="DMG-AVXP-EUR" region="Europe" file="Shamus (USA, Europe).gbc" md5="C0E42B4B7BA5605C3AB7B83B1E2FAB6D" crc="EFB9196D"/>
+<rom serial="DMG-AHPP-EUR" region="" file="Shanghai Pocket (USA, Europe) (Rev A) (SGB Enhanced).gbc" md5="F7E13DE010DECF104EFA3DB865971F34" crc="D8FAC36C"/>
+<rom serial="CGB-B3AE-USA" region="USA" file="Shantae (USA).gbc" md5="028C4262DBB49F4FC462A6EB3E514D72" crc="E994B59B"/>
+<rom serial="B3SP" region="Australia" file="Shaun Palmer's Pro Snowboarder (USA, Australia).gbc" md5="3BCB284142A35A8D86550C2F34549DCC" crc="709CDA93"/>
+<rom serial="DMG-BHNJ-JPN" region="Japan" file="Shin Megami Tensei Devil Children - Aka no Sho (Japan) (SGB Enhanced).gbc" md5="3D04E5C70919118EF6E7CB69DAE14B10" crc="F90C4977"/>
+<rom serial="DMG-BHEJ-JPN" region="Japan" file="Shin Megami Tensei Devil Children - Kuro no Sho (Japan) (SGB Enhanced).gbc" md5="158691457CB7365CAFBD0B7BB230FADF" crc="55B9AF51"/>
+<rom serial="CGB-BHWJ-JPN" region="Japan" file="Shin Megami Tensei Devil Children - Shiro no Sho (Japan).gbc" md5="9354CC341AA23DA3E29829DA76B8888E" crc="39A10855"/>
+<rom serial="CGB-BT8J-JPN" region="Japan" file="Shin Megami Tensei Trading Card - Card Summoner (Japan).gbc" md5="4EF95A30C72008DEE31AB836742C9ACF" crc="85264877"/>
+<rom serial="DMG-B9SJ-JPN" region="Japan" file="Shougi 3 (Japan).gbc" md5="30F78CB1AF3772826AB1D0F6D989BB52" crc="64B479FA"/>
+<rom serial="CGB-BFUE-USA" region="USA" file="Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It).gbc" md5="69C68B13BB0DA057ACBAFE24E389E855" crc="387E6459"/>
+<rom serial="CGB-BFUP-EUR" region="Europe" file="Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It).gbc" md5="69C68B13BB0DA057ACBAFE24E389E855" crc="387E6459"/>
+<rom serial="CGB-BNOP-EUR" region="Europe" file="Simpsons, The - Night of the Living Treehouse of Horror (USA, Europe).gbc" md5="2A4F3309FE05B47A98D8C5B4C81B91E5" crc="EBAF4888"/>
+<rom serial="CGB-ASNP-NOE" region="Europe" file="Smurfs Nightmare, The (Europe) (En,Fr,De,Es).gbc" md5="5DA63FE252B4CB3E17DD4986FB276690" crc="6F97B043"/>
+<rom serial="CGB-ASNE-USA" region="USA" file="Smurfs Nightmare, The (USA).gbc" md5="20052C527795A4F332BE14AFF49D4D4B" crc="B50CAFE4"/>
+<rom serial="CGB-BS9P-NOE" region="Europe" file="Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="D3C6C44A4F6021B4D5A6454A87AF9A6C" crc="8C2D9B43"/>
+<rom serial="CGB-B7DE-USA" region="USA" file="Snow White and the Seven Dwarfs (USA).gbc" md5="0C1C350CE431ACE4328C0E935FA2F41B" crc="8DD38534"/>
+<rom serial="CGB-BSOJ-JPN" region="Japan" file="Solomon (Japan).gbc" md5="DC15BF4D545A2C537F46598CB9204DAF" crc="6AEE0958"/>
+<rom serial="CGB-BS2J-JPN" region="Japan" file="Soreike! Anpanman - 5-tsu no Tou no Ousama (Japan).gbc" md5="F09214D17150911AF6AACBE5D89BC00F" crc="C9A25B0C"/>
+<rom serial="DMG-AANJ-JPN" region="" file="Soreike! Anpanman - Fushigi na Nikoniko Album (Japan) (SGB Enhanced).gbc" md5="28B5114313B8ABC43A31EA40AA91CF52" crc="A80EEEAD"/>
+<rom serial="DMG-AL9J-JPN" region="Japan" file="Soul Getter - Houkago Bouken RPG (Japan).gbc" md5="053D55B23C41C5E0E3227239F4844FEA" crc="3FFCD45B"/>
+<rom serial="AIVP" region="Europe" file="Space Invaders (USA, Europe).gbc" md5="46E0E199F58AEBBB75B4ED16DA5AAE60" crc="DAB7460C"/>
+<rom serial="CGB-BNBJ-JPN" region="Japan" file="Space-Net - Cosmo Blue (Japan).gbc" md5="062BFA5E5B52B5A4ACE5B59C364FE2FF" crc="F606D369"/>
+<rom serial="DMG-AV2P-EUR" region="Europe" file="Spacestation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="488611AF773CEC5B7ECC5BD3EFB754BB" crc="63353C0F"/>
+<rom serial="DMG-ALZP-UKV" region="Asia" file="Speedy Gonzales - Aztec Adventure (USA, Europe).gbc" md5="49B834AC7CD50DA9B424E17C112C577A" crc="AE82AFA4"/>
+<rom serial="CGB-BSEP-EUR" region="" file="Spider-Man (USA, Europe).gbc" md5="9FDE547BCB70B108895E259DA4C4E100" crc="34E2B3BA"/>
+<rom serial="CGB-B2SP-EUR-1" region="Europe" file="Spider-Man 2 - The Sinister Six (USA, Europe).gbc" md5="85BBAD46380DFFA631F8CE732E9C5D89" crc="A7FAACCF"/>
+<rom serial="CGB-BQPP-EUR" region="Europe" file="SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe).gbc" md5="4272D192CF2B14DB93F1E2D1BC07AA74" crc="81230564"/>
+<rom serial="CGB-AS6P-EUR" region="" file="Spy vs. Spy (Europe) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="FE002EE7D615BF7B728BF6031645B168" crc="713C6C17"/>
+<rom serial="DMG-BO2J-JPN" region="Japan" file="Star Ocean - Blue Sphere (Japan) (SGB Enhanced).gbc" md5="820E0A19275FABC03FE619C42DB47179" crc="8C7DDBDA"/>
+<rom serial="CGB-VYHP-EUR" region="Europe" file="Star Wars Episode I - Racer (USA, Europe) (Rumble Version).gbc" md5="D1E875CB7DAC0092E83B9E7799B06653" crc="0EBC5758"/>
+<rom serial="CGB-VYHE-USA" region="" file="Star Wars Episode I - Racer (USA, Europe) (Rumble Version).gbc" md5="D1E875CB7DAC0092E83B9E7799B06653" crc="0EBC5758"/>
+<rom serial="EB-004" region="Taiwan" file="Street Hero (Taiwan) (En) (1B-004, EB-004, Sachen) (Unl).gbc" md5="102A290E0711214484555DE2176E565C" crc="B580CB1F"/>
+<rom serial="CGB-BJIX-EUR" region="Europe" file="Stuart Little - The Journey Home (Europe) (Fr,De).gbc" md5="6B2118817985DBB1BB36A804A8240641" crc="ACB08666"/>
+<rom serial="CGB-BJIP-UKV" region="Europe" file="Stuart Little - The Journey Home (USA, Europe).gbc" md5="AC38DFD19646CA6E143024D699145C70" crc="EB273887"/>
+<rom serial="6B-001" region="Taiwan" file="Super 6 in 1 (Taiwan) (En,Zh) (6B-001, Sachen) (Unl).gbc" md5="C4114CDAE922B6B483F6C076B822719B" crc="FB60D1C5"/>
+<rom serial="CGB-VRFJ-JPN" region="Japan" file="Super Black Bass - Real Fight (Japan) (Rumble Version).gbc" md5="34FDA0252963CC5A24C7382AA12B72C6" crc="B7F77B6A"/>
+<rom serial="DMG-AOTP-EUR" region="Europe" file="Super Breakout! (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="3383C2754015C4DA7B5295A28AC09739" crc="6833923D"/>
+<rom serial="CGB-BSLJ-JPN" region="" file="Super Doll Licca-chan - Kisekae Daisakusen (Japan).gbc" md5="1E90FA6DAB5D51A09F0F6134C96EFA08" crc="DF50473F"/>
+<rom serial="CGB-BGLJ-JPN" region="Japan" file="Super Gals! Kotobuki Ran (Japan).gbc" md5="8B437E964CA98E785010160160CF380A" crc="90379C16"/>
+<rom serial="CGB-GBUJ-JPN" region="Japan" file="Super Gals! Kotobuki Ran 2 - Miracle Getting (Japan).gbc" md5="B2FE715038778210C0C2C8DD06B2A11F" crc="E77FA0F2"/>
+<rom serial="CGB-AHYJ-JPN" region="Japan" file="Super Mario Bros. Deluxe (Japan) (NP).gbc" md5="8040970140B2E728A0078504C2BCD908" crc="866B1212"/>
+<rom serial="CGB-AHYP-EUR" region="" file="Super Mario Bros. Deluxe (USA, Europe).gbc" md5="EC764E03228D212CA794AC0B9DF62857" crc="A4CD26FF"/>
+<rom serial="CGB-AHYP-AUS" region="Europe" file="Super Mario Bros. Deluxe (USA, Europe) (Rev A).gbc" md5="1FD75C2B798C04ACD4B99AD2F1006280" crc="90AB047B"/>
+<rom serial="CGB-AHYP-EUR-4" region="Europe" file="Super Mario Bros. Deluxe (USA, Europe) (Rev B).gbc" md5="B5A71128227F5BC953FD55CB0025807F" crc="62BBAE83"/>
+<rom serial="CGB-BHAJ-JPN" region="Japan" file="Super Me-Mail GB - Me-Mail Bear no Happy Mail Town (Japan).gbc" md5="5D4CDBF3B54B6857C29CB24EBFAF2470" crc="315CAA18"/>
+<rom serial="CGB-BJJS-ESP" region="Spain" file="Super Nenas, Las - El Malvado Mojo Jojo (Spain).gbc" md5="2AD76236E7EA4F655D7D36F3C504EC5E" crc="EFE652BF"/>
+<rom serial="CGB-BBHS-ESP" region="Spain" file="Super Nenas, Las - Lucha Con Ese (Spain).gbc" md5="6A38F9F550A6858F7CED15BA03D2A8CD" crc="7BA87C11"/>
+<rom serial="CGB-BPTS-ESP" region="Spain" file="Super Nenas, Las - Panico en Townsville (Spain).gbc" md5="5B36C3DA8BCFEE8A5F14A6DB12F533A3" crc="03EDB574"/>
+<rom serial="CGB-BSUJ-JPN" region="Japan" file="Super Robot Pinball (Japan).gbc" md5="6C7DC7CE74088A9E42A6FB8D98A67714" crc="6E330FCD"/>
+<rom serial="DMG-AL6J-JPN" region="Japan" file="Super Robot Taisen - Link Battler (Japan) (SGB Enhanced).gbc" md5="D710CD23E7E38023297D04E935DBEBAE" crc="D24E592D"/>
+<rom serial="CGB-BSXP-UKV" region="Europe" file="Supercross Freestyle (Europe) (En,Fr,De,Es,It).gbc" md5="DC640627128579EE52C3FB0FF38A96F0" crc="4D3E0F51"/>
+<rom serial="CGB-AXWP-NOE" region="Europe" file="Supreme Snowboarding (Europe) (En,Fr,De).gbc" md5="B9BC4621F069F59E22EEE05EEB6503CD" crc="53B1E661"/>
+<rom serial="DMG-B2VJ-JPN" region="Japan" file="Survival Kids 2 - Dasshutsu!! Futago-Jima! (Japan) (SGB Enhanced).gbc" md5="9D2F7E1AC30A46456A841C264963E5EA" crc="AB8B25D8"/>
+<rom serial="CGB-BBQP-FAH" region="Europe" file="Suske en Wiske - De Tijdtemmers ~ Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl).gbc" md5="AB3245958E1DDEA3209841C62CA8448E" crc="A4C6523D"/>
+<rom serial="DMG-AUBJ-JPN" region="Japan" file="Sweet Ange (Japan) (SGB Enhanced).gbc" md5="8DC38A2906306949576E60B8D4BABC5F" crc="4BE9B159"/>
+<rom serial="CGB-BSWD-NOE" region="Germany" file="Swing (Germany).gbc" md5="C53D2F538F6A5F421C87F935A42AA912" crc="7041929D"/>
+<rom serial="CGB-BSVP-EUR" region="" file="SWIV (Europe) (En,Fr,De,Es,It).gbc" md5="3A00468EA1520A57F23F88D43CF8C067" crc="44D30B7A"/>
+<rom serial="DMG-ALVJ-JPN" region="" file="Sylvanian Families - Otogi no Kuni no Pendant (Japan) (SGB Enhanced).gbc" md5="5B250AB006A50301F29E74551531BD7F" crc="C6FE4497"/>
+<rom serial="DMG-ALUP-NOE" region="Germany" file="Tabaluga (Germany).gbc" md5="89F251B40B2420AE1DDE4D22CA01ED72" crc="F09F92D7"/>
+<rom serial="DMG-AN6J-JPN" region="Japan" file="Tales of Phantasia - Narikiri Dungeon (Japan) (SGB Enhanced).gbc" md5="A3C65D746E0E171843E9013E8D8E1021" crc="725CF31C"/>
+<rom serial="CGB-ATHF-FRA" region="France" file="Tarzan (France).gbc" md5="410652F95C575FFDE3312E24C754DD2A" crc="C503AFBB"/>
+<rom serial="CGB-ATHD-NOE" region="Germany" file="Tarzan (Germany).gbc" md5="9D3E582F7A50CD50F37C848BA24EE382" crc="39D04581"/>
+<rom serial="CGB-ATHP-EUR" region="" file="Tarzan (USA, Europe).gbc" md5="55FEA8E7BE17975374AB24518BD83171" crc="4224F930"/>
+<rom serial="CGB-BXIF-FRA" region="France" file="Taxi 3 (France).gbc" md5="72B6216FE3094D7798A359B9A4CDF7ED" crc="2838996F"/>
+<rom serial="DMG-AVZP-NOE" region="Europe" file="Tazmanian Devil - Munching Madness (Europe) (En,Fr,De,Es,It).gbc" md5="6902207E70E62FB38A07F49FCEE77929" crc="683752A0"/>
+<rom serial="CGB-BTUE-USA" region="USA" file="Tech Deck Skateboarding (USA, Europe).gbc" md5="5130D3EC4A93ACB84E3F2C3590A0E5A6" crc="C07EBE70"/>
+<rom serial="CGB-BTUP-EUR" region="Europe" file="Tech Deck Skateboarding (USA, Europe).gbc" md5="5130D3EC4A93ACB84E3F2C3590A0E5A6" crc="C07EBE70"/>
+<rom serial="DMG-AW6P-EUR" region="Europe" file="Test Drive 6 (Europe) (En,Fr,De,Es,It).gbc" md5="CFA42DE596FAAEB161BEA96D3F6B9E6A" crc="13691CEB"/>
+<rom serial="CGB-AT7J-JPN" region="Japan" file="Tetris Adventure - Susume Mickey to Nakama-tachi (Japan).gbc" md5="8339E84709EA33723FD11ED2F3E1ABEE" crc="EAF6E4F2"/>
+<rom serial="DMG-ATEA-EUR-1" region="" file="Tetris DX (World) (SGB Enhanced).gbc" md5="65973D7A1446346294F8CA9D2D1B7E66" crc="69989152"/>
+<rom serial="CGB-A33X-UKV" region="Europe" file="TG Rally 2 (Europe).gbc" md5="AB38E871B66EE8AD1BB8EA7D92934FD1" crc="795A9992"/>
+<rom serial="DMG-AAFP-UKV" region="" file="Three Lions (Europe) (En,Fr,De,Es,It,Nl,Sv).gbc" md5="BD34182264A2F503D4E6982718D3BB6D" crc="1CBEA1AA"/>
+<rom serial="1B-003" region="Europe" file="Thunder Blast Man (Europe) (1B-003, Sachen) (Unl).gbc" md5="A9EE7C9FCFE647A75D9F0CE4DDE1B64D" crc="1A719EAD"/>
+<rom serial="CGB-BTNX-EUR" region="Europe" file="Thunderbirds (Europe) (En,Fr,De,Es,It).gbc" md5="543FE119633338174899829B6D4C571F" crc="36536324"/>
+<rom serial="DMG-AYGP-EUR" region="Europe" file="Tiger Woods PGA Tour 2000 (USA, Europe).gbc" md5="C58361B88496E7AD0179B59122AFD687" crc="A6DFB1D9"/>
+<rom serial="BTCP" region="Europe" file="TOCA Touring Car Championship (USA, Europe).gbc" md5="2348EA9E0C1041610115443165CF8F4F" crc="B509892B"/>
+<rom serial="CGB-B2TP-EUR" region="Europe" file="Toki Tori (USA, Europe) (En,Ja,Fr,De,Es).gbc" md5="E1BF59102BCD5E3601F4B24B3E873FD2" crc="0A0F9289"/>
+<rom serial="CGB-ATXP-EUR" region="Asia" file="Tom &amp; Jerry (USA, Europe).gbc" md5="FAC13870841C0F570FFF95B0C53A6E24" crc="B97C0BD9"/>
+<rom serial="CGB-AR6P-EUR" region="Europe" file="Tom Clancy's Rainbow Six (USA, Europe) (En,Fr,De).gbc" md5="6E863B582BDDB6126BB63633F41BEFD8" crc="E72F2683"/>
+<rom serial="CGB-AT9P-EUR" region="Europe" file="Tomb Raider (USA, Europe) (En,Fr,De,Es,It).gbc" md5="74B9B221C2B32147422144B327BD5F30" crc="2988FC78"/>
+<rom serial="CGB-B9TP-EUR" region="Europe" file="Tomb Raider - Curse of the Sword (USA, Europe).gbc" md5="A0B4538F687FC61BC88F7EE111170355" crc="02C1035A"/>
+<rom serial="CGB-ATQP-EUR" region="" file="Tonka Raceway (Europe).gbc" md5="618E8914445053D1BD0901AD5297F927" crc="E108B2C2"/>
+<rom serial="CGB-ATQE-USA" region="USA" file="Tonka Raceway (USA).gbc" md5="476902451BD5DA0F854A5C1681495B94" crc="BC07F4FB"/>
+<rom serial="CGB-BTFE-USA-1" region="USA" file="Tony Hawk's Pro Skater (USA, Europe).gbc" md5="75BE6E3561908E705D9E790B34EDDB4D" crc="8D8BB5C4"/>
+<rom serial="CGB-BTFP-EUR" region="Europe" file="Tony Hawk's Pro Skater (USA, Europe).gbc" md5="75BE6E3561908E705D9E790B34EDDB4D" crc="8D8BB5C4"/>
+<rom serial="CGB-BTGE-USA" region="USA" file="Tony Hawk's Pro Skater 2 (USA, Europe).gbc" md5="0454B25266D645990B63B5B406672DC2" crc="2C27C61F"/>
+<rom serial="CGB-BTGP-EUR" region="Europe" file="Tony Hawk's Pro Skater 2 (USA, Europe).gbc" md5="0454B25266D645990B63B5B406672DC2" crc="2C27C61F"/>
+<rom serial="CGB-BTGE-USA-1" region="USA" file="Tony Hawk's Pro Skater 2 (USA, Europe).gbc" md5="0454B25266D645990B63B5B406672DC2" crc="2C27C61F"/>
+<rom serial="CGB-B3TP-EUR" region="Europe" file="Tony Hawk's Pro Skater 3 (USA, Europe).gbc" md5="365F913D6F2B0F44D87B7A347DAEA528" crc="FD5290A1"/>
+<rom serial="CGB-BSYP-EUR" region="Europe" file="Toonsylvania (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="91FD1E446EF8AF51080409B7940391E9" crc="6573B88F"/>
+<rom serial="CGB-VGRJ-JPN" region="Japan" file="Top Gear Pocket (Japan) (En) (Rumble Version).gbc" md5="B3F1A058F5702384AF5E5D79EE855824" crc="EBCCA3DA"/>
+<rom serial="CGB-V33J-JPN" region="Japan" file="Top Gear Pocket 2 (Japan) (Rumble Version).gbc" md5="84EE1AC070C9695B6D422ADB5525DB85" crc="1845F25A"/>
+<rom serial="CGB-VGRP-NOE" region="Europe" file="Top Gear Rally (Europe) (Rumble Version).gbc" md5="B173870C83682E97FCC43B6D3EE9AC7F" crc="337E5DD3"/>
+<rom serial="CGB-BICP-EUR" region="Europe" file="Top Gun - Fire Storm (USA, Europe) (En,Fr,De,Es,It,Nl).gbc" md5="E8B4A4231325ADC851229BBDE40D2284" crc="E2AD5A0F"/>
+<rom serial="CGB-AO3P-UKV" region="" file="Total Soccer 2000 (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="4B497DFA757C4C54C67089507A71A715" crc="C25EE35A"/>
+<rom serial="CGB-BHTJ-JPN" region="Japan" file="Tottoko Hamutarou - Tomodachi Daisakusen Dechu (Japan).gbc" md5="30F38B2BE2450F14838A98C5711E303B" crc="19EB4516"/>
+<rom serial="CGB-BHTJ-JPN" region="Japan" file="Tottoko Hamutarou - Tomodachi Daisakusen Dechu (Japan) (Rev A).gbc" md5="5563E6E09898599A781750D9CE9F0259" crc="D549E074"/>
+<rom serial="CGB-ALHP-EUR" region="Europe" file="Towers - Lord Baniff's Deceit (USA, Europe).gbc" md5="0D7BCA4E08D522493491484896F7F3CC" crc="7B9B2468"/>
+<rom serial="DMG-AOQP-FRA" region="Europe" file="Toy Story 2 (USA, Europe) (SGB Enhanced).gbc" md5="EF032B6F603B3A290A91D40CB9C4B3E6" crc="47AECB95"/>
+<rom serial="CGB-BT5P-EUR" region="Europe" file="Toy Story Racer (USA, Europe).gbc" md5="01A67ED2DC935044BA69EDA42BDDEBF3" crc="D911DD97"/>
+<rom serial="DMG-AHHJ-JPN" region="" file="Trade &amp; Battle Card Hero (Japan) (SGB Enhanced).gbc" md5="92D36245A65305A209700608971B0597" crc="B18CBA2A"/>
+<rom serial="CGB-BTBP-EUR" region="Europe" file="Trick Boarder (Europe).gbc" md5="2400E6B73383221778C0D83EB0A1EBD4" crc="EFE3FC64"/>
+<rom serial="CGB-BTPP-EUR" region="Europe" file="Triple Play 2001 (USA, Europe).gbc" md5="96D2F46187D1EEE4A7E0253E1F51C7AA" crc="74E04C07"/>
+<rom serial="DMG-AF2J-JPN" region="Japan" file="Tsuri Sensei 2 (Japan) (SGB Enhanced).gbc" md5="8C188939044778F311BDAF2BC9ACA076" crc="1BE00A6E"/>
+<rom serial="CGB-BAFJ-JPN" region="Japan" file="Tsuriiko!! (Japan).gbc" md5="AA1BF5FF55E7106B496850E3C6CF7C14" crc="6F2CBD1D"/>
+<rom serial="CGB-AR7P-AUS" region="Europe" file="Turok - Rage Wars (USA, Europe) (En,Fr,De,Es).gbc" md5="2D7D0ADCEC6F72CA0755862C5FDDF353" crc="786B5AB4"/>
+<rom serial="CGB-AR7P-EUR" region="Europe" file="Turok - Rage Wars (USA, Europe) (En,Fr,De,Es).gbc" md5="2D7D0ADCEC6F72CA0755862C5FDDF353" crc="786B5AB4"/>
+<rom serial="DMG-A2TP-EUR" region="Europe" file="Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es).gbc" md5="28D6C613FDF608FE241FB3CE183AAAE5" crc="6EDA6A3A"/>
+<rom serial="CGB-BT3P-EUR" region="Europe" file="Turok 3 - Shadow of Oblivion (USA, Europe) (En,Fr,De,Es).gbc" md5="A9D2F36D6C2A334E0B2261C57C20F0D4" crc="6D48765E"/>
+<rom serial="CGB-B2ZX-HOL" region="" file="Tweenies - Doodles' Bones (Europe) (En,Nl,Sv,No,Da).gbc" md5="6C34052AE5E516F8737982CB93A0845C" crc="C7B61220"/>
+<rom serial="CGB-BTWY-EUU-1" region="Europe" file="Tweety's High-Flying Adventure (Europe) (En,Es,It).gbc" md5="ACFA3540921A88CAE136DA1040CA2302" crc="CA9E5385"/>
+<rom serial="CGB-BTWE-USA" region="USA" file="Tweety's High-Flying Adventure (USA).gbc" md5="57DB65568F3C4A523960CD5B35096481" crc="4E226396"/>
+<rom serial="CGB-B3QJ-JPN" region="Japan" file="Uchuujin Tanaka Tarou de RPG Tsuku-ru GB 2 (Japan).gbc" md5="26508069768CB23F6FC03A33F8D4CF43" crc="219E42E3"/>
+<rom serial="CGB-BUCP-EUR" region="Europe" file="Ultimate Fighting Championship (Europe).gbc" md5="65BD155F47EADE36F7BD446CF58B9BDB" crc="92A5A1AD"/>
+<rom serial="CGB-BUCP-EUR-1" region="Europe" file="Ultimate Fighting Championship (Europe).gbc" md5="65BD155F47EADE36F7BD446CF58B9BDB" crc="92A5A1AD"/>
+<rom serial="CGB-BUPP-EUR" region="" file="Ultimate Paint Ball (USA, Europe).gbc" md5="9AF23C3CDF945B6A78F13DBAEBBAEFC0" crc="6DCFDFE2"/>
+<rom serial="CGB-BSUP-EUR" region="Europe" file="Ultimate Surfing (Europe).gbc" md5="BA7297329E355C7C52A3AE457F0E6069" crc="B3398A9B"/>
+<rom serial="CGB-AVFP-EUR" region="Europe" file="Vegas Games (Europe) (En,Fr,De).gbc" md5="CFDD9DF7434C0A8D0E0AD3FDB04EA9B7" crc="81B2BB8D"/>
+<rom serial="CGB-VV8E-USA" region="USA" file="Vigilante 8 (USA) (Rumble Version).gbc" md5="CB5348C1B469D698ECCDDCE99A16D384" crc="D1A188DC"/>
+<rom serial="CGB-BVIP-EUR" region="USA, Europe" file="VIP (USA, Europe) (En,Fr,De,Es,It).gbc" md5="0E11915BAB69CC3B5AAA3473784F03EE" crc="DBDD6D85"/>
+<rom serial="CGB-BVIE-USA" region="USA" file="VIP (USA) (En,Fr,Es).gbc" md5="435D9FA03B3F891648F9C56D39299807" crc="436C87D4"/>
+<rom serial="CGB-BWDX-EUR" region="Europe" file="Walt Disney World Quest - Magical Racing Tour (Europe) (Fr,De,Es).gbc" md5="3CCF696DDC0E2ED66C26C2FF2CB9E12A" crc="E54B22B9"/>
+<rom serial="CGB-BWDP-UKV" region="Europe" file="Walt Disney World Quest - Magical Racing Tour (USA, Europe).gbc" md5="31E1AF241F91CA3B9C165431258A4312" crc="56BEB694"/>
+<rom serial="CGB-BWBJ-JPN" region="Japan" file="Warau Inu no Bouken - Silly Go Lucky! (Japan).gbc" md5="C275DE8ABC3DD903038737A2139B0C18" crc="E93F1582"/>
+<rom serial="DMG-AW2J-JPN" region="Japan" file="Wario Land 2 (Japan) (SGB Enhanced).gbc" md5="A5BE435543968412CAAC1FE7C914472E" crc="B30FDBF5"/>
+<rom serial="CGB-AW8A-JPN" region="World" file="Wario Land 3 (World) (En,Ja).gbc" md5="16BB3FB83E8CBBF2C4C510B9F50CF4EE" crc="480D0259"/>
+<rom serial="CGB-AW8A-EUR" region="Europe" file="Wario Land 3 (World) (En,Ja).gbc" md5="16BB3FB83E8CBBF2C4C510B9F50CF4EE" crc="480D0259"/>
+<rom serial="DMG-AWLE-USA" region="USA" file="Wario Land II (USA, Europe) (SGB Enhanced).gbc" md5="B7598A51E0ACC0D74CA8F464826371ED" crc="047BDF80"/>
+<rom serial="DMG-AWLP-EUR" region="Europe" file="Wario Land II (USA, Europe) (SGB Enhanced).gbc" md5="B7598A51E0ACC0D74CA8F464826371ED" crc="047BDF80"/>
+<rom serial="CGB-BWLE-USA" region="USA" file="Warlocked (USA).gbc" md5="B5EB859E6EA60A0BD83100A10206D9C9" crc="CFA0DF0F"/>
+<rom serial="CGB-BKRJ-JPN" region="Japan" file="Watashi no Kitchen (Japan).gbc" md5="341597629F04D5EA6716A7CA9EB24DC1" crc="BC767B25"/>
+<rom serial="CGB-BKRJ-JPN" region="Japan" file="Watashi no Kitchen (Japan) (Rev A).gbc" md5="C2A2490640EF568E6FA326AB149BFACC" crc="584669E4"/>
+<rom serial="CGB-AYHP-NOE" region="Europe" file="WCW Mayhem (USA, Europe).gbc" md5="8940BA032D30F87E6956FBD8009420E3" crc="9F8620D1"/>
+<rom serial="CGB-BWYD-NOE" region="Germany" file="Wendy - Der Traum von Arizona (Germany).gbc" md5="B8E7F2F760DC0E7010AC5A83A793FBD3" crc="DF7C18BC"/>
+<rom serial="CGB-BWGE-USA" region="USA, Europe" file="Wendy - Every Witch Way (USA, Europe).gbc" md5="4E1A5F02CCE49842D4717A8B0CE501F5" crc="4AC6907B"/>
+<rom serial="CGB-BWGP-EUR" region="Europe" file="Wendy - Every Witch Way (USA, Europe).gbc" md5="4E1A5F02CCE49842D4717A8B0CE501F5" crc="4AC6907B"/>
+<rom serial="CGB-BPOP-EUR-1" region="" file="Winnie the Pooh - Adventures in the 100 Acre Wood (Europe) (En,Fr,De,Es,It,Nl,Da).gbc" md5="D05A3C8E6AF26686166B5049F1438DFF" crc="1DB0840C"/>
+<rom serial="CGB-BNDJ-JPN" region="Japan" file="Wizardry III - Diamond no Kishi (Japan).gbc" md5="E81E4977A1380A6A0BAC49BFD9E04671" crc="D44D3596"/>
+<rom serial="CGB-BWRP-EUR" region="Europe" file="Woody Woodpecker Racing (Europe).gbc" md5="890CC599A9EC49D5ADF1CD225EBD233C" crc="B0F43498"/>
+<rom serial="CGB-BWSJ-JPN" region="Japan" file="World Soccer GB 2000 (Japan).gbc" md5="4D48457F7138C58BE1589A4DDCE1F02D" crc="6775B29E"/>
+<rom serial="CGB-AWUP-NOE" region="Europe" file="Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="B6B81D98A27596443792F47812F15B67" crc="CB04F34D"/>
+<rom serial="CGB-AWUP-UKV" region="" file="Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl).gbc" md5="B6B81D98A27596443792F47812F15B67" crc="CB04F34D"/>
+<rom serial="CGB-AWTP-EUR" region="Europe" file="WWF Attitude (USA, Europe).gbc" md5="87C5862EDCE9EAE3D6AFE964BFED5204" crc="D5FDF68A"/>
+<rom serial="CGB-BWFP-EUR" region="Europe" file="WWF Betrayal (USA, Europe).gbc" md5="F270519E6357BC32FD07FC6386E14DEC" crc="6C28BCB5"/>
+<rom serial="DMG-AUWP-EUR" region="Europe" file="WWF WrestleMania 2000 (USA, Europe).gbc" md5="7FA5A6DDE384652120B46475B193DFF9" crc="FCBA12AE"/>
+<rom serial="CGB-BXAP-UKV" region="Europe" file="X-Men - Mutant Academy (USA, Europe).gbc" md5="CC17F52E5140C0D1AD892D1856D05212" crc="EC6278A3"/>
+<rom serial="CGB-BXMP-EUR" region="Europe" file="X-Men - Mutant Wars (USA, Europe).gbc" md5="2C74082758017E30990E30B145C2F841" crc="921999E2"/>
+<rom serial="CGB-BWOP-EUR" region="Europe" file="X-Men - Wolverine's Rage (Europe).gbc" md5="2ACF3B5FB6A9CF4C8194BBADCE34AEE7" crc="83AD5B99"/>
+<rom serial="CGB-BXWP-EUR" region="" file="Xena - Warrior Princess (USA, Europe) (En,Fr,De,Es,It,Nl).gbc" md5="ACB82A5584F830D6D7BC33F4827571B9" crc="F0DE3CE7"/>
+<rom serial="DMG-AYVP-EUR" region="Europe" file="Yars' Revenge (USA, Europe).gbc" md5="1405C2C436255D0D5C901BF6D64F68A1" crc="D6A26444"/>
+<rom serial="AYDP" region="Europe" file="Yoda Stories (USA, Europe).gbc" md5="544EB3962EF54F89718C8DFA668EC4BE" crc="6314DA32"/>
+<rom serial="CGB-BY3P-EUR" region="Europe" file="Yu-Gi-Oh! - Dark Duel Stories (Europe).gbc" md5="036B4944895082F5895A475F4CED3BFB" crc="338E2CDA"/>
+<rom serial="CGB-BY3D-NOE" region="Germany" file="Yu-Gi-Oh! - Das Dunkle Duell (Germany).gbc" md5="B928699D63702E21A3599B887B947041" crc="6CA75BA0"/>
+<rom serial="CGB-BY3F-FRA-1" region="" file="Yu-Gi-Oh! - Duel des Tenebres (France).gbc" md5="CA9D65EBA8AF25068242C946C50B6753" crc="5B72BAB5"/>
+<rom serial="CGB-BY3S-ESP" region="Spain" file="Yu-Gi-Oh! - Duelo en las Tinieblas (Spain).gbc" md5="CDB21E5E2502DC8B9D0CC0ACDE7841FC" crc="DC160F10"/>
+<rom serial="DMG-AYCJ-JPN" region="Japan" file="Yu-Gi-Oh! - Monster Capsule GB (Japan) (SGB Enhanced).gbc" md5="B980DA92693762BD3A7A4791FE08766E" crc="1371E872"/>
+<rom serial="CGB-BY3I-ITA" region="Italy" file="Yu-Gi-Oh! - Racconti Oscuri (Italy).gbc" md5="DD34A89C4839949F4A983786EC63A993" crc="8A6B0948"/>
+<rom serial="CGB-BY6J-JPN" region="Japan" file="Yu-Gi-Oh! Duel Monsters 4 - Battle of Great Duelist - Jounouchi Deck (Japan).gbc" md5="F84F21FD860D1D9CFB8CA6EA62A0DA8F" crc="298BD054"/>
+<rom serial="DMG-AYKJ-JPN" region="Japan" file="Yu-Gi-Oh! Duel Monsters II - Dark Duel Stories (Japan) (SGB Enhanced).gbc" md5="782B88B1BF9768A2B1B139177A0C1C33" crc="BA7182C3"/>
+<rom serial="CGB-BY3J-JPN" region="Japan" file="Yu-Gi-Oh! Duel Monsters III - Tri Holy God Advant (Japan).gbc" md5="560256BD5D95F16DEAD694D680E1C2E8" crc="9F9DBAB4"/>
+<rom serial="CGB-AZ7J-JPN" region="Japan" file="Zelda no Densetsu - Fushigi no Kinomi - Daichi no Shou (Japan).gbc" md5="D3C08C1EB4F93B64C30FCB0BB7FF8924" crc="E42538F0"/>
+<rom serial="CGB-AZ8J-JPN" region="Japan" file="Zelda no Densetsu - Fushigi no Kinomi - Jikuu no Shou (Japan).gbc" md5="484020D0BF01D29F2A74322E0D4ACC3A" crc="3272E6F9"/>
+<rom serial="DMG-AZLJ-JPN" region="Japan" file="Zelda no Densetsu - Yume o Miru Shima DX (Japan) (SGB Enhanced).gbc" md5="F75874E3654360094FC2B09BD1FED7E8" crc="D974ABEA"/>
+<rom serial="DMG-AZLJ-JPN" region="Japan" file="Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev A) (SGB Enhanced).gbc" md5="6D8F9CD72201CAABDFD0455A819AF9CE" crc="BD8A1041"/>
+<rom serial="DMG-AZLJ-JPN" region="Japan" file="Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev B) (SGB Enhanced).gbc" md5="2E2596C008D47DF901394D28F5BD66EC" crc="E998E595"/>
+<rom serial="CGB-BZSP-EUR" region="Europe" file="Zidane Football Generation (Europe) (En,Fr,De,Es,It).gbc" md5="0044C80FB6C6C7C49466DAFE6637D61A" crc="E96DBFB5"/>
+<rom serial="DMG-BGZJ-JPN" region="Japan" file="Zoids - Jashin Fukkatsu! Genobreaker Hen (Japan) (SGB Enhanced).gbc" md5="E2F33AAF29750F1142B2B6017B454BD4" crc="F36C874D"/>
+<rom serial="DMG-BGZJ-JPN" region="Japan" file="Zoids - Jashin Fukkatsu! Genobreaker Hen (Japan) (Rev A) (SGB Enhanced).gbc" md5="ACD26C013FFA1C3A7905BE69DD79C67C" crc="96461918"/>
+<rom serial="CGB-BZHJ-JPN" region="Japan" file="Zok Zok Heroes (Japan).gbc" md5="E4874674056451F1DF22C2CBF7A25F93" crc="C09F9E1B"/>
+</datafile>
